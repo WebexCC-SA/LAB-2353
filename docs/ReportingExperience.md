@@ -70,7 +70,7 @@ This Lab has been split into four parts.
   - Click `done`
   - Create 2 more profiles for `Supervisor` and `Agent`
 
-![CH-Desktop-Call-In-Accepted](/docs/assets/images/agent/Chrome-Create-Profile.gif)
+![CH-Desktop-Call-In-Accepted](assets/images/agent/Chrome-Create-Profile.gif)
 
 1. Ensure that you have received your tenant login credentials (Administrator, Supervisor and Agent) from the Lab proctors.
 2. Make sure you are able to login into [Admin Portal](https://admin.webex.com) & [Analyzer](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/home).
@@ -134,8 +134,8 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 1.  Make sure you are able to login into Administrator Portal ([admin.webex.com](https://admin.webex.com) using your Supervisor credentials.
 2.  Once logged-in, go to `Quick Links` on the right and click on `Analyzer`.
-    ![analyzer](/docs/assets/images/reporting/intro_CH.png)
-    ![analyzer](/docs/assets/images/reporting/analyzerLogin.gif)
+    ![analyzer](assets/images/reporting/intro_CH.png)
+    ![analyzer](assets/images/reporting/analyzerLogin.gif)
 3.  For Part 3 of the Lab, login as an Supervisor-agent or Agent :
 
 > Note: If you are already logged-in as an Agent as part of other Labs, no action is required.
@@ -161,7 +161,7 @@ You have 2 options to login as an Agent:
 - Team should be pre-populated.
 - Click `Submit`.
 
-![analyzer](/docs/assets/images/reporting/supervisorlogin.gif)
+![analyzer](assets/images/reporting/supervisorlogin.gif)
 
 ### Login in the Webex app for PC or Mac
 
@@ -170,7 +170,7 @@ You have 2 options to login as an Agent:
 
 - Download Link: **[https://www.webex.com/downloads.html](https://www.webex.com/downloads.html){:target="\_blank"}**
 
-![Webex App](/docs/assets/images/Lab1-AD-1.png)
+![Webex App](assets/images/Lab1-AD-1.png)
 
 - Install the application on your PC/Mac.
 
@@ -200,7 +200,7 @@ You have 2 options to login as an Agent:
 
 - Make sure that you are successfully logged in to the Agent Desktop.
 
-![Agent Sign In](/docs/assets/images/AG-2.gif)
+![Agent Sign In](assets/images/AG-2.gif)
 
 # Part 1: Webex Contact Center Analyzer User Interface
 
@@ -208,13 +208,13 @@ You have 2 options to login as an Agent:
 
 This lab is designed to give you **basic understanding of Analyzer, user interface features** as well as the default dashboards available in the Admin Portal. In the following exercises, the goal is the **familiarization** with the product, interfaces and terminology.
 
-![analyzer](/docs/assets/images/reporting/old_ux_intro.gif)
+![analyzer](assets/images/reporting/old_ux_intro.gif)
 
 1. At this point, you should be already logged-in to Analyzer. If not, use the steps above to login to [Analyzer](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/home).
 
 2. As you login, you may see this pop-up prompting to “Explore New Analyser”.
    $${\color{red}DO\space NOT\space LAUNCH\space it\space at\space this\space time\space and\space Click\space Cancel.}$$
-   ![refesh-popup](/docs/assets/images/reporting/1_1_RefreshPopup.png)
+   ![refesh-popup](assets/images/reporting/1_1_RefreshPopup.png)
 
 3. Navigate around the home screen to learn the different features available on this screen.
 
@@ -223,30 +223,30 @@ This lab is designed to give you **basic understanding of Analyzer, user interfa
      - Customer Activity
      - Agent Session
      - Agent Activity <br>
-       ![Repos](/docs/assets/images/reporting/1_1_repos.png)
+       ![Repos](assets/images/reporting/1_1_repos.png)
 
 4. Click on the **Visualizations** tab on the left. <br>
-   ![Visualizations](/docs/assets/images/reporting/1_1_visualizations.png)
+   ![Visualizations](assets/images/reporting/1_1_visualizations.png)
 
 5. On the top in Search field, search for any key word like `agent`:
 
    - Click on **Agent Realtime** report and note down the path for this report. <br>
-     ![Agent Path](/docs/assets/images/reporting/1_1_agentpath.png)
+     ![Agent Path](assets/images/reporting/1_1_agentpath.png)
    - Searched items can be further filtered to show Visualizations or Folders from the `Show` dropdown menu.
-     ![Show](/docs/assets/images/reporting/1_1_Show.png)
+     ![Show](assets/images/reporting/1_1_Show.png)
 
 6. Then, navigate to the following path: <br>
-   ![Path](/docs/assets/images/reporting/1_1_path.png) <br>
-   Click ![ListView](/docs/assets/images/reporting/1_1_ListView.png) to change the view to `List` view.
-   ![List](/docs/assets/images/reporting/1_1_List.png)
+   ![Path](assets/images/reporting/1_1_path.png) <br>
+   Click ![ListView](assets/images/reporting/1_1_ListView.png) to change the view to `List` view.
+   ![List](assets/images/reporting/1_1_List.png)
 
    - Here you can sort the reports based on a specific header by clicking on the header.
    - Notice the **Temporal Scope**, which can be either **Realtime, Compound** or **Historical**.
    - ID is <ins>unique</ins> for every report and a report can also be searched by its `ID` besides the name.
 
-7. Click the ![Dots](/docs/assets/images/reporting/1_1_dots.png) icon next to the report and then click on **Details**. <br>
-   ![Details](/docs/assets/images/reporting/1_1_Details.png) <br>
-   ![DetailsInfo](/docs/assets/images/reporting/1_1_DetailsInfo.png) <br>
+7. Click the ![Dots](assets/images/reporting/1_1_dots.png) icon next to the report and then click on **Details**. <br>
+   ![Details](assets/images/reporting/1_1_Details.png) <br>
+   ![DetailsInfo](assets/images/reporting/1_1_DetailsInfo.png) <br>
 
    - Make a note of the **Date Range** and **Scheduled Jobs**.
    - Try the same for any Historical stock report. <br>
@@ -256,7 +256,7 @@ This lab is designed to give you **basic understanding of Analyzer, user interfa
    - This provides you with an online version of the [Analyzer User Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Analyzer_2/b_analyzeronloinehelp/_b_analyzeronloinehelp_chapter_01.html), a great document that provides information about all the available <ins>stock reports</ins>, <ins>variables</ins> as well as <ins>functionalities</ins> of Analyzer.
 
 9. Click on **Tenant Time zone** option on the header. Set it to the time-zone in which you want to Run Visualizations (You have two possible options: **Tenant or Browser**).
-   ![TimeZone](/docs/assets/images/reporting/1_1_Timezone.png)
+   ![TimeZone](assets/images/reporting/1_1_Timezone.png)
 
 ## 1.2 NEW Analyzer User Interface
 
@@ -268,16 +268,16 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
 1. Login into the **New Analyzer**:
 
    - Click `Try Now` on the current Analyzer page.
-     ![TryNow](/docs/assets/images/reporting/1_2_TryNow.png)
+     ![TryNow](assets/images/reporting/1_2_TryNow.png)
      - New Analyzer will be cross-launched.
      - It may ask you to enter your supervisor username again.
      - You can also navigate between the new Analyzer and existing Analyzer using the browser tabs.
 
-   ![NewLogin](/docs/assets//images/reporting/1_2_login_new_ux.gif)
+   ![NewLogin](assets//images/reporting/1_2_login_new_ux.gif)
 
    You can see a new home page with centralized dashboards and reports. You'll see a new search bar to search through the various dashboards.
 
-   ![New UX Home Page analyzer](/docs/assets/images/reporting/1_2_UX_UI.gif)
+   ![New UX Home Page analyzer](assets/images/reporting/1_2_UX_UI.gif)
 
 2. Report Tabs: Reports and Dashboards are grouped under following `Tabs`:
 
@@ -288,30 +288,30 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
 
    Click on each Tab and make a **note of the number of reports** in each Tab.
 
-   ![Tabs](/docs/assets//images/reporting/1_2_Tabs.png)
+   ![Tabs](assets//images/reporting/1_2_Tabs.png)
 
 3. Click on `star` icon next to the `Abandoned Call Detail Activity Report` to mark it as your **Favorite**.
 
-   ![Favourite](/docs/assets//images/reporting/1_2_Favourite.png)
+   ![Favourite](assets//images/reporting/1_2_Favourite.png)
 
    This allows you to access your favorite dashboards easily under the dedicated `Favorite` tab.
 
 4. Next, view the `Agent Call Summary Report`, for this **double-click** on the dashboard name or select **View** under the **Actions** tab.
 
-   ![View](/docs/assets//images/reporting/1_2_View.png)
-   ![New UX Stock Report UI](/docs/assets/images/reporting/1_2_New_UX.gif)
+   ![View](assets//images/reporting/1_2_View.png)
+   ![New UX Stock Report UI](assets/images/reporting/1_2_New_UX.gif)
 
 5. Next, review again the count of the reports in each tab and also if your **recently executed** report and **favorite marked** reports are visible under the respective tabs.
 
-   ![Tabs](/docs/assets//images/reporting/1_2_Tabs.png)
+   ![Tabs](assets//images/reporting/1_2_Tabs.png)
 
 6. Use the `Sort By` drop-down menu to filter stock dashboards by options such as **Name, Created By,** and **Last Edited By**. This enables easy organization and navigation based on your preferred sorting criteria.
 
-   ![LastEditedBy](/docs/assets//images/reporting/1_2_LastEditedBy.png)
+   ![LastEditedBy](assets//images/reporting/1_2_LastEditedBy.png)
 
-7. Switch to **Card View** by cliking ![CardIcon](/docs/assets//images/reporting/1_2_CardIcon.png).
+7. Switch to **Card View** by cliking ![CardIcon](assets//images/reporting/1_2_CardIcon.png).
 
-   ![CardView](/docs/assets//images/reporting/1_2_CardView.png)
+   ![CardView](assets//images/reporting/1_2_CardView.png)
 
    The **List View** is the default view and allows easy navigation and quick access to the entire collection of stock dashboards.
 
@@ -322,14 +322,14 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
    We've replaced folder-based navigation with `labels`. The **predefined labels** help you find and sort stock historical dashboards. The labels are color-coded to enhance the user experience. You can search for dashboards using labels.
 
    - All stock reports by default are marked with label `Stock`. <br>
-     ![Labels](/docs/assets//images/reporting/1_2_Labels.png)
+     ![Labels](assets//images/reporting/1_2_Labels.png)
 
 9. Next, use the search box to find a stock dashboard using different criteria or comma separated words. For this example, search the word `transition`. <br>
-   ![TransitionSearch](/docs/assets//images/reporting/1_2_TransitionSearch.png)
+   ![TransitionSearch](assets//images/reporting/1_2_TransitionSearch.png)
 
    This would list all the **Transition reports**, which are built for easy reporting insights for customers migrated from UCCX but also useful for any customer.
 
-   ![TransitionReports](/docs/assets//images/reporting/1_2_TransitionReports.png)
+   ![TransitionReports](assets//images/reporting/1_2_TransitionReports.png)
 
    Customize your search selecting criteria such as **Name, Labels, Created By,** or **Last Edited By** from the drop-down menu.
 
@@ -357,11 +357,11 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
     You can **pin columns** or **move columns** of a dashboard to the right and left of the table based on your requirements.
 
     - On the dashboard, on the `Total Onbound` column, click the hamburger menu next to the column header. <br>
-      ![Hamburger](/docs/assets//images/reporting/1_2_Hamburger.png)
+      ![Hamburger](assets//images/reporting/1_2_Hamburger.png)
     - Go to `Pin Column` and click `Pin Left`. <br>
-      ![PinLeft](/docs/assets//images/reporting/1_2_PinLeft.png) <br>
+      ![PinLeft](assets//images/reporting/1_2_PinLeft.png) <br>
       This would move the **Total Inbound** column to the left of the table. <br>
-      ![MovedLeft](/docs/assets//images/reporting/1_2_MovedLeft.png)
+      ![MovedLeft](assets//images/reporting/1_2_MovedLeft.png)
 
 15. **Autosize Column**
 
@@ -371,7 +371,7 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
     1. Click `Autosize This Column`.
     2. For all columns, click `Autosize All Columns`.
 
-    ![AutosizeColumn](/docs/assets//images/reporting/1_2_AutosizeColumn.png)
+    ![AutosizeColumn](assets//images/reporting/1_2_AutosizeColumn.png)
 
     This would allow you to see all the data points clearly.
 
@@ -380,19 +380,19 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
     We already saw how you can use predefined filters on the reports. Beyond that, you can also filter the data data for other columns in the reports.
     In the current `Agent Call summary` report, let's filter the data to identify any agents which handled low number of calls.
 
-    For this, click on Hamburger sign ![HambSign](/docs/assets//images/reporting/1_2_HambSign.png) next to the `Total Inbound` Column --> Click on the Filter ![FilterSign](/docs/assets//images/reporting/1_2_FilterSign.png) option and select **“0”** and **“1”**. Data will be updated immediately (No need to click Apply).
+    For this, click on Hamburger sign ![HambSign](assets//images/reporting/1_2_HambSign.png) next to the `Total Inbound` Column --> Click on the Filter ![FilterSign](assets//images/reporting/1_2_FilterSign.png) option and select **“0”** and **“1”**. Data will be updated immediately (No need to click Apply).
 
-    ![FilterDone](/docs/assets//images/reporting/1_2_FilterDone.png)
+    ![FilterDone](assets//images/reporting/1_2_FilterDone.png)
 
 17. **Column View**
 
-    You can customize the visibility of columns in the table. On the dashboard column, click the hamburger menu next to the column header. Click on **Column view** icon ![ColumnIcon](/docs/assets//images/reporting/1_2_ColumnIcon.png) and uncheck all `Time` field columns to exclude them and have a simpler count only view.
+    You can customize the visibility of columns in the table. On the dashboard column, click the hamburger menu next to the column header. Click on **Column view** icon ![ColumnIcon](assets//images/reporting/1_2_ColumnIcon.png) and uncheck all `Time` field columns to exclude them and have a simpler count only view.
 
-    ![ColumnView](/docs/assets//images/reporting/1_2_ColumnView.png)
+    ![ColumnView](assets//images/reporting/1_2_ColumnView.png)
 
-18. Switch the view of the report from `Table` to `Chart` by clicking ![ChartIcon](/docs/assets//images/reporting/1_2_ChartIcon.png) on top right corner of the report.
+18. Switch the view of the report from `Table` to `Chart` by clicking ![ChartIcon](assets//images/reporting/1_2_ChartIcon.png) on top right corner of the report.
 
-    ![ChartView](/docs/assets//images/reporting/1_2_ChartView.png)
+    ![ChartView](assets//images/reporting/1_2_ChartView.png)
 
     You would notice a graphical view of the data for the number of `Total Inbound Contact` each agent handled during this month along with a trend line.
 
@@ -400,7 +400,7 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
 
 In **Chart** view, the new Analyzer introduces `Trend Line`, which is a visual representation of trends with data points. When viewing a dashboard, the presence of a trend line allows users to quickly identify and understand the underlying trend or pattern within the data.
 
-![TrendLine](/docs/assets//images/reporting/1_2_TrendLine.png)
+![TrendLine](assets//images/reporting/1_2_TrendLine.png)
 
 Similarly you can try filter the data based on `Agent Name` and `Agent Endpoint (DN)`.
 
@@ -443,8 +443,8 @@ Search for the label `Contact Center Overview` and double click on the `Contact 
 - **Longest Contact in Queue:** Displays the waiting time for the contact with the longest queue time.
 - **Contact Details in Queue:** Shows the details of contacts (voice, email, social, and chat)
 
-![OverviewHist](/docs/assets/images/reporting/2_1_OverviewHist.png)
-![OverviewHist](/docs/assets/images/reporting/CCOverview2.png)
+![OverviewHist](assets/images/reporting/2_1_OverviewHist.png)
+![OverviewHist](assets/images/reporting/CCOverview2.png)
 
 ### Contact Volume Historical Dashboard
 
@@ -468,7 +468,7 @@ The parameters in this dashboard include DNIS (Dialed Number), Entry Point Name,
 
 **Action:** Administrators analyse this data to assess channel preferences, allocate resources effectively, and identify opportunities for improving customer service across different channels.
 
-![VolumeDashboard](/docs/assets/images/reporting/2_1_VolumeDashboard.png)
+![VolumeDashboard](assets/images/reporting/2_1_VolumeDashboard.png)
 
 ### **B. Expected Insights and Actions**
 
@@ -479,12 +479,12 @@ Trend and detailed insight of Agent performance metrics like `Max Connected Dura
 1. Search for `performance` in the search bar. Look for `Agent Performance Dashboard` and **double click** to view it.
 2. By default, you will see a **Chart view** of the monthly data of `Max connected duration` and `Average connected Duration` with weekly interval.
 3. You can try to switch the **Duration** and **Interval** to look for the data for longer or shorter period and notice the trend.
-4. Switch to the Table View ![TableView](/docs/assets/images/reporting/2_1_TableView.png) and you will notice much more detailed data insights into each team and agent level.
+4. Switch to the Table View ![TableView](assets/images/reporting/2_1_TableView.png) and you will notice much more detailed data insights into each team and agent level.
 5. Further filtering can be done based on **Team, Channel and Agent Name**, to gather insights around specific agent group.
 
 **Action:** Look if the max connected duration is consistently high, it may indicate a need for process improvements or additional agent training. If the average connected duration is longer than desired, it may indicate the need to streamline processes, provide agents with additional resources or tools, or optimize call handling techniques. On the other hand, if the average connected duration is too short, it may indicate rushed interactions or missed opportunities for upselling or cross-selling.
 
-![PerformanceDashboard](/docs/assets/images/reporting/2_1_PerformanceDashboard.png)
+![PerformanceDashboard](assets/images/reporting/2_1_PerformanceDashboard.png)
 
 ## 2.2 Customer Experience and Queue Performance
 
@@ -498,7 +498,7 @@ Trend and detailed insight of Agent performance metrics like `Max Connected Dura
 3. Queue performance including Transfer Rate after connection to an Agent
 4. Queue Opt-out / Callback
 
-![VirtualAgentFlow](/docs/assets/images/reporting/2_2_Flow.png)
+![VirtualAgentFlow](assets/images/reporting/2_2_Flow.png)
 
 ### **A. Expected Insights and Actions:**
 
@@ -522,8 +522,8 @@ This report displays the Self-service operational metrics. Which consist of:
 
 **Actions:** Refining the virtual agent's responses where escalation rate to the Queue is higher, training them on new issues.
 
-![DialogFlowTable](/docs/assets/images/reporting/cvaimage2.png)
-![IVRCVAFields](/docs/assets/images/reporting/2_2_IVRCVAFields.png)
+![DialogFlowTable](assets/images/reporting/cvaimage2.png)
+![IVRCVAFields](assets/images/reporting/2_2_IVRCVAFields.png)
 
 ### **B. Expected Insights and Actions**
 
@@ -542,9 +542,9 @@ This report is also part of **Transitions reports** built in Webex Contact Cente
 
 **Actions:** Adjusting staffing levels and/or call routing improvements to manage peak times and low service level. Implement callback options to reduce wait times and abandonment rate.
 
-![CSQTable](/docs/assets/images/reporting/CSQallreport2.png)
+![CSQTable](assets/images/reporting/CSQallreport2.png)
 
-![CSQTable](/docs/assets/images/reporting/2_2_CSQTable.png)
+![CSQTable](assets/images/reporting/2_2_CSQTable.png)
 
 ### **C. Expected Insights and Actions**
 
@@ -554,9 +554,9 @@ Offering the **callback** option to customers when they are in IVR or waiting in
 
 The contact center customer can opt to receive a callback from an agent while in IVR or waiting in a queue. The courtesy callback flow is configured by the flow developer.
 
-![CSQAllfield](/docs/assets/images/reporting/callback.png)
+![CSQAllfield](assets/images/reporting/callback.png)
 
-![CallbackTable](/docs/assets/images/reporting/callback1.png)
+![CallbackTable](assets/images/reporting/callback1.png)
 
 **Actions:** For low Callback success rate review we would check on the `Final Reason`. One of the prime reasons for an unsuccessful callback request is that customers aren’t reachable or busy at callback time. Explore if offering the Callback Retry attempt ([CallbackFailed](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc-flow-designer.html#Cisco_Concept.dita_2e773682-6129-4fb7-b857-4b56f57103bc)) for the callback would help improving the success rate and tweak it based on further review.
 
@@ -610,7 +610,7 @@ In Webex Contact Center, there are four primary data repositories that store cri
 
 These data repositories play a crucial role in capturing, organizing, and analysing the wealth of information generated within the Webex Contact Center, ultimately supporting informed decision-making and enhancing customer and agent experiences.
 
-![CSR](/docs/assets/images/reporting/CSR.png)
+![CSR](assets/images/reporting/CSR.png)
 
 Before you continue with this exercise follow below:
 
@@ -655,7 +655,7 @@ While completing this Exercise, you will be able to understand and use some **ke
    - Set **Duration** as `None (Snapshot)`.
    - **Refresh duration** as `3 Seconds`.
 
-   ![TimeSettings](/docs/assets/images/reporting/3_1_TimeSettings.png)
+   ![TimeSettings](assets/images/reporting/3_1_TimeSettings.png)
 
 2. Next, we will begin adding variables to the visualization. Click on **Row Segment** and add:
 
@@ -664,44 +664,44 @@ While completing this Exercise, you will be able to understand and use some **ke
    - Activity State
    - Idle Code Name
 
-   ![RowSegments](/docs/assets/images/reporting/3_1_RowSegments.png)
+   ![RowSegments](assets/images/reporting/3_1_RowSegments.png)
 
 3. Next, click on **Profile Variables** and add `Agent Session ID (Count)` and rename the name as `#Total`.
 
-   ![AgentTotal](/docs/assets/images/reporting/3_1_AgentTotal.png)
+   ![AgentTotal](assets/images/reporting/3_1_AgentTotal.png)
 
 4. To capture **Available Agent Count** add `Agent Session ID`. Name it as `#Available`.
 
    - Drag `Activity State` as **Filter** with value `available`. <br>
-     ![AvailFilter](/docs/assets/images/reporting/3_1_AvailFilter.png)
+     ![AvailFilter](assets/images/reporting/3_1_AvailFilter.png)
 
 5. Repeat step 4 to add **Idle Agent Count**, this time with filter value `idle`. Name it as `#Idle`.
 
-   ![IdleFilter](/docs/assets/images/reporting/3_1_IdleFilter.png)
+   ![IdleFilter](assets/images/reporting/3_1_IdleFilter.png)
 
 6. Next, we need to capture the **State Duration**. We will achieve this by using a **formula** to subtract the **activity start time** from **current time**, which will give us the **activity duration**.
 
    - Search for Measure Profile variable `Activity Start Timestamp`.
    - Under formula, select `Minimum Activity Start Timestamp` and save it. <br>
-     ![MinActivity](/docs/assets/images/reporting/3_1_MinActivity.png)
+     ![MinActivity](assets/images/reporting/3_1_MinActivity.png)
    - **Right click** on the field and click **New Formula** After, right click on the created field and click on `New Formula`. <br>
-     ![NewFormula](/docs/assets/images/reporting/3_1_NewFormula.png)
-   - Name it **Duration** and swap the fields by clicking ![Swap](/docs/assets/images/reporting/3_1_Swap.png).
-   - **Click** ![Dropdown](/docs/assets/images/reporting/3_1_Dropdown.png) on the empty field and select `Current Timestamp`.
-   - Select ![Subtract](/docs/assets/images/reporting/3_1_Subtract.png) **Subtraction operator**, as shown below. <br>
-     ![SubtractionFormula](/docs/assets/images/reporting/3_1_SubtractionFormula.png).
+     ![NewFormula](assets/images/reporting/3_1_NewFormula.png)
+   - Name it **Duration** and swap the fields by clicking ![Swap](assets/images/reporting/3_1_Swap.png).
+   - **Click** ![Dropdown](assets/images/reporting/3_1_Dropdown.png) on the empty field and select `Current Timestamp`.
+   - Select ![Subtract](assets/images/reporting/3_1_Subtract.png) **Subtraction operator**, as shown below. <br>
+     ![SubtractionFormula](assets/images/reporting/3_1_SubtractionFormula.png).
    - Right click the `Duration` profile variable, and set the **Duration Number Format** as `Duration > MM:SS`. <br>
-     ![DurationFormat](/docs/assets/images/reporting/3_1_DurationFormat.png).
+     ![DurationFormat](assets/images/reporting/3_1_DurationFormat.png).
    - Hide `Minimum Activity Start Timestamp` by clicking on the **eye** icon. <br>
-     ![Hide](/docs/assets/images/reporting/3_1_Hide.png).
+     ![Hide](assets/images/reporting/3_1_Hide.png).
 
 7. **Re-order** the variables by dragging and dropping the variables in the order that you wish to see them in the report.
 
-   ![Reorder](/docs/assets/images/reporting/3_1_Reorder.png)
+   ![Reorder](assets/images/reporting/3_1_Reorder.png)
 
 8. Save the report as `3.1_AAR_RT_AgentState_<YourStudentID>` (e.g. _3.1_AAR_RT_AgentState_101_) in your folder and click `Preview`.
 
-   ![AAR_RT](/docs/assets/images/reporting/3_1_AAR_RT.png)
+   ![AAR_RT](assets/images/reporting/3_1_AAR_RT.png)
 
 9. Notice that the `#Total` count for each agent is **“10”**.
 
@@ -709,67 +709,67 @@ While completing this Exercise, you will be able to understand and use some **ke
    - In this case we want to capture data for `Telephony` channel only so let’s add a **Channel Filter** for **Telephony**.
    - Go Back to the report edit mode and **Add Filter** with **Channel Type** as **Telephony**.
 
-   ![FilterTelephony](/docs/assets/images/reporting/3_1_FilterTelephony.png)
+   ![FilterTelephony](assets/images/reporting/3_1_FilterTelephony.png)
 
 10. **Save** the visualization and click on `Preview` to run it again.
 
-![SavedVisualization](/docs/assets/images/reporting/3_1_SavedVisualization.png)
+![SavedVisualization](assets/images/reporting/3_1_SavedVisualization.png)
 
 11. We are still missing below asks:
 
-![MissingAsks](/docs/assets/images/reporting/3_1_MissingAsks.png)
+![MissingAsks](assets/images/reporting/3_1_MissingAsks.png)
 
 12. Update the **Output Type** to `Column Heatmap`.
 
-![Heatmap](/docs/assets/images/reporting/3_1_Heatmap.png)
+![Heatmap](assets/images/reporting/3_1_Heatmap.png)
 
 13. To create a LOB group:
 
     - Right click on the Team name and then `Create Enhanced Field`. <br>
-      ![EnhancedField](/docs/assets/images/reporting/3_1_EnhancedField.png)
+      ![EnhancedField](assets/images/reporting/3_1_EnhancedField.png)
     - Name the Field **LOB_Grouping{{StudentID}}**, replacing {{StudentID}} with your provided ID.
 
     **Add 2 groups** containing the following teams: <br>
     CL_G1x : Seach for “Team1” Select from 51_Team1 to 59_Team1 <br>
     CL_G2x : Seach for “Team2” Select from 51_Team2 to 59_Team2
 
-    ![LOBGrouping](/docs/assets/images/reporting/3_1_LOBGrouping.png)
+    ![LOBGrouping](assets/images/reporting/3_1_LOBGrouping.png)
 
     Save it.
 
-    ![Lob](/docs/assets/images/reporting/3_1_Lob.png)
+    ![Lob](assets/images/reporting/3_1_Lob.png)
 
     - Make this Enhanced Field **global** so it can be used for any other visualizations with need of creating it again.
 
       Right click LOB_Grouping{{StudentID}} --> Click Save --> When prompted, click Save again.
 
-      ![SaveLOB](/docs/assets/images/reporting/3_1_SaveLOB.png)
-      ![SaveLOB2](/docs/assets/images/reporting/3_1_SaveLOB2.png)
+      ![SaveLOB](assets/images/reporting/3_1_SaveLOB.png)
+      ![SaveLOB2](assets/images/reporting/3_1_SaveLOB2.png)
 
     - Field is now saved and can be used in any other report.
     - Move LOB_Grouping{{StudentID}} as top row segment.
 
-    ![LOBRow](/docs/assets/images/reporting/3_1_LOBRow.png)
+    ![LOBRow](assets/images/reporting/3_1_LOBRow.png)
 
 14. To create a **Summary** at LOB level:
 
     - Click `Show Summary` Option and select **LOB_Grouping**.
-      ![LOBSummary](/docs/assets/images/reporting/3_1_LOBSummary.png)
+      ![LOBSummary](assets/images/reporting/3_1_LOBSummary.png)
     - Click `Customize` --> Go to **LOB_Grouping** level.
-      ![LOBCustomize](/docs/assets/images/reporting/3_1_LOBCustomize.png)
+      ![LOBCustomize](assets/images/reporting/3_1_LOBCustomize.png)
     - Select `SUM` for **#Total**, **#Idle**, **#Avaliable** --> Save it.
-      ![ReportSummary](/docs/assets/images/reporting/3_1_ReportSummary.png)
+      ![ReportSummary](assets/images/reporting/3_1_ReportSummary.png)
 
 15. Lastly, add the **on-the fly filters** for the **LOB Grouping** and **Idle Code Name**.
 
     - Click on `Show Filter On Run Mode`.
-      ![ShowRunMode](/docs/assets/images/reporting/3_1_ShowRunMode.png)
+      ![ShowRunMode](assets/images/reporting/3_1_ShowRunMode.png)
     - Select **LOB_Grouping** and **Idle Code Name**.
-      ![Select](/docs/assets/images/reporting/3_1_Select.png)
+      ![Select](assets/images/reporting/3_1_Select.png)
 
 16. **Save** the visualization and check the `Preview`.
 
-    ![Preview](/docs/assets/images/reporting/3_1_Preview.png)
+    ![Preview](assets/images/reporting/3_1_Preview.png)
 
 **Congratulations, you have completed this lab! You can continue with the next one.**
 
@@ -786,7 +786,7 @@ Although Analyzer offers a lot of functionalities for users, Contact Center admi
 3. File will be downloaded to your computer.
 4. Now you can use this data offline, perform advanced calculations from Excel or share with your colleagues as needed.
 
-![Export](/docs/assets/images/reporting/4_1_Export.png)
+![Export](assets/images/reporting/4_1_Export.png)
 
 ## 4.2 Visualization Scheduler
 
@@ -794,10 +794,10 @@ In this exercise we will learn how to **schedule visualizations within Analyzer*
 
 1. Find the report `CSQ All Fields Report`.
 
-   ![CSQ](/docs/assets/images/reporting/4_2_CSQ.png)
+   ![CSQ](assets/images/reporting/4_2_CSQ.png)
 
 2. Next, in the right-hand corner of the report, select the three ellipsis and from the dropdown select the option **Schedule Job**. <br>
-   ![ScheduleOptions](/docs/assets/images/reporting/4_2_ScheduleOptions.png)
+   ![ScheduleOptions](assets/images/reporting/4_2_ScheduleOptions.png)
 
 3. Fill in the schedule information for the scheduled report.
 
@@ -805,18 +805,18 @@ In this exercise we will learn how to **schedule visualizations within Analyzer*
    - Choose a start date and time. Select today’s date with a time of a few minutes ahead of your current time to give it time to trigger.
    - Next complete the details for the email notification by entering in your email address and a subject line.
 
-   ![Schedule](/docs/assets/images/reporting/4_2_Schedule.png)
+   ![Schedule](assets/images/reporting/4_2_Schedule.png)
 
 4. Once **saved**, the scheduled job will show up under the `Jobs` list.
 
-   ![Job](/docs/assets/images/reporting/4_2_Job.png)
+   ![Job](assets/images/reporting/4_2_Job.png)
 
 5. If everything was setup correctly, check your email for the report after the trigger time has passed.
 
 6. If your job was only set to run once, once it runs, that job is deleted from the jobs list.
 7. **Close** the job scheduling window. Go back to the folder structure and look at the Details of the report, it will show the number of jobs scheduled. You should see 1 scheduled job to reflect the job we just scheduled in this exercise.
 
-![JobDetails](/docs/assets/images/reporting/4_2_Details.png)
+![JobDetails](assets/images/reporting/4_2_Details.png)
 
 ## 4.3 Search APIs
 
@@ -827,24 +827,24 @@ In this exercise, we are going to use the API to retrieve the LastAgentInteracti
 
 2. Login with your Admin user.
 
-   ![APILogin](/docs/assets/images/reporting/4_3_Login.png)
+   ![APILogin](assets/images/reporting/4_3_Login.png)
 
 3. Click **Try Out -> Maximize Screen**.
 
-   ![TryOut](/docs/assets/images/reporting/4_3_TryOut.png) <br>
-   ![MaximizeScreen](/docs/assets/images/reporting/4_3_MaximizeScreen.png)
+   ![TryOut](assets/images/reporting/4_3_TryOut.png) <br>
+   ![MaximizeScreen](assets/images/reporting/4_3_MaximizeScreen.png)
 
 4. You can explore the schema by clicking on Docs to open the **Documentation Explorer**. On the explorer, click on **Query -> task -> TaskList**.
 
-   ![Explorer](/docs/assets/images/reporting/4_3_Explorer.png)
+   ![Explorer](assets/images/reporting/4_3_Explorer.png)
 
 5. Now let’s execute a query and see what data you get. <ins>Update the Origin number highlighted in yellow in below query with the phone number you are using to make the test calls.</ins>
 
 6. Go to the query window and **delete** the text first **before** you paste the new query with your number.
 
-7. Then, paste the snippet in Query space and click Run ![Play](/docs/assets/images/reporting/4_3_Play.png). You should see results similar to the following:
+7. Then, paste the snippet in Query space and click Run ![Play](assets/images/reporting/4_3_Play.png). You should see results similar to the following:
 
-![Snippet](/docs/assets/images/reporting/4_3_Snippet.png)
+![Snippet](assets/images/reporting/4_3_Snippet.png)
 
 ```
 {
