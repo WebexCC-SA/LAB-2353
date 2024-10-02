@@ -1,4 +1,4 @@
-# Lab Guide for WebexOne Lab LAB-2353 Test
+# Lab Guide for WebexOne Lab LAB-2353
 
 Web guide link: https://webexcc-sa.github.io/LAB-2353
 
