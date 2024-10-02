@@ -191,7 +191,9 @@ You have 2 options to login as an Agent:
 
 ![Agent Sign In](assets/images/AG-2.gif)
 
-# Part 1: Webex Contact Center Analyzer User Interface
+# LAB 1
+<!-- **Webex Contact Center Analyzer User Interface** -->
+
 
 
 
@@ -397,7 +399,8 @@ Similarly you can try filter the data based on `Agent Name` and `Agent Endpoint 
 
 **Congratulations, you have completed this lab! You can continue with the next one.**
 
-# Part 2: Contact Center Insights with New Analyzer Stock reports
+# LAB 2
+<!-- # Part 2: Contact Center Insights with New Analyzer Stock reports -->
 
 In this section, we will delve into how various **personas** within a contact center can leverage the Webex Contact Center Analyzer to capture **Key Performance Indicators (KPIs)** and gain insights that can measure and enhance **customer experience, agent performance, and overall business outcomes**. We will explore some of the **pre-built stock reports** with **New Analyzer Interface**, which can help you gather these key actionable insights from day one.
 
@@ -553,7 +556,8 @@ The contact center customer can opt to receive a callback from an agent while 
 
 **Congratulations, you have completed this lab! You can continue with the next one.**
 
-# Part 3: Contact Center Insights with Analyzer Custom Reports
+# LAB 3
+<!-- # Part 3: Contact Center Insights with Analyzer Custom Reports -->
 
 In this lab, we will create a **custom report** to monitor the calls waiting in the queue in real-time, along with the available agents and their respective states. <ins>Since the option to create a custom report is currently unavailable in the New Analyzer UX, we will be using our current Analyzer interface for this lab.</ins>
 
@@ -764,7 +768,8 @@ While completing this Exercise, you will be able to understand and use some **ke
 
 **Congratulations, you have completed this lab! You can continue with the next one.**
 
-# Part 4: (BONUS) Data extraction and scheduling Capabilities
+# LAB 4
+<!-- # Part 4: (BONUS) Data extraction and scheduling Capabilities -->
 
 Similar to Lab Part-3, **advanced data extraction** and **scheduling capabilities** are not avalaible in New Analyzer UX and are part of the roadmap. <ins>Hence, for this exercise, we will use the current Analyzer interface.</ins>
 
@@ -900,4 +905,4 @@ In this exercise, we are going to use the API to retrieve the LastAgentInteracti
 }
 ```
 
-## **Congratulations, you have officially completed the Webex Contact Center Reporting Experience labs!**
+**Congratulations, you have officially completed the Webex Contact Center Reporting Experience labs!**

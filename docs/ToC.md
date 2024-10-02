@@ -89,7 +89,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 25px;">🖥️ Part 1: Analyzer User Interface</span>
+    <span style="font-size: 25px;">🖥️ LAB 1: Analyzer User Interface</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
@@ -162,7 +162,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 25px;">📊 Part 2: Analyzer Stock reports</span>
+    <span style="font-size: 25px;">📊 LAB 2: Analyzer Stock reports</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
@@ -234,7 +234,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 25px;">🛠️ Part 3: Analyzer Custom reports</span>
+    <span style="font-size: 25px;">🛠️ LAB 3: Analyzer Custom reports</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
@@ -306,7 +306,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 25px;">🔍 Part 4: (BONUS) Data extraction and scheduling Capabilities</span>
+    <span style="font-size: 25px;">🔍 LAB 4: (BONUS) Data extraction and scheduling Capabilities</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">20 min</span>
