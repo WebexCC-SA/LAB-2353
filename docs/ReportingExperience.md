@@ -1,7 +1,8 @@
-<!-- ---
+---
+icon: material/numeric-2-box-multiple
 title: Reporting Experience
-author: Krishna Tyagi & George Kovanis
-date: 2023-10-20
+author: Krishna Tyagi & George Kovanis & Gagarin Sathiyanarayanan
+date: 2024-10-02
 layout: post
 ---
 
@@ -19,26 +20,12 @@ layout: post
     localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
   }  
   }
-</script> -->
+</script>
 
-# Overview of the Reporting Lab
 
-This lab will provide you with foundational and advanced knowledge of **Webex Contact Center Data and Analytics**. You will learn about the key contact center personas and how Analyzer helps them extract key business and operational KPIs, along with actionable insights, to measure contact center efficiency, agent performance, and customer experience. The lab will guide you through the usage of the **Webex Contact Center Analyzer**, which serves as the main Contact Center Reporting application. You will gain an understanding of **utilizing stock reports and dashboards**, **personalizing your reporting by creating custom reports** and the available options when it comes to **extracting your data**.
 
-## Objectives
 
-This Lab has been split into four parts.
-
-1. First part of this Lab **introduces** you to the **current Analyzer User Interface** as well as the **New Analyzer User Interface (Analyzer UX Refresh).**
-
-   > Note: **Important to point out** that the New Analyzer User Interface is in **Early Access phase** and has access only to Historical Stock Reports.
-   > {: .block-warning }
-
-2. In the second part we will look how **key Contact Center personas (Administrators, Supervisors and Contact Center Analysts) can use Analyzer** to extract some key Contact Center KPIs and actionable insights around **Contact Center Operational Performance, Customer Experience and Agent Performance** using the various **Stock** reports and dashboards.
-3. In the third part we will walk through how we can **create custom reports** to extract key Contact Center data insights.
-4. Last chapter covers key data and reporting capabilities like the **export of reporting data, report scheduling and the available Data APIs** to extract the data.
-
-# Table of Contents
+<!-- # Table of Contents
 
 | Topic                                                                                                                                             | Type        | Dificulty    | Time   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------ | ------ |
@@ -55,11 +42,13 @@ This Lab has been split into four parts.
 | [Part 4: (BONUS) Data extraction and scheduling Capabilities](#part-4-bonus-data-extraction-and-scheduling-capabilities)                          | Activity    | EASY         | 20 min |
 | [4.1: Export Data as Excel or CSV](#41-export-data-as-excel-or-csv)                                                                               | Activity    | EASY         |        |
 | [4.2: Visualization Scheduler](#42-visualization-scheduler)                                                                                       | Activity    | EASY         |        |
-| [4.3: Search APIs](#43-search-apis)                                                                                                               | Activity    | INTERMEDIATE |        |
+| [4.3: Search APIs](#43-search-apis)                                                                                                               | Activity    | INTERMEDIATE |        | -->
+
+
 
 ## Pre-Requisites
 
-### Create Chrome Profiles
+**Create Chrome Profiles**
 
 - For the lab, create new Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser.
 
@@ -77,7 +66,7 @@ This Lab has been split into four parts.
 3. In this Lab, Part 1 and 2 already have historical data created to capture the key insights, hence no need to login Agent or make calls to complete those parts.
 4. In Part 3, we will look into some Realtime data insights for which make sure you are logged-in with your Supervisor-Agent or Agent.
 
-### You Will Need
+***You Will Need***
 
 1. **One additional device** (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.
 
@@ -146,7 +135,7 @@ You have 2 options to login as an Agent:
 1.  Supervisor credentials with Role as `Supervisor and Agent`
 2.  Using your Agent Credentials
 
-### Login As Supervisor-Agent
+***Login As Supervisor-Agent***
 
 > Note: Currently supervisors can not login via Desktop/WebRTC. If you want to test a login with WebRTC, make sure to sign in as an agent, as per the steps on the next chapter.
 
@@ -163,7 +152,7 @@ You have 2 options to login as an Agent:
 
 ![analyzer](assets/images/reporting/supervisorlogin.gif)
 
-### Login in the Webex app for PC or Mac
+***Login in the Webex app for PC or Mac***
 
 > In this lab, we can use the Webex app for PC or Mac to login to the Desktop with the **supervisor** account.
 > {: .block-warning }
@@ -176,7 +165,7 @@ You have 2 options to login as an Agent:
 
 - Open Webex app and сlick **Sign In**. Enter the provided supervisor credentials.
 
-### Agent Desktop Login
+***Agent Desktop Login***
 
 | **User Role** | **User email**                                                   | **Endpoint**   |
 | ------------- | ---------------------------------------------------------------- | -------------- |
@@ -203,6 +192,8 @@ You have 2 options to login as an Agent:
 ![Agent Sign In](assets/images/AG-2.gif)
 
 # Part 1: Webex Contact Center Analyzer User Interface
+
+
 
 ## 1.1 Analyzer User Interface
 
@@ -396,7 +387,7 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
 
     You would notice a graphical view of the data for the number of `Total Inbound Contact` each agent handled during this month along with a trend line.
 
-#### Trend Line
+***Trend Line***
 
 In **Chart** view, the new Analyzer introduces `Trend Line`, which is a visual representation of trends with data points. When viewing a dashboard, the presence of a trend line allows users to quickly identify and understand the underlying trend or pattern within the data.
 
@@ -417,11 +408,11 @@ In this section, we will delve into how various **personas** within a contact ce
 
 **Business Use Case:** Contact centre administrators play a crucial role in managing and optimizing contact centre operations. To effectively monitor and analyse the performance of the contact centre, it is essential for administrators to capture and track high-level contact centre state and usage data. This data provides valuable insights into various aspects, such as agent productivity, call volumes, customer satisfaction, and system performance. By capturing this information, administrators can make informed decisions, identify areas for improvement, and ensure efficient contact centre operations.
 
-### **A. Expected Insights and Actions**
+**A. Expected Insights and Actions**
 
 **Monthly trending of total inbound and outbound contacts** over this year. Secondly, the **usage of different communication channels**, such as phone calls, emails, live chat, and social media interactions.
 
-### Contact Center Overview – Historical
+***Contact Center Overview – Historical***
 
 Search for the label `Contact Center Overview` and double click on the `Contact Center Overview – Historical` dashboard.
 
@@ -432,7 +423,7 @@ Search for the label `Contact Center Overview` and double click on the `Contact 
 5. On right upper corner, change `Contact Details in Queue` report to **Chart View**.
 6. Observe the historical Queue volume and trending across last 7 days.
 
-#### **Field Description**
+**Field Description**
 
 **Contact Center Overview – Historical** dashboard displays displays contact statistics for a specified duration and time interval. Users can filter data using drop-down lists. The available information includes:
 
@@ -446,7 +437,7 @@ Search for the label `Contact Center Overview` and double click on the `Contact 
 ![OverviewHist](assets/images/reporting/2_1_OverviewHist.png)
 ![OverviewHist](assets/images/reporting/CCOverview2.png)
 
-### Contact Volume Historical Dashboard
+***Contact Volume Historical Dashboard***
 
 1. Search for `Contact Volume Historical Dashboard` and execute it.
 2. You would notice all the dialed number and entry points in the contact centre across all the channels and the respective contact volume.
@@ -456,7 +447,7 @@ Search for the label `Contact Center Overview` and double click on the `Contact 
 6. This provides you a trending view of contact volume for the year and comparison on monthly basis.
 7. Update **Channel Type** filter to select `Telephony` and `Chat`. Observe the comparison data between these channels over the period of time.
 
-#### **Field Description**
+**Field Description**
 
 The parameters in this dashboard include DNIS (Dialed Number), Entry Point Name, Interval, Channel Type, and Contacts.
 
@@ -470,11 +461,11 @@ The parameters in this dashboard include DNIS (Dialed Number), Entry Point Name,
 
 ![VolumeDashboard](assets/images/reporting/2_1_VolumeDashboard.png)
 
-### **B. Expected Insights and Actions**
+***B. Expected Insights and Actions***
 
 Trend and detailed insight of Agent performance metrics like `Max Connected Duration` and `Avg Connected Duration` across Agent Teams as well as Agent level break down optionally. This helps to identify any need of process improvements or additional agent training.
 
-### Agent Performance Dashboard
+***Agent Performance Dashboard***
 
 1. Search for `performance` in the search bar. Look for `Agent Performance Dashboard` and **double click** to view it.
 2. By default, you will see a **Chart view** of the monthly data of `Max connected duration` and `Average connected Duration` with weekly interval.
@@ -500,13 +491,13 @@ Trend and detailed insight of Agent performance metrics like `Max Connected Dura
 
 ![VirtualAgentFlow](assets/images/reporting/2_2_Flow.png)
 
-### **A. Expected Insights and Actions:**
+**A. Expected Insights and Actions:**
 
 Understanding the virtual agent's resolution rate, and escalation rate to the Queue.
 
 To extract expected insights we can leverage stock report `IVR & CVA Dialog Flow Report`.
 
-### IVR & CVA Dialog Flow Report
+***IVR & CVA Dialog Flow Report***
 
 This report displays the Self-service operational metrics. Which consist of:
 
@@ -525,11 +516,11 @@ This report displays the Self-service operational metrics. Which consist of:
 ![DialogFlowTable](assets/images/reporting/cvaimage2.png)
 ![IVRCVAFields](assets/images/reporting/2_2_IVRCVAFields.png)
 
-### **B. Expected Insights and Actions**
+**B. Expected Insights and Actions**
 
 Supervisor looking for key performance metrics for their line of business (Queue) such as **Percentage Handled, Abandonment Rate, Avg Abandoned Time and Service Level.**
 
-### CSQ All Fields Report
+***CSQ All Fields Report***
 
 The CSQ All Fields Report presents the queue-related data such as **call statistics, service level**, and key fields like **Average Queue Time, Average Speed of Answer, Calls Handled, and Calls Abandoned under service level**. This report combines the fields of all queue-related reports.
 
@@ -546,11 +537,11 @@ This report is also part of **Transitions reports** built in Webex Contact Cente
 
 ![CSQTable](assets/images/reporting/2_2_CSQTable.png)
 
-### **C. Expected Insights and Actions**
+**C. Expected Insights and Actions**
 
 Offering the **callback** option to customers when they are in IVR or waiting in the Queue is one of the most efficient ways to improve the customer experience. Capture the callback success rate and reasons for failure.
 
-### Callback Report
+***Callback Report***
 
 The contact center customer can opt to receive a callback from an agent while in IVR or waiting in a queue. The courtesy callback flow is configured by the flow developer.
 

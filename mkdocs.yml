@@ -1,11 +1,20 @@
 ---
 site_name: LAB-2353 - Webex Contact Center Lab  Data, insights & Journey # This must begin with the session ID
-site_description: LAB-2353 - Webex Contact Center Lab  Data, insights & Test1 # must be same as "site_name"
+site_description: LAB-2353 - Webex Contact Center Lab  Data, insights & Journey # must be same as "site_name"
 site_author: Gagarin Sathiyanarayanan
 copyright: Copyright &copy; 2024 Cisco
 theme:
   name: material
   features:
+    - navigation.sections
+    - navigation.icons
+    - navigation.expand
+    - navigation.path
+    - navigation.instant.prefetch 
+    - navigation.instant.progress
+    - navigation.tabs.link
+    - navigation.traching
+    - navigation.highlight
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
@@ -77,9 +86,9 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
+  - Table of Contents: ToC.md
   - Lab:
       - Overview: overview.md
-      - Lab 1 - Getting Started: lab1_getting_started.md
-      - Analyzer: ReportingExperience.md
+      - Analyzer Lab Guide: ReportingExperience.md
       - Conclusion: conclusion.md
-  - Topologies: topologies.md
+
