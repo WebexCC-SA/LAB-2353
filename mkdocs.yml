@@ -7,13 +7,14 @@ theme:
   name: material
   features:
     - navigation.sections
+    - content.tabs.link
     - navigation.icons
     - navigation.expand
     - navigation.path
     - navigation.instant.prefetch 
     - navigation.instant.progress
     - navigation.tabs.link
-    - navigation.traching
+    - navigation.tracking
     - navigation.highlight
     - navigation.tabs
     - navigation.tabs.sticky
@@ -66,6 +67,9 @@ plugins:
       auto_caption: true
       caption_position: top
 markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - md_in_html
   - abbr
   - admonition
@@ -87,8 +91,17 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Table of Contents: ToC.md
-  - Lab:
+  - Start Lab:
       - Overview: overview.md
-      - Analyzer Lab Guide: ReportingExperience.md
+      - Lab Guide:
+            - Pre-Requisites: ./Labguide/PreRequisites.md
+            - Lab 1 User Interface: ./Labguide/Lab1.md
+            - Lab 2 Stock Reports: ./Labguide/Lab2.md
+            - Lab 3 Custom Reports: ./Labguide/Lab3.md
+            - Lab 4 Data API: ./Labguide/Lab4.md
+            - Lab 5 Auto CSAT: ./Labguide/Lab5.md
+            - Lab 6 Topic Analytics: ./Labguide/Lab6.md
+            - Lab 7 Survey Insights: ./Labguide/Lab7.md
+            - Lab 8 Customer Journey: ./Labguide/Lab8.md
       - Conclusion: conclusion.md
 

@@ -1,5 +1,8 @@
 ---
-icon: material/numeric-3-box-multiple
+#icon: material/numeric-3-box-multiple
+#icon: material/folder-open-outline
+icon: material/medal
+
 ---
 # Related Sessions at Cisco Live
 

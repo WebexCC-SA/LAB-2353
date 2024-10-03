@@ -1,5 +1,6 @@
 ---
-icon: material/numeric-1-box-multiple
+#icon: material/folder-open-outline
+icon: material/bullseye-arrow
 ---
 
 <!-- # Overview of the Reporting Lab
@@ -10,7 +11,7 @@ This lab will provide you with foundational and advanced knowledge of **Webex Co
 
 # **Overview of the Reporting Lab**
 
-### **Objectives:**
+### **Objectives**
 
 
 Welcome to the **Webex Contact Center Reporting Lab**! This lab is designed to equip you with both **foundational** and **advanced knowledge** of **Webex Contact Center Data and Analytics**.
@@ -24,7 +25,7 @@ In this lab, you will:
     - **Agent Performance**
     - **Customer Experience**
 
-### **Key Topics Covered:**
+### **Key Topics Covered**
 1. **Webex Contact Center Analyzer**  
    The primary reporting tool for the contact center, allowing you to visualize and analyze data.
    
