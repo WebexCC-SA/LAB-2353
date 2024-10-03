@@ -36,12 +36,12 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">Pre-Requisites</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/PreRequisites" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/PreRequisites" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">Analyzer and Desktop Login Process</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/PreRequisites/#analyzer-login-process" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../LAB-2353/Labguide/PreRequisites/#analyzer-login-process" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
     </tbody>
   </table>
@@ -108,12 +108,12 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">1.1: Analyzer User Interface</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab1/#11-analyzer-user-interface" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab1/#11-analyzer-user-interface" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">1.2: NEW Analyzer User Interface</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab1/#12-new-analyzer-user-interface" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../LAB-2353/Labguide/Lab1/#12-new-analyzer-user-interface" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
     </tbody>
   </table>
@@ -181,12 +181,12 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">2.1: High-level Contact Center Performance and Usage insights</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab2/#21-high-level-contact-center-performance-and-usage-insights" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab2/#21-high-level-contact-center-performance-and-usage-insights" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab2/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../LAB-2353/Labguide/Lab2/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
     </tbody>
   </table>
@@ -253,7 +253,7 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab3/#31-create-custom-realtime-agent-report" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab3/#31-create-custom-realtime-agent-report" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
@@ -325,17 +325,17 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">4.1: Export Data as Excel or CSV</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab4/#41-export-data-as-excel-or-csv" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab4/#41-export-data-as-excel-or-csv" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">4.2: Visualization Scheduler</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab4/#42-visualization-scheduler" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../LAB-2353/Labguide/Lab4/#42-visualization-scheduler" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">4.3: Search APIs</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab4/#43-search-apis" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../LAB-2353/Labguide/Lab4/#43-search-apis" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
     </tbody>
   </table>
@@ -402,17 +402,17 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">5.1: What is Auto CSAT score?</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#51-what-is-auto-csat-score" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab5/#51-what-is-auto-csat-score" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">5.2: How to setup Auto CSAT feature?</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#52-how-to-setup-auto-csat-feature" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab5/#52-how-to-setup-auto-csat-feature" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">5.3: Where can the Auto CSAT score be viewed?</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#53-where-can-the-auto-csat-score-be-viewed" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab5/#53-where-can-the-auto-csat-score-be-viewed" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
     </tbody>
   </table>
@@ -480,17 +480,17 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">6.1: Access the Topic Analytics Portal</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab6/#61-access-the-topic-analytics-portal" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab6/#61-access-the-topic-analytics-portal" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">6.2: Review the Topic Collection</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab6/#62-review-the-topic-collection" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../LAB-2353/Labguide/Lab6/#62-review-the-topic-collection" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">6.3: Analyzing Conversations for a Given Topic</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab6/#63-analyzing-conversations-for-a-given-topic" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../LAB-2353/Labguide/Lab6/#63-analyzing-conversations-for-a-given-topic" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
     </tbody>
   </table>
@@ -558,7 +558,7 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
@@ -631,7 +631,7 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../LAB-2353/Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
