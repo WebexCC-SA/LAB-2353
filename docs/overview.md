@@ -9,10 +9,7 @@ This lab will provide you with foundational and advanced knowledge of **Webex Co
 
 
 
-# **Overview of the Reporting Lab**
-
-### **Objectives**
-
+**Overview of the Reporting Lab**
 
 Welcome to the **Webex Contact Center Reporting Lab**! This lab is designed to equip you with both **foundational** and **advanced knowledge** of **Webex Contact Center Data and Analytics**.
 
@@ -25,7 +22,7 @@ In this lab, you will:
     - **Agent Performance**
     - **Customer Experience**
 
-### **Key Topics Covered**
+**Key Topics Covered**
 1. **Webex Contact Center Analyzer**  
    The primary reporting tool for the contact center, allowing you to visualize and analyze data.
    
@@ -37,6 +34,10 @@ In this lab, you will:
 
 4. **Data Extraction Options**  
    Learn the different ways you can extract your data for further analysis or integration into other tools.
+
+5. **AI generated auto CSAT score and Topic Analytics**
+
+6. **Survey Insights**
 
 ---
 

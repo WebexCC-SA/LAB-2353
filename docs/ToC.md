@@ -556,9 +556,39 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">7.1: Agent Login</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab7/#71-agent-login" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tbody>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">7.2: Provide Survey Response</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="./Labguide/Lab7/#72-provide-a-survey-response" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tbody>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">7.3: Access Survey Response Report</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="./Labguide/Lab7/#73-access-survey-response-report" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tbody>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">7.4: Download survey report</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="./Labguide/Lab7/#74-download-survey-response-report" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tbody>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">7.5: [OPTIONAL] Configure New Survey</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="./Labguide/Lab7/#75-optional-configure-new-survey" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tbody>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">7.6: [OPTIONAL] Add feedback activity to flow</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="./Labguide/Lab7/#76-optional-add-the-feedback-activity-to-your-flow" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>

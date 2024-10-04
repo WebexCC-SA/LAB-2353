@@ -94,22 +94,22 @@ Example:
 
 ## Lab Configuration
 
-> Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051). All configuration items in the lab guide will be renamed with that prefix.
+!!! tip "Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix."
 
-<script>
-document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID" 
-update()
-</script>
-<form id="attendee-form">
-  <label for="attendee">Attendee ID:</label>
-  <input type="text" id="attendee" name="attendee" onChange="update()"><br>
-<br>
-  <button onclick="update()">Save</button>
-</form>
-<script>
-document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID"
-update()
-</script>
+    <script>
+    document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID"; 
+    update();
+    </script>
+    <form id="attendee-form">
+    <label for="attendee">Attendee ID:</label>
+    <input type="text" id="attendee" name="attendee" onChange="update()" style="border: 2px solid black; padding: 5px; border-radius: 4px; background-color: orange;"><br>
+    <br>
+    <button type="button" onclick="update()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Save</button>
+    </form>
+    <script>
+    document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID";
+    update();
+    </script>
 
 The following Administration entities have been configured for you via [Webex Control Hub](https://admin.webex.com){:target="\_blank"}.
 
