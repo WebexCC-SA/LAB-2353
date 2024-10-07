@@ -309,7 +309,8 @@ Fetching WorkspaceID
 ![Customer Journey](../assets/images/Analyzer/jd13.png)
 
 6.Go back to the JDS widget in the Agent Desktop and verify the result. You can refresh the page if the events have not appeared. Now you should see new events in the right panel
-<img width="1773" alt="Screenshot 2024-02-22 at 16 17 16" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/8bfb0c5f-0b95-4619-86fc-3211318e8581">
+![Customer Journey](../assets/images/Analyzer/jd14.png)
+
 
 > Note: We can create any kind of Event and add it to the customer’s journey (e.g. customer visited our webpage).
 
