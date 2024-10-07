@@ -184,7 +184,7 @@ JDS Desktop Widget provides agents with an interface that shows the end customer
 
 8. Go to the 3rd icon in the navigation panel and type **gasathiy@cisco.com** in the **Lookup User** field 
 
-![Customer Journey](../assets/images/Analyzer/jd14.png)
+![Customer Journey](../assets/images/Analyzer/jd16.png)
 
 
 ## 8.3 **[Bonus]** Exploring JDS APIs
@@ -309,7 +309,7 @@ Fetching WorkspaceID
 ![Customer Journey](../assets/images/Analyzer/jd13.png)
 
 6.Go back to the JDS widget in the Agent Desktop and verify the result. You can refresh the page if the events have not appeared. Now you should see new events in the right panel
-![Customer Journey](../assets/images/Analyzer/jd14.png)
+![Customer Journey](../assets/images/Analyzer/jd16.png)
 
 
 > Note: We can create any kind of Event and add it to the customer’s journey (e.g. customer visited our webpage).
