@@ -14,7 +14,7 @@ layout: post
 
 The objective of this lab is to gain a comprehensive understanding of Topic Analytics in Webex Contact Center to help identify potential candidates for automation, and apply the insights gained to enable subsequent AI-powered automation processes. This involves exploring various Topics identified by the AI model, analyzing individual conversations to identify areas of Automation. In this lab you are tasked to identify the top two opportunities for automation and capture the essential information needed to create the automation workflow by reviewing the customer conversations.
 
-## 6.1: Access the Topic Analytics Portal
+## 6.1 Access the Topic Analytics Portal
 
 - Login to the Webex Control Hub using the admin credentials provided. ( Launch https://admin.webex.com/ )
      
@@ -40,7 +40,7 @@ The objective of this lab is to gain a comprehensive understanding of Topic Anal
       
       ![analyzer](../assets/images/Analyzer/topic6.png)
 
-## 6.2: Review the Topic Collection
+## 6.2 Review the Topic Collection
 
 - Click on the `TechSummitDemo` to review the Topic collection. Under the Overview Tab, Notice the filter criteria used to create this collection.
       
@@ -58,7 +58,7 @@ The objective of this lab is to gain a comprehensive understanding of Topic Anal
       
       ![analyzer](../assets/images/Analyzer/topic10.png)
 
-## 6.3: Analyzing Conversations for a Given Topic
+## 6.3 Analyzing Conversations for a Given Topic
 
 - Click on a Topic to view all the calls related to that Topic.
       

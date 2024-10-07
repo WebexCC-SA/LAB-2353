@@ -111,7 +111,7 @@ layout: post
 
      ![analyzer](../assets/images/Analyzer/survey6.png)
 
-## 7.5 [OPTIONAL] Configure new survey
+## 7.5 [Bonus] Configure new survey
 
 - Click on Contact Center under Services from Control Hub
      
@@ -151,7 +151,7 @@ layout: post
     
     ![analyzer](../assets/images/Analyzer/survey15.png)
 
-## 7.6 [OPTIONAL] Add the feedback activity to your flow
+## 7.6 [Bonus] Add the feedback activity to your flow
 
 - Navigate to `Flows` section in control hub and make a copy of the `Survey_Template` flow 
     

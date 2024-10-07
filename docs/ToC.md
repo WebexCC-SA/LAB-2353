@@ -164,8 +164,8 @@
   <summary style="display: flex; justify-content: space-between; align-items: center;">
     <span style="font-size: 20px;">LAB 2: Analyzer Stock reports</span>
     <span style="display: flex; align-items: center;">
-      <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
-      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
+      <span style="background-color: #FFB74D; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
+      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
     </span>
   </summary>
   
@@ -236,7 +236,7 @@
   <summary style="display: flex; justify-content: space-between; align-items: center;">
     <span style="font-size: 20px;">LAB 3: Analyzer Custom reports</span>
     <span style="display: flex; align-items: center;">
-      <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
+      <span style="background-color: #FFB74D; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
     </span>
   </summary>
@@ -308,7 +308,7 @@
   <summary style="display: flex; justify-content: space-between; align-items: center;">
     <span style="font-size: 20px;">LAB 4: (BONUS) Data extraction and scheduling Capabilities</span>
     <span style="display: flex; align-items: center;">
-      <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
+      <span style="background-color: #FFB74D; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">20 min</span>
     </span>
   </summary>
@@ -644,8 +644,8 @@
   <summary style="display: flex; justify-content: space-between; align-items: center;">
     <span style="font-size: 20px;">LAB 8: Customer Journey</span>
     <span style="display: flex; align-items: center;">
-      <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
-      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
+      <span style="background-color: #EF5350; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Advanced</span>&nbsp;&nbsp;
+      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
     </span>
   </summary>
   
@@ -659,9 +659,19 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;">8.1: Adding a new identity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab8/#81-adding-a-new-identity" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">8.2: Update Desktop layout & Login to dekstop</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab8/#82-update-desktop-layout--login-to-dekstop" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">8.3 [Bonus] Exploring JDS APIs</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab8/#83-bonus-exploring-jds-apis" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
