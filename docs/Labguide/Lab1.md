@@ -40,7 +40,8 @@ This lab is designed to give you **basic understanding of Analyzer, user interfa
 1. At this point, you should be already logged-in to Analyzer. If not, use the steps above to login to [Analyzer](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/home).
 
 2. As you login, you may see this pop-up prompting to “Explore New Analyser”.
-   $${\color{red}DO\space NOT\space LAUNCH\space it\space at\space this\space time\space and\space Click\space Cancel.}$$
+   **Do not launch it at this time. Click Cancel !!**
+   <!-- $${\color{red}DO\space NOT\space LAUNCH\space it\space at\space this\space time\space and\space Click\space Cancel.}$$ -->
    ![refesh-popup](../assets/images/reporting/1_1_RefreshPopup.png)
 
 3. Navigate around the home screen to learn the different features available on this screen.
@@ -97,7 +98,7 @@ The **New Webex Contact Center Analyzer (Analyzer UX Refresh)** offers an enhanc
    - Click `Try Now` on the current Analyzer page.
      ![TryNow](../assets/images/reporting/1_2_TryNow.png)
      - New Analyzer will be cross-launched.
-     - It may ask you to enter your supervisor username again.
+     - It may ask you to enter your username again.
      - You can also navigate between the new Analyzer and existing Analyzer using the browser tabs.
 
    ![NewLogin](../assets/images/reporting/1_2_login_new_ux.gif)

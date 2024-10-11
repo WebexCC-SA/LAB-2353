@@ -252,8 +252,13 @@
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab3/#31-create-custom-realtime-agent-report" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">3.2: Create Custom Realtime Agent Report</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab3/#32-bonus-lob-grouping" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>

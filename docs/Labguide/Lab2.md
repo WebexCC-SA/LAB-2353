@@ -26,11 +26,11 @@ layout: post
 
 
 # LAB 2
-<!-- # Part 2: Contact Center Insights with New Analyzer Stock reports -->
+<!-- # Part 2: Contact Centre Insights with New Analyzer Stock reports -->
 
-In this section, we will delve into how various **personas** within a contact center can leverage the Webex Contact Center Analyzer to capture **Key Performance Indicators (KPIs)** and gain insights that can measure and enhance **customer experience, agent performance, and overall business outcomes**. We will explore some of the **pre-built stock reports** with **New Analyzer Interface**, which can help you gather these key actionable insights from day one.
+In this section, we will delve into how various **personas** within a Contact Centre can leverage the Webex Contact Centre Analyzer to capture **Key Performance Indicators (KPIs)** and gain insights that can measure and enhance **customer experience, agent performance, and overall business outcomes**. We will explore some of the **pre-built stock reports** with **New Analyzer Interface**, which can help you gather these key actionable insights from day one.
 
-## 2.1 High-level Contact Center Performance and Usage Insights
+## 2.1 High-level Contact Centre Performance and Usage Insights
 
 **Persona:** CC Administrator, Supervisors, CC Manager, Leadership <br>
 **Preferred View Type:** Chart, Trending
@@ -41,9 +41,11 @@ In this section, we will delve into how various **personas** within a contact ce
 
 **Monthly trending of total inbound and outbound contacts** over this year. Secondly, the **usage of different communication channels**, such as phone calls, emails, live chat, and social media interactions.
 
-***Contact Center Overview – Historical***
+***Contact Centre Overview – Historical***
 
-Search for the label `Contact Center Overview` and double click on the `Contact Center Overview – Historical` dashboard.
+Search for the label `Contact Centre Overview` and double click on the `Contact Centre Overview – Historical` dashboard.
+
+![analyzer](../assets/images/Analyzer/stock1.png)
 
 1. Make a note of the following **cards**: Average Service Level, Total Handled, Total Abandoned Contacts, Average Handle Time.
 2. Switch the Duration to `This Year` and notice the change into these KPIs.
@@ -54,7 +56,7 @@ Search for the label `Contact Center Overview` and double click on the `Contact 
 
 **Field Description**
 
-**Contact Center Overview – Historical** dashboard displays displays contact statistics for a specified duration and time interval. Users can filter data using drop-down lists. The available information includes:
+**Contact Centre Overview – Historical** dashboard displays displays contact statistics for a specified duration and time interval. Users can filter data using drop-down lists. The available information includes:
 
 - **Average Service Level**: Shows the percentage of contacts handled within the set service level.
 - **Total Contacts Handled:** Displays the total number of contacts handled across various communication channels.
@@ -153,7 +155,7 @@ Supervisor looking for key performance metrics for their line of business (Queue
 
 The CSQ All Fields Report presents the queue-related data such as **call statistics, service level**, and key fields like **Average Queue Time, Average Speed of Answer, Calls Handled, and Calls Abandoned under service level**. This report combines the fields of all queue-related reports.
 
-This report is also part of **Transitions reports** built in Webex Contact Center to deliver the look and feel of Key Contact Center Express (UCCX) reports to help customers who transitions to Cloud Webex Contact Center.
+This report is also part of **Transitions reports** built in Webex Contact Centre to deliver the look and feel of Key Contact Centre Express (UCCX) reports to help customers who transitions to Cloud Webex Contact Centre.
 
 **Steps:**
 
@@ -172,7 +174,7 @@ Offering the **callback** option to customers when they are in IVR or waiting in
 
 ***Callback Report***
 
-The contact center customer can opt to receive a callback from an agent while in IVR or waiting in a queue. The courtesy callback flow is configured by the flow developer.
+The Contact Centre customer can opt to receive a callback from an agent while in IVR or waiting in a queue. The courtesy callback flow is configured by the flow developer.
 
 ![CSQAllfield](../assets/images/reporting/callback.png)
 
