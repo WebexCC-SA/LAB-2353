@@ -66,7 +66,7 @@ layout: post
 1. Ensure that you have received your tenant login credentials (Administrator, Supervisor and Agent) from the Lab proctors.
 2. Make sure you are able to login into [Admin Portal](https://admin.webex.com) & [Analyzer](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/home).
 3. In this Lab, Part 1 and 2 already have historical data created to capture the key insights, hence no need to login Agent or make calls to complete those parts.
-4. In Part 3, we will look into some Realtime data insights for which make sure you are logged-in with your Supervisor-Agent or Agent.
+4. In Part 3, we will look into some Realtime data insights for which make sure you are logged-in with your Agent credentials
 
 ***You Will Need***
 
@@ -123,11 +123,17 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 # Analyzer Login Process
 
-1.  Make sure you are able to login into Administrator Portal ([admin.webex.com](https://admin.webex.com) using your Supervisor credentials.
+1.  Make sure you are able to login into Administrator Portal ([admin.webex.com](https://admin.webex.com) using your Administrator credentials.
 2.  Once logged-in, go to `Quick Links` on the right and click on `Analyzer`.
-    ![analyzer](../assets/images/reporting/intro_CH.png)
-    ![analyzer](../assets/images/reporting/analyzerLogin.gif)
-3.  For Part 3 of the Lab, login as an Supervisor-agent or Agent :
+  
+![analyzer](../assets/images/Analyzer/prereq3.gif)
+
+
+
+
+<!-- ![analyzer](../assets/images/reporting/intro_CH.png)
+![analyzer](../assets/images/reporting/analyzerLogin.gif) -->
+ <!-- 3.  For Part 3 of the Lab, login as an Supervisor-agent or Agent :
 
 > Note: If you are already logged-in as an Agent as part of other Labs, no action is required.
 > {: .block-tip }
@@ -146,7 +152,7 @@ You have 2 options to login as an Agent:
 | Supervisor    | wxcclabs+supvr\_<w class="attendee_out">AttendeeID</w>@gmail.com | Webex App/Extension |
 
 - Login with Supervisor Credentials [admin.webex.com](https://admin.webex.com).
-- Go to `Quick Links` --> Click on `Desktop`.
+- Go to `Quick Links` Click on `Desktop`.
 - Select the Role as : `Supervisor and Agent`.
 - Enter the Dialed number provided (if it is not pre-filled).
 - Team should be pre-populated.
@@ -191,4 +197,72 @@ You have 2 options to login as an Agent:
 
 - Make sure that you are successfully logged in to the Agent Desktop.
 
-![Agent Sign In](../assets/images/AG-2.gif)
+![Agent Sign In](../assets/images/AG-2.gif) -->
+
+# Agent Login Process
+
+- Go to [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)
+
+- Enter your respective agent login credentials to login here 
+
+![analyzer](../assets/images/Analyzer/prereq1.gif)
+
+- Select `Desktop` as the telephony option and your respective Team1
+
+Example:
+> If your attendee ID is 100:
+>
+> 100_Team1
+
+![analyzer](../assets/images/Analyzer/prereq2.gif)
+
+
+Test Agent call routing: 
+
+- From your mobile phone, make a Call to the respective Entrypoint DN assigned to you. You will be prompted to enter your 3-digit attendee ID (for Eg. If your attendee ID is 77, then enter 077) options to get to an agent,
+
+- If call is not routing to your agent login, please reach out to the lab instructor
+
+<!-- !!! tip "Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix."
+
+   You can skip the "Supervisor Login" section if you are using a mobile phone and continue testing with it. However, if you don't have access to a mobile phone or would prefer to try an alternative method for testing calls, please follow the steps outlined in the next section.
+ -->
+
+
+# [OPTIONAL] Supervisor Login***
+
+> Note: Currently supervisors can not login via Desktop/WebRTC. If you want to test a login with WebRTC, make sure to sign in as an agent, as per the steps mentioned in the previous chapter.
+
+| **User Role** | **User email**                                                   | **Endpoint**        |
+| ------------- | ---------------------------------------------------------------- | ------------------- |
+| Supervisor    | wxcclabs+supvr\_<w class="attendee_out">AttendeeID</w>@gmail.com | Webex App/Extension |
+
+- Login with Supervisor Credentials [admin.webex.com](https://admin.webex.com).
+- Go to `Quick Links` Click on `Desktop`.
+
+![analyzer](../assets/images/Analyzer/prereq5.png)
+
+
+- Select the Role as : `Supervisor and Agent`.
+- Select Dial number as `Extension`
+- Enter the Dialed number provided (if it is not pre-filled).
+- Team should be pre-populated.
+- Click `Submit`.
+
+<!-- ![analyzer](../assets/images/reporting/supervisorlogin.gif) -->
+
+
+![analyzer](../assets/images/Analyzer/prereq4.png)
+
+
+- In this lab, we will use the Webex app for PC or Mac and login to the Desktop with the **supervisor** account.
+> {: .block-warning }
+
+- Download Link: **[https://www.webex.com/downloads.html](https://www.webex.com/downloads.html){:target="\_blank"}**
+
+![Webex App](../assets/images/Lab1-AD-1.png)
+
+- Install the application on your PC/Mac.
+- Open Webex app and сlick **Sign In**. Enter the provided supervisor credentials
+- From the webex application, you can place calls to your respective entrypoint DN number
+- Supervisor will be logged in to Team2. No need to test any inbound call. This is only to place calls to your Entrypoint DN (if required) and to explore reporting capabilities available in Supervisor desktop.
