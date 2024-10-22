@@ -88,9 +88,9 @@ Example:
 >
 > 100_Team2
 
-3. Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (both agents and supervisors) to facilitate alternate device experiences. Webex Contact Center agents and supervisors can opt for any mix of these devices, encompassing PSTN endpoints and mobile phones.
+1. Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (supervisors) to facilitate alternate device experiences.
 
-4. A preset inbound Voice flow is available for test calls.
+2. A preset inbound Voice flow is available for test calls.
 
 ## Lab Configuration
 
@@ -217,7 +217,7 @@ Example:
 ![analyzer](../assets/images/Analyzer/prereq2.gif)
 
 
-Test Agent call routing: 
+# Test Agent call routing: 
 
 - From your mobile phone, make a Call to the respective Entrypoint DN assigned to you. You will be prompted to enter your 3-digit attendee ID (for Eg. If your attendee ID is 77, then enter 077) options to get to an agent,
 
@@ -229,7 +229,7 @@ Test Agent call routing:
  -->
 
 
-# [OPTIONAL] Supervisor Login***
+# [OPTIONAL] Supervisor Login
 
 > Note: Currently supervisors can not login via Desktop/WebRTC. If you want to test a login with WebRTC, make sure to sign in as an agent, as per the steps mentioned in the previous chapter.
 
@@ -256,7 +256,10 @@ Test Agent call routing:
 
 
 - In this lab, we will use the Webex app for PC or Mac and login to the Desktop with the **supervisor** account.
-> {: .block-warning }
+
+!!! warning "README"
+
+    Check in PC if webex application has already been installed. If already installed, you do not have to reinstall the application. Just logout from any existing logins (if applicable) and then re login with the supervisor credentials.
 
 - Download Link: **[https://www.webex.com/downloads.html](https://www.webex.com/downloads.html){:target="\_blank"}**
 
@@ -265,4 +268,4 @@ Test Agent call routing:
 - Install the application on your PC/Mac.
 - Open Webex app and сlick **Sign In**. Enter the provided supervisor credentials
 - From the webex application, you can place calls to your respective entrypoint DN number
-- Supervisor will be logged in to Team2. No need to test any inbound call. This is only to place calls to your Entrypoint DN (if required) and to explore reporting capabilities available in Supervisor desktop.
+- Supervisor will be logged in to Team2. No need to test any inbound call for supervisor logged in as an agent as well. This is only to place calls to your Entrypoint DN (if required) and to explore reporting capabilities available in Supervisor desktop.
