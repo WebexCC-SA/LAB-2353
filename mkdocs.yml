@@ -105,6 +105,6 @@ nav:
             - Lab 8 Customer Journey: ./Labguide/Lab8.md
       - Conclusion: conclusion.md
   - Quick Links: ./Labguide/QuickLinks.md
-  - Password: ./Labguide/password.md
+  # - Password: ./Labguide/password.md
 
 
