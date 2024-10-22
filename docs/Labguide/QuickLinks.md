@@ -128,7 +128,7 @@
     }
 </script>
 
-!!! tip "Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix."
+!!! tip "Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix. The ID is available on the desktop you are sitting on."
 
     <script>
     document.getElementById("attendee").value = localStorage.getItem("attendeeID") || "Your Attendee ID"; 
