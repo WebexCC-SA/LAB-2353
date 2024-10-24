@@ -77,7 +77,7 @@ layout: post
 
 - Login to your Agent Desktop and make your state Available
 
-- Dial  `+14402308301`  and enter your `Attendee ID` followed by `#`
+- Dial your entrypoint directory number (_this was previously identified in the pre-requisites section_)  and enter your `Attendee ID` followed by `#`
 
 - Accept the call from the agent desktop and disconnect the call by clicking the `End Call` button in agent desktop
 
@@ -161,7 +161,7 @@ layout: post
 
     ![analyzer](../assets/images/Analyzer/survey17.png)
 
-- Edit the flow and rename it as **Survey\_<w class="attendee_out">AttendeeID</w>**
+- Edit the flow and rename it as `Survey_{{Your_Attendee_ID}}`. **For example, if your attendee ID is 101, then the flow should be renamed as Survey_101**
 
     ![analyzer](../assets/images/Analyzer/survey18.gif)
 

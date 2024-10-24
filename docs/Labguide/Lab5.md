@@ -38,15 +38,15 @@ Auto CSAT predicts post-interaction CSAT for all customers, enabling contact cen
         ```
 ## 5.2 How to setup Auto CSAT feature?
 
-1. Setup up a survey with CSAT questions in the 'Surveys' tab. 
+1.Explore steps to setup up a survey with CSAT questions in the 'Surveys' tab. (Please note that new configuration need not be created)
 
-     ![analyzer](../assets/images/Analyzer/csat4.gif)
+![analyzer](../assets/images/Analyzer/csat4.gif)
 
 :link: [Detailed survey configuraiton guide](https://help.webex.com/en-us/article/nlu4x20/Experience-Management---Interactive-Voice-Response-Surveys-for-Webex-ContactCenter)
 
-2. Enable auto csat feature, select agents and survey questions. 
+<!-- 2.Enable auto csat feature, select agents and survey questions. Please note that this feature is already enabled in the lab tenant. No action needed. If in case you do not see this section in Control hub, please ignore and go ahead with the next section. 
 
-     ![analyzer](../assets/images/Analyzer/csat5.png)
+![analyzer](../assets/images/Analyzer/csat5.png) -->
 
 
 
@@ -55,17 +55,16 @@ Auto CSAT predicts post-interaction CSAT for all customers, enabling contact cen
 
 The scores will be published in the Call Session Records (CSR) and can be accessed using the GraphQL API. The scores will also be available in Analyzer for customers to generate custom reports 
 
-1. Log-in with your admin credentials to admin.webex.com
+1. Log-in to [Webex Control Hub](https://admin.webex.com) with your admin credentials
 2. Launch the Analyzer application that is used for Reporting on Webex Contact Center
 
     ![analyzer](../assets/images/Analyzer/csat1.gif)
 
-3. Open the Analyzer Report titled "Auto CSAT Report"
+3. Open the Analyzer. Search and optn the report named "Auto CSAT Report"
 
-     ![analyzer](../assets/images/Analyzer/csat2.gif)
+     ![analyzer](../assets/images/Analyzer/csatnew1.png)
 
-4. Observe the actions taken by the contact center system once a burnout event is detected.
-5. Note how contact center administrators have tools today to address and support the wellness of their agents.
+4. Explore the report. Values can be filtered based on CSAT scores. These reports can be consumed from the supervisor or agent desktop if required.
 
      ![analyzer](../assets/images/Analyzer/csat3.gif)
 

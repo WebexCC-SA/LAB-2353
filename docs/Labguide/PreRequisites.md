@@ -63,11 +63,24 @@ layout: post
 
 ![CH-Desktop-Call-In-Accepted](../../assets/images/agent/Chrome-Create-Profile.gif)
 
-1. Ensure that you have received your tenant login credentials (Administrator, Supervisor and Agent) from the Lab proctors.
-2. Make sure you are able to login into [Admin Portal](https://admin.webex.com) & [Analyzer](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/home).
-3. In this Lab, Part 1 and 2 already have historical data created to capture the key insights, hence no need to login Agent or make calls to complete those parts.
-4. In Part 3, we will look into some Realtime data insights for which make sure you are logged-in with your Agent credentials
+- Ensure that you have received your tenant login credentials (Administrator, Supervisor and Agent) from the Lab proctors.
+- Login to  [Webex Control Hub](https://admin.webex.com)
+- Navigate to `Contact Center`
 
+![analyzer](../assets/images/Analyzer/epdn4.png)
+
+- Navigate to `Overview` and under quick links, select `Analyzer` 
+
+![analyzer](../assets/images/Analyzer/epdn5.png)
+
+- Make sure the login is successful
+
+![analyzer](../assets/images/Analyzer/epdn6.png)
+
+
+!!! tip "In this lab, most sections already have historical data available to capture key insights, so there is no need for agents to log in or for calls to be made. However, if you wish to explore real-time reporting, agent login can be used as an optional step."
+
+<!-- 
 ***You Will Need***
 
 1. **One additional device** (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.
@@ -90,7 +103,8 @@ Example:
 
 1. Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (supervisors) to facilitate alternate device experiences.
 
-2. A preset inbound Voice flow is available for test calls.
+2. A preset inbound Voice flow is available for test calls. -->
+
 
 ## Lab Configuration
 
@@ -121,13 +135,14 @@ Please note, that to proceed to the next section, you will need to use the accou
 | Supervisor 1  | wxcclabs+supvr_ID<w class = "attendee_out">AttendeeID</w>@gmail.com |
 | Administrator | wxcclabs+admin_ID<w class = "attendee_out">AttendeeID</w>@gmail.com |
 
+<!-- 
 # Analyzer Login Process
 
 1.  Make sure you are able to login into Administrator Portal ([admin.webex.com](https://admin.webex.com) using your Administrator credentials.
 2.  Once logged-in, go to `Quick Links` on the right and click on `Analyzer`.
   
 ![analyzer](../assets/images/Analyzer/prereq3.gif)
-
+ -->
 
 
 
@@ -207,7 +222,7 @@ You have 2 options to login as an Agent:
 
 ![analyzer](../assets/images/Analyzer/prereq1.gif)
 
-- Select `Desktop` as the telephony option and your respective Team1
+- Select `Desktop` as the telephony option and your respective Team1 (_Agents will use browsers for voice calls using WebRTC (Web Real-time Communication)_)
 
 Example:
 > If your attendee ID is 100:
@@ -217,11 +232,35 @@ Example:
 ![analyzer](../assets/images/Analyzer/prereq2.gif)
 
 
+# Identify EP-DN
+
+- Go back to [Webex Control Hub](https://admin.webex.com) and navigate to `Contact Center`
+
+![analyzer](../assets/images/Analyzer/epdn1.png)
+
+- Navigate to `Channels` and search for your respective entrypoint based on the attendee ID. **_For example, if your attendee ID is 101, then the entrypoint name will be WX1_EP_101_**
+
+![analyzer](../assets/images/Analyzer/epdn2.png)
+
+- Verify that routing flow is set to `WX1_Data_Survey`
+- Verify that version label is set to `Latest`
+- Identify and make a note of the Support Number
+
+![analyzer](../assets/images/Analyzer/epdn3.png)
+
+- Navigate to `Queues` search for your respective queue based on the attendee ID. **_For example, if your attendee ID is 101, then the queue name will be WX1_Q_101_**
+
+-  Verify that the correct team based on your attendee ID is selected in the configuration. **_For example, if your attendee ID is 101, then the team should be 101_Team1_** 
+
+![analyzer](../assets/images/Analyzer/epdn4.png)
+
 # Test Agent call routing: 
 
-- From your mobile phone, make a Call to the respective Entrypoint DN assigned to you. You will be prompted to enter your 3-digit attendee ID (for Eg. If your attendee ID is 77, then enter 077) options to get to an agent,
+- From your mobile phone, make a Call to the respective Entrypoint DN identified in the previous step. You will be prompted to enter your 3-digit attendee ID (for Eg. If your attendee ID is 77, then enter 077). After which call will be routed to your agent.
 
-- If call is not routing to your agent login, please reach out to the lab instructor
+- If call is not routing to your agent login, please report to the lab instructor and continue with the rest of the lab.
+
+
 
 <!-- !!! tip "Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix."
 
@@ -268,4 +307,4 @@ Example:
 - Install the application on your PC/Mac.
 - Open Webex app and сlick **Sign In**. Enter the provided supervisor credentials
 - From the webex application, you can place calls to your respective entrypoint DN number
-- Supervisor will be logged in to Team2. No need to test any inbound call for supervisor logged in as an agent as well. This is only to place calls to your Entrypoint DN (if required) and to explore reporting capabilities available in Supervisor desktop.
+- The Supervisor will be logged into Team 2. There is no need to test any inbound calls with the Supervisor also logged in as an agent. The Supervisor's role is to explore the reporting capabilities available on the Supervisor desktop.
