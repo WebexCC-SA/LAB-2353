@@ -67,7 +67,7 @@ layout: post
 - Login to  [Webex Control Hub](https://admin.webex.com)
 - Navigate to `Contact Center`
 
-![analyzer](../assets/images/Analyzer/epdn4.png)
+![analyzer](../assets/images/Analyzer/epdn1.png)
 
 - Navigate to `Overview` and under quick links, select `Analyzer` 
 
