@@ -1,0 +1,1773 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey">
+      
+      
+        <meta name="author" content="Krishna Tyagi & George Kovanis & Gagarin Sathiyanarayanan">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Reporting Experience - LAB-2353 - Webex Contact Center Lab  Data, insights & Journey</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pre-requisites" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-header__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Reporting Experience
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ToC/" class="md-tabs__link">
+        
+  
+    
+  
+  Table of Contents
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../overview/" class="md-tabs__link">
+          
+  
+    
+  
+  Start Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-nav__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ToC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Table of Contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Start Lab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Start Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lab Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/PreRequisites/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/Lab1/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 User Interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/Lab2/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 2 Stock Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/Lab3/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Custom Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/Lab4/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 4 [Bonus] Data API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/Lab5/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 5 Auto CSAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/Lab6/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 Topic Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/Lab7/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 7 Survey Insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Labguide/Lab8/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 Customer Journey
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conclusion/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4v2l5.81 4.36a7.004 7.004 0 0 0-4.46 8.84 6.996 6.996 0 0 0 8.84 4.46 7 7 0 0 0 0-13.3L20 4zm-5.06 17.5L12 17.78 9.06 19.5l.78-3.33-2.59-2.24 3.41-.29L12 10.5l1.34 3.14 3.41.29-2.59 2.24z"/></svg>
+  
+  <span class="md-ellipsis">
+    Conclusion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<script>
+    function update(){them = Array.from(document.querySelectorAll("input")).reduce((acc, input) => ({...acc, [input.id + "_out"] : input.value}),{});
+   Object.entries(them).forEach((entry) => {
+    Array.from(document.getElementsByClassName(entry[0])).forEach((element,index) => 
+    {
+      console.log(document.getElementsByClassName(entry[0])[index].innerHTML); 
+      document.getElementsByClassName(entry[0])[index].innerHTML = entry[1];
+    })})
+
+  event.preventDefault()
+   if(document.forms["attendee-form"][1].value != "Your_Attendee_ID"){
+    localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
+  }  
+  }
+</script>
+
+<!-- # Table of Contents
+
+| Topic                                                                                                                                             | Type        | Dificulty    | Time   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------ | ------ |
+| [Pre-Requisites](#pre-requisites)                                                                                                                 | Activity    | EASY         | 5 min  |
+| [Analyzer and Desktop Login Process](#analyzer-login-process)                                                                                     | Activity    | EASY         | 5 min  |
+| [Part 1: Webex Contact Center Analyzer User Interface](#part-1-webex-contact-center-analyzer-user-interface)                                      | Exploration | EASY         | 15 min |
+| [1.1: Analyzer User Interface](#11-analyzer-user-interface)                                                                                       | Exploration | EASY         |        |
+| [1.2: NEW Analyzer User Interface](#12-new-analyzer-user-interface)                                                                               | Activity    | EASY         |        |
+| [Part 2: Contact Center Insights with New Analyzer Stock reports](#part-2-contact-center-insights-with-new-analyzer-stock-reports)                | Activity    | EASY         | 15 min |
+| [2.1: High-level Contact Center Performance and Usage insights](#21-high-level-contact-center-performance-and-usage-insights)                     | Activity    | EASY         |        |
+| [2.2: Customer Experience and Queue Performance](#22-customer-experience-and-queue-performance)                                                   | Activity    | INTERMEDIATE |        |
+| [Part 3: Contact Center Insights with Analyzer custom reports](#part-3-bonus-contact-center-insights-with-analyzer-custom-reports-and-dashboards) | Activity    | INTERMEDIATE | 15 min |
+| [3.1: Create Custom Realtime Agent Report](#31-create-custom-realtime-agent-report)                                                               | Activity    | INTERMEDIATE |        |
+| [Part 4: (BONUS) Data extraction and scheduling Capabilities](#part-4-bonus-data-extraction-and-scheduling-capabilities)                          | Activity    | EASY         | 20 min |
+| [4.1: Export Data as Excel or CSV](#41-export-data-as-excel-or-csv)                                                                               | Activity    | EASY         |        |
+| [4.2: Visualization Scheduler](#42-visualization-scheduler)                                                                                       | Activity    | EASY         |        |
+| [4.3: Search APIs](#43-search-apis)                                                                                                               | Activity    | INTERMEDIATE |        | -->
+
+<h2 id="pre-requisites">Pre-Requisites</h2>
+<p><strong>Create Chrome Profiles</strong></p>
+<ul>
+<li>
+<p>For the lab, create new Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser.</p>
+</li>
+<li>
+<p>Select <code>Profiles</code> on Chrome</p>
+</li>
+<li>Select <code>Add Profile</code></li>
+<li>Select <code>continue without an account</code></li>
+<li>Give it a name .i.e <code>Admin</code></li>
+<li>Click <code>done</code></li>
+<li>Create 2 more profiles for <code>Supervisor</code> and <code>Agent</code></li>
+</ul>
+<p><a class="glightbox" href="../assets/images/agent/Chrome-Create-Profile.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Desktop-Call-In-Accepted" data-desc-position="top"><img alt="CH-Desktop-Call-In-Accepted" src="../assets/images/agent/Chrome-Create-Profile.gif" /></a></p>
+<ol>
+<li>Ensure that you have received your tenant login credentials (Administrator, Supervisor and Agent) from the Lab proctors.</li>
+<li>Make sure you are able to login into <a href="https://admin.webex.com">Admin Portal</a> &amp; <a href="https://analyzer-v2.wxcc-us1.cisco.com/analyzer/home">Analyzer</a>.</li>
+<li>In this Lab, Part 1 and 2 already have historical data created to capture the key insights, hence no need to login Agent or make calls to complete those parts.</li>
+<li>In Part 3, we will look into some Realtime data insights for which make sure you are logged-in with your Supervisor-Agent or Agent.</li>
+</ol>
+<p><strong><em>You Will Need</em></strong></p>
+<ol>
+<li>
+<p><strong>One additional device</strong> (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.</p>
+</li>
+<li>
+<p>Administrator credentials for the Control Hub: admin.webex.com.</p>
+</li>
+<li>
+<p>Agent Login Credentials for the Agent Desktop: desktop.wxcc-us1.cisco.com.</p>
+</li>
+<li>
+<p>The items listed below have been pre-configured for you:</p>
+</li>
+<li>Agent and Supervisor user accounts are configured and ready for login.</li>
+<li>You can access the Agent Desktop via the URL: <a href="https://desktop.wxcc-us1.cisco.com">https://desktop.wxcc-us1.cisco.com</a>.</li>
+<li>As an agent, you're associated with two teams —designated by your Attendee ID— as "Team1" and "Team2".</li>
+</ol>
+<p>Example:</p>
+<blockquote>
+<p>If your attendee ID is 100:</p>
+<p>100_Team1</p>
+<p>100_Team2</p>
+</blockquote>
+<ol>
+<li>
+<p>Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (both agents and supervisors) to facilitate alternate device experiences. Webex Contact Center agents and supervisors can opt for any mix of these devices, encompassing PSTN endpoints and mobile phones.</p>
+</li>
+<li>
+<p>A preset inbound Voice flow is available for test calls.</p>
+</li>
+</ol>
+<h2 id="lab-configuration">Lab Configuration</h2>
+<blockquote>
+<p>Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051). All configuration items in the lab guide will be renamed with that prefix.</p>
+</blockquote>
+<script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID" 
+update()
+</script>
+<form id="attendee-form">
+  <label for="attendee">Attendee ID:</label>
+  <input type="text" id="attendee" name="attendee" onChange="update()"><br>
+<br>
+  <button onclick="update()">Save</button>
+</form>
+<script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID"
+update()
+</script>
+
+<p>The following Administration entities have been configured for you via <a href="https://admin.webex.com" target="_blank">Webex Control Hub</a>.</p>
+<p>Please note, that to proceed to the next section, you will need to use the accounts shown below.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Entity</strong></th>
+<th><strong>Name</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent 1</td>
+<td>wxcclabs+agent_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
+</tr>
+<tr>
+<td>Supervisor 1</td>
+<td>wxcclabs+supvr_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
+</tr>
+<tr>
+<td>Administrator</td>
+<td>wxcclabs+admin_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
+</tr>
+</tbody>
+</table>
+<h1 id="analyzer-login-process">Analyzer Login Process</h1>
+<ol>
+<li>Make sure you are able to login into Administrator Portal (<a href="https://admin.webex.com">admin.webex.com</a> using your Supervisor credentials.</li>
+<li>Once logged-in, go to <code>Quick Links</code> on the right and click on <code>Analyzer</code>.
+    <a class="glightbox" href="../assets/images/reporting/intro_CH.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../assets/images/reporting/intro_CH.png" /></a>
+    <a class="glightbox" href="../assets/images/reporting/analyzerLogin.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../assets/images/reporting/analyzerLogin.gif" /></a></li>
+<li>For Part 3 of the Lab, login as an Supervisor-agent or Agent :</li>
+</ol>
+<blockquote>
+<p class="block-tip">Note: If you are already logged-in as an Agent as part of other Labs, no action is required.</p>
+</blockquote>
+<p>You have 2 options to login as an Agent:</p>
+<ol>
+<li>Supervisor credentials with Role as <code>Supervisor and Agent</code></li>
+<li>Using your Agent Credentials</li>
+</ol>
+<p><strong><em>Login As Supervisor-Agent</em></strong></p>
+<blockquote>
+<p>Note: Currently supervisors can not login via Desktop/WebRTC. If you want to test a login with WebRTC, make sure to sign in as an agent, as per the steps on the next chapter.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>User Role</strong></th>
+<th><strong>User email</strong></th>
+<th><strong>Endpoint</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supervisor</td>
+<td>wxcclabs+supvr_<w class="attendee_out">AttendeeID</w>@gmail.com</td>
+<td>Webex App/Extension</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Login with Supervisor Credentials <a href="https://admin.webex.com">admin.webex.com</a>.</li>
+<li>Go to <code>Quick Links</code> --&gt; Click on <code>Desktop</code>.</li>
+<li>Select the Role as : <code>Supervisor and Agent</code>.</li>
+<li>Enter the Dialed number provided (if it is not pre-filled).</li>
+<li>Team should be pre-populated.</li>
+<li>Click <code>Submit</code>.</li>
+</ul>
+<p><a class="glightbox" href="../assets/images/reporting/supervisorlogin.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../assets/images/reporting/supervisorlogin.gif" /></a></p>
+<p><strong><em>Login in the Webex app for PC or Mac</em></strong></p>
+<blockquote>
+<p class="block-warning">In this lab, we can use the Webex app for PC or Mac to login to the Desktop with the <strong>supervisor</strong> account.</p>
+</blockquote>
+<ul>
+<li>Download Link: <strong><a href="https://www.webex.com/downloads.html" target="_blank">https://www.webex.com/downloads.html</a></strong></li>
+</ul>
+<p><a class="glightbox" href="../assets/images/Lab1-AD-1.png" data-type="image" data-width="100%" data-height="auto" data-title="Webex App" data-desc-position="top"><img alt="Webex App" src="../assets/images/Lab1-AD-1.png" /></a></p>
+<ul>
+<li>
+<p>Install the application on your PC/Mac.</p>
+</li>
+<li>
+<p>Open Webex app and сlick <strong>Sign In</strong>. Enter the provided supervisor credentials.</p>
+</li>
+</ul>
+<p><strong><em>Agent Desktop Login</em></strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>User Role</strong></th>
+<th><strong>User email</strong></th>
+<th><strong>Endpoint</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent</td>
+<td>wxcclabs+agent_<w class="attendee_out">AttendeeID</w>@gmail.com</td>
+<td>WebRTC/Desktop</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Note</strong>: To log in to the agent desktop, use either a different web browser or a new incognito web page. This will prevent the browser caching issues with admin and agent credentials.</p>
+<p>{: .block-tip }</p>
+</blockquote>
+<ul>
+<li>
+<p>Navigate to <strong><a href="https://desktop.wxcc-us1.cisco.com/" target="_blank">Desktop</a></strong> in the chrome browser with the incognito mode.</p>
+</li>
+<li>
+<p>Enter the agent’s <strong>email ID</strong>.</p>
+</li>
+<li>
+<p>Enter the <strong>Password</strong> for the appropriate username.</p>
+</li>
+<li>
+<p>In the <strong><em>Station Credentials</em></strong> pane, select <strong>"Desktop"</strong>.</p>
+</li>
+<li>
+<p>Select the team <strong><w class="attendee_out">Your_Attendee_ID</w>_Team1</strong>.</p>
+</li>
+<li>
+<p>Click the <strong><em>Submit</em></strong> button. The browser may ask you to confirm the use the microphone from the browser.</p>
+</li>
+<li>
+<p>Make sure that you are successfully logged in to the Agent Desktop.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../assets/images/AG-2.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent Sign In" data-desc-position="top"><img alt="Agent Sign In" src="../assets/images/AG-2.gif" /></a></p>
+<h1 id="lab-1">LAB 1</h1>
+<!-- **Webex Contact Center Analyzer User Interface** -->
+
+<h2 id="11-analyzer-user-interface">1.1 Analyzer User Interface</h2>
+<p>This lab is designed to give you <strong>basic understanding of Analyzer, user interface features</strong> as well as the default dashboards available in the Admin Portal. In the following exercises, the goal is the <strong>familiarization</strong> with the product, interfaces and terminology.</p>
+<p><a class="glightbox" href="../assets/images/reporting/old_ux_intro.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../assets/images/reporting/old_ux_intro.gif" /></a></p>
+<ol>
+<li>
+<p>At this point, you should be already logged-in to Analyzer. If not, use the steps above to login to <a href="https://analyzer-v2.wxcc-us1.cisco.com/analyzer/home">Analyzer</a>.</p>
+</li>
+<li>
+<p>As you login, you may see this pop-up prompting to “Explore New Analyser”.
+   $${\color{red}DO\space NOT\space LAUNCH\space it\space at\space this\space time\space and\space Click\space Cancel.}$$
+   <a class="glightbox" href="../assets/images/reporting/1_1_RefreshPopup.png" data-type="image" data-width="100%" data-height="auto" data-title="refesh-popup" data-desc-position="top"><img alt="refesh-popup" src="../assets/images/reporting/1_1_RefreshPopup.png" /></a></p>
+</li>
+<li>
+<p>Navigate around the home screen to learn the different features available on this screen.</p>
+</li>
+<li>
+<p>Make a note of the sessions count for the four data repositories:</p>
+<ul>
+<li>Customer Session</li>
+<li>Customer Activity</li>
+<li>Agent Session</li>
+<li>Agent Activity <br>
+   <a class="glightbox" href="../assets/images/reporting/1_1_repos.png" data-type="image" data-width="100%" data-height="auto" data-title="Repos" data-desc-position="top"><img alt="Repos" src="../assets/images/reporting/1_1_repos.png" /></a></li>
+</ul>
+</li>
+<li>
+<p>Click on the <strong>Visualizations</strong> tab on the left. <br>
+   <a class="glightbox" href="../assets/images/reporting/1_1_visualizations.png" data-type="image" data-width="100%" data-height="auto" data-title="Visualizations" data-desc-position="top"><img alt="Visualizations" src="../assets/images/reporting/1_1_visualizations.png" /></a></p>
+</li>
+<li>
+<p>On the top in Search field, search for any key word like <code>agent</code>:</p>
+</li>
+<li>
+<p>Click on <strong>Agent Realtime</strong> report and note down the path for this report. <br>
+     <a class="glightbox" href="../assets/images/reporting/1_1_agentpath.png" data-type="image" data-width="100%" data-height="auto" data-title="Agent Path" data-desc-position="top"><img alt="Agent Path" src="../assets/images/reporting/1_1_agentpath.png" /></a></p>
+</li>
+<li>
+<p>Searched items can be further filtered to show Visualizations or Folders from the <code>Show</code> dropdown menu.
+     <a class="glightbox" href="../assets/images/reporting/1_1_Show.png" data-type="image" data-width="100%" data-height="auto" data-title="Show" data-desc-position="top"><img alt="Show" src="../assets/images/reporting/1_1_Show.png" /></a></p>
+</li>
+<li>
+<p>Then, navigate to the following path: <br>
+   <a class="glightbox" href="../assets/images/reporting/1_1_path.png" data-type="image" data-width="100%" data-height="auto" data-title="Path" data-desc-position="top"><img alt="Path" src="../assets/images/reporting/1_1_path.png" /></a> <br>
+   Click <a class="glightbox" href="../assets/images/reporting/1_1_ListView.png" data-type="image" data-width="100%" data-height="auto" data-title="ListView" data-desc-position="top"><img alt="ListView" src="../assets/images/reporting/1_1_ListView.png" /></a> to change the view to <code>List</code> view.
+   <a class="glightbox" href="../assets/images/reporting/1_1_List.png" data-type="image" data-width="100%" data-height="auto" data-title="List" data-desc-position="top"><img alt="List" src="../assets/images/reporting/1_1_List.png" /></a></p>
+</li>
+<li>
+<p>Here you can sort the reports based on a specific header by clicking on the header.</p>
+</li>
+<li>Notice the <strong>Temporal Scope</strong>, which can be either <strong>Realtime, Compound</strong> or <strong>Historical</strong>.</li>
+<li>
+<p>ID is <ins>unique</ins> for every report and a report can also be searched by its <code>ID</code> besides the name.</p>
+</li>
+<li>
+<p>Click the <a class="glightbox" href="../assets/images/reporting/1_1_dots.png" data-type="image" data-width="100%" data-height="auto" data-title="Dots" data-desc-position="top"><img alt="Dots" src="../assets/images/reporting/1_1_dots.png" /></a> icon next to the report and then click on <strong>Details</strong>. <br>
+   <a class="glightbox" href="../assets/images/reporting/1_1_Details.png" data-type="image" data-width="100%" data-height="auto" data-title="Details" data-desc-position="top"><img alt="Details" src="../assets/images/reporting/1_1_Details.png" /></a> <br>
+   <a class="glightbox" href="../assets/images/reporting/1_1_DetailsInfo.png" data-type="image" data-width="100%" data-height="auto" data-title="DetailsInfo" data-desc-position="top"><img alt="DetailsInfo" src="../assets/images/reporting/1_1_DetailsInfo.png" /></a> <br></p>
+</li>
+<li>
+<p>Make a note of the <strong>Date Range</strong> and <strong>Scheduled Jobs</strong>.</p>
+</li>
+<li>
+<p>Try the same for any Historical stock report. <br></p>
+</li>
+<li>
+<p>On the top, click on your <strong>username</strong> and then <strong>Help</strong> to open the help manual for Analyzer.</p>
+</li>
+<li>
+<p>This provides you with an online version of the <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Analyzer_2/b_analyzeronloinehelp/_b_analyzeronloinehelp_chapter_01.html">Analyzer User Guide</a>, a great document that provides information about all the available <ins>stock reports</ins>, <ins>variables</ins> as well as <ins>functionalities</ins> of Analyzer.</p>
+</li>
+<li>
+<p>Click on <strong>Tenant Time zone</strong> option on the header. Set it to the time-zone in which you want to Run Visualizations (You have two possible options: <strong>Tenant or Browser</strong>).
+   <a class="glightbox" href="../assets/images/reporting/1_1_Timezone.png" data-type="image" data-width="100%" data-height="auto" data-title="TimeZone" data-desc-position="top"><img alt="TimeZone" src="../assets/images/reporting/1_1_Timezone.png" /></a></p>
+</li>
+</ol>
+<h2 id="12-new-analyzer-user-interface">1.2 NEW Analyzer User Interface</h2>
+<p>The <strong>New Webex Contact Center Analyzer (Analyzer UX Refresh)</strong> offers an enhanced and intuitive user interface that enables you to manage stock historical dashboards. It provides faster, more efficient, and focused views of historical analytics for Webex Contact Center, enhancing the integrated experience. The stock historical dashboards offer ready-to-use metrics, allowing you to generate metrics related to entry points, queues, teams, contacts, and agents for strategic decision-making.</p>
+<blockquote>
+<p class="block-warning">Note: The New Analyzer today does not currently provide custom dashboards. To access custom dashboards, you can use the existing Analyzer. Extending custom reporting support and adding real-time reports to New Analyzer UX is in our roadmap.</p>
+</blockquote>
+<ol>
+<li>
+<p>Login into the <strong>New Analyzer</strong>:</p>
+</li>
+<li>
+<p>Click <code>Try Now</code> on the current Analyzer page.
+     <a class="glightbox" href="../assets/images/reporting/1_2_TryNow.png" data-type="image" data-width="100%" data-height="auto" data-title="TryNow" data-desc-position="top"><img alt="TryNow" src="../assets/images/reporting/1_2_TryNow.png" /></a></p>
+<ul>
+<li>New Analyzer will be cross-launched.</li>
+<li>It may ask you to enter your supervisor username again.</li>
+<li>You can also navigate between the new Analyzer and existing Analyzer using the browser tabs.</li>
+</ul>
+</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_login_new_ux.gif" data-type="image" data-width="100%" data-height="auto" data-title="NewLogin" data-desc-position="top"><img alt="NewLogin" src="../assets/images/reporting/1_2_login_new_ux.gif" /></a></p>
+<p>You can see a new home page with centralized dashboards and reports. You'll see a new search bar to search through the various dashboards.</p>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_UX_UI.gif" data-type="image" data-width="100%" data-height="auto" data-title="New UX Home Page analyzer" data-desc-position="top"><img alt="New UX Home Page analyzer" src="../assets/images/reporting/1_2_UX_UI.gif" /></a></p>
+<ol>
+<li>
+<p>Report Tabs: Reports and Dashboards are grouped under following <code>Tabs</code>:</p>
+</li>
+<li>
+<p><strong>All:</strong> Lists all the dashboards and reports.</p>
+</li>
+<li><strong>Recent:</strong> Lists the most recent dashboards that you viewed.</li>
+<li><strong>Favorite:</strong> Lists the dashboards that you have marked as favorite.</li>
+<li><strong>Stock:</strong> Lists the predefined stock historical dashboards provided by Cisco.</li>
+</ol>
+<p>Click on each Tab and make a <strong>note of the number of reports</strong> in each Tab.</p>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_Tabs.png" data-type="image" data-width="100%" data-height="auto" data-title="Tabs" data-desc-position="top"><img alt="Tabs" src="../assets/images/reporting/1_2_Tabs.png" /></a></p>
+<ol>
+<li>Click on <code>star</code> icon next to the <code>Abandoned Call Detail Activity Report</code> to mark it as your <strong>Favorite</strong>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_Favourite.png" data-type="image" data-width="100%" data-height="auto" data-title="Favourite" data-desc-position="top"><img alt="Favourite" src="../assets/images/reporting/1_2_Favourite.png" /></a></p>
+<p>This allows you to access your favorite dashboards easily under the dedicated <code>Favorite</code> tab.</p>
+<ol>
+<li>Next, view the <code>Agent Call Summary Report</code>, for this <strong>double-click</strong> on the dashboard name or select <strong>View</strong> under the <strong>Actions</strong> tab.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_View.png" data-type="image" data-width="100%" data-height="auto" data-title="View" data-desc-position="top"><img alt="View" src="../assets/images/reporting/1_2_View.png" /></a>
+   <a class="glightbox" href="../assets/images/reporting/1_2_New_UX.gif" data-type="image" data-width="100%" data-height="auto" data-title="New UX Stock Report UI" data-desc-position="top"><img alt="New UX Stock Report UI" src="../assets/images/reporting/1_2_New_UX.gif" /></a></p>
+<ol>
+<li>Next, review again the count of the reports in each tab and also if your <strong>recently executed</strong> report and <strong>favorite marked</strong> reports are visible under the respective tabs.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_Tabs.png" data-type="image" data-width="100%" data-height="auto" data-title="Tabs" data-desc-position="top"><img alt="Tabs" src="../assets/images/reporting/1_2_Tabs.png" /></a></p>
+<ol>
+<li>Use the <code>Sort By</code> drop-down menu to filter stock dashboards by options such as <strong>Name, Created By,</strong> and <strong>Last Edited By</strong>. This enables easy organization and navigation based on your preferred sorting criteria.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_LastEditedBy.png" data-type="image" data-width="100%" data-height="auto" data-title="LastEditedBy" data-desc-position="top"><img alt="LastEditedBy" src="../assets/images/reporting/1_2_LastEditedBy.png" /></a></p>
+<ol>
+<li>Switch to <strong>Card View</strong> by cliking <a class="glightbox" href="../assets/images/reporting/1_2_CardIcon.png" data-type="image" data-width="100%" data-height="auto" data-title="CardIcon" data-desc-position="top"><img alt="CardIcon" src="../assets/images/reporting/1_2_CardIcon.png" /></a>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_CardView.png" data-type="image" data-width="100%" data-height="auto" data-title="CardView" data-desc-position="top"><img alt="CardView" src="../assets/images/reporting/1_2_CardView.png" /></a></p>
+<p>The <strong>List View</strong> is the default view and allows easy navigation and quick access to the entire collection of stock dashboards.</p>
+<p>The <strong>Card View</strong> provides a compact and visual representation of the stock dashboards, displaying snapshots of 15 dashboards in a single view.</p>
+<ol>
+<li>Next, switch back to the List view and make a note of the <code>Labels</code> column.</li>
+</ol>
+<p>We've replaced folder-based navigation with <code>labels</code>. The <strong>predefined labels</strong> help you find and sort stock historical dashboards. The labels are color-coded to enhance the user experience. You can search for dashboards using labels.</p>
+<ul>
+<li>
+<p>All stock reports by default are marked with label <code>Stock</code>. <br>
+     <a class="glightbox" href="../assets/images/reporting/1_2_Labels.png" data-type="image" data-width="100%" data-height="auto" data-title="Labels" data-desc-position="top"><img alt="Labels" src="../assets/images/reporting/1_2_Labels.png" /></a></p>
+</li>
+<li>
+<p>Next, use the search box to find a stock dashboard using different criteria or comma separated words. For this example, search the word <code>transition</code>. <br>
+   <a class="glightbox" href="../assets/images/reporting/1_2_TransitionSearch.png" data-type="image" data-width="100%" data-height="auto" data-title="TransitionSearch" data-desc-position="top"><img alt="TransitionSearch" src="../assets/images/reporting/1_2_TransitionSearch.png" /></a></p>
+</li>
+</ul>
+<p>This would list all the <strong>Transition reports</strong>, which are built for easy reporting insights for customers migrated from UCCX but also useful for any customer.</p>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_TransitionReports.png" data-type="image" data-width="100%" data-height="auto" data-title="TransitionReports" data-desc-position="top"><img alt="TransitionReports" src="../assets/images/reporting/1_2_TransitionReports.png" /></a></p>
+<p>Customize your search selecting criteria such as <strong>Name, Labels, Created By,</strong> or <strong>Last Edited By</strong> from the drop-down menu.</p>
+<ol>
+<li>
+<p>Next, click on the user profile icon on the top right of the user interface provides user information. The time zone settings and dark mode options are available in the user profile settings.</p>
+<ul>
+<li><strong>Time Zone</strong></li>
+</ul>
+<p>By default, the new Analyzer shows the tenant time zone. You can update the browser settings if necessary. <ins>Scheduled jobs always run in the tenant time zone.</ins></p>
+<ul>
+<li><strong>Dark Mode</strong></li>
+</ul>
+<p>You have the option to switch between dark and light screen modes to suit your viewing experience.</p>
+</li>
+<li>
+<p>Next, let's take a look at <strong>key functions</strong> for a stock report. Go to the <code>Agent Call Summary Report</code>, which you viewed in <strong>step #3</strong>.</p>
+</li>
+<li>
+<p>By default, data is displayed in <code>Table View</code> for <code>Last week</code>. Change it to <code>This month</code> and click <strong>Apply</strong>.
+    What you see here is the Agent summary data for all the agents for this month.</p>
+<blockquote>
+<p>Note: In the Table view of a dashboard, Analyzer supports a maximum of 100 columns and up to 100,000 rows.</p>
+</blockquote>
+</li>
+<li>
+<p>Click on <code>Agent Endpoint (DN)</code> filter and make a note of device types used by the users (Agent and Supervisors). You would notice a <strong>mix</strong> of Dial numbers and WebRTC devices.</p>
+</li>
+<li>
+<p><strong>Pin Column</strong></p>
+<p>You can <strong>pin columns</strong> or <strong>move columns</strong> of a dashboard to the right and left of the table based on your requirements.</p>
+<ul>
+<li>On the dashboard, on the <code>Total Onbound</code> column, click the hamburger menu next to the column header. <br>
+  <a class="glightbox" href="../assets/images/reporting/1_2_Hamburger.png" data-type="image" data-width="100%" data-height="auto" data-title="Hamburger" data-desc-position="top"><img alt="Hamburger" src="../assets/images/reporting/1_2_Hamburger.png" /></a></li>
+<li>Go to <code>Pin Column</code> and click <code>Pin Left</code>. <br>
+  <a class="glightbox" href="../assets/images/reporting/1_2_PinLeft.png" data-type="image" data-width="100%" data-height="auto" data-title="PinLeft" data-desc-position="top"><img alt="PinLeft" src="../assets/images/reporting/1_2_PinLeft.png" /></a> <br>
+  This would move the <strong>Total Inbound</strong> column to the left of the table. <br>
+  <a class="glightbox" href="../assets/images/reporting/1_2_MovedLeft.png" data-type="image" data-width="100%" data-height="auto" data-title="MovedLeft" data-desc-position="top"><img alt="MovedLeft" src="../assets/images/reporting/1_2_MovedLeft.png" /></a></li>
+</ul>
+</li>
+<li>
+<p><strong>Autosize Column</strong></p>
+<p>Next, let's autosize all the columns as data in some columns is not clearly visible because of last textual size. To do so:
+On the dashboard column, click the <strong>hamburger</strong> menu next to the column header.</p>
+<ol>
+<li>Click <code>Autosize This Column</code>.</li>
+<li>For all columns, click <code>Autosize All Columns</code>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_AutosizeColumn.png" data-type="image" data-width="100%" data-height="auto" data-title="AutosizeColumn" data-desc-position="top"><img alt="AutosizeColumn" src="../assets/images/reporting/1_2_AutosizeColumn.png" /></a></p>
+<p>This would allow you to see all the data points clearly.</p>
+</li>
+<li>
+<p><strong>Advanced Filtering</strong></p>
+<p>We already saw how you can use predefined filters on the reports. Beyond that, you can also filter the data data for other columns in the reports.
+In the current <code>Agent Call summary</code> report, let's filter the data to identify any agents which handled low number of calls.</p>
+<p>For this, click on Hamburger sign <a class="glightbox" href="../assets/images/reporting/1_2_HambSign.png" data-type="image" data-width="100%" data-height="auto" data-title="HambSign" data-desc-position="top"><img alt="HambSign" src="../assets/images/reporting/1_2_HambSign.png" /></a> next to the <code>Total Inbound</code> Column --&gt; Click on the Filter <a class="glightbox" href="../assets/images/reporting/1_2_FilterSign.png" data-type="image" data-width="100%" data-height="auto" data-title="FilterSign" data-desc-position="top"><img alt="FilterSign" src="../assets/images/reporting/1_2_FilterSign.png" /></a> option and select <strong>“0”</strong> and <strong>“1”</strong>. Data will be updated immediately (No need to click Apply).</p>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_FilterDone.png" data-type="image" data-width="100%" data-height="auto" data-title="FilterDone" data-desc-position="top"><img alt="FilterDone" src="../assets/images/reporting/1_2_FilterDone.png" /></a></p>
+</li>
+<li>
+<p><strong>Column View</strong></p>
+<p>You can customize the visibility of columns in the table. On the dashboard column, click the hamburger menu next to the column header. Click on <strong>Column view</strong> icon <a class="glightbox" href="../assets/images/reporting/1_2_ColumnIcon.png" data-type="image" data-width="100%" data-height="auto" data-title="ColumnIcon" data-desc-position="top"><img alt="ColumnIcon" src="../assets/images/reporting/1_2_ColumnIcon.png" /></a> and uncheck all <code>Time</code> field columns to exclude them and have a simpler count only view.</p>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_ColumnView.png" data-type="image" data-width="100%" data-height="auto" data-title="ColumnView" data-desc-position="top"><img alt="ColumnView" src="../assets/images/reporting/1_2_ColumnView.png" /></a></p>
+</li>
+<li>
+<p>Switch the view of the report from <code>Table</code> to <code>Chart</code> by clicking <a class="glightbox" href="../assets/images/reporting/1_2_ChartIcon.png" data-type="image" data-width="100%" data-height="auto" data-title="ChartIcon" data-desc-position="top"><img alt="ChartIcon" src="../assets/images/reporting/1_2_ChartIcon.png" /></a> on top right corner of the report.</p>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_ChartView.png" data-type="image" data-width="100%" data-height="auto" data-title="ChartView" data-desc-position="top"><img alt="ChartView" src="../assets/images/reporting/1_2_ChartView.png" /></a></p>
+<p>You would notice a graphical view of the data for the number of <code>Total Inbound Contact</code> each agent handled during this month along with a trend line.</p>
+</li>
+</ol>
+<p><strong><em>Trend Line</em></strong></p>
+<p>In <strong>Chart</strong> view, the new Analyzer introduces <code>Trend Line</code>, which is a visual representation of trends with data points. When viewing a dashboard, the presence of a trend line allows users to quickly identify and understand the underlying trend or pattern within the data.</p>
+<p><a class="glightbox" href="../assets/images/reporting/1_2_TrendLine.png" data-type="image" data-width="100%" data-height="auto" data-title="TrendLine" data-desc-position="top"><img alt="TrendLine" src="../assets/images/reporting/1_2_TrendLine.png" /></a></p>
+<p>Similarly you can try filter the data based on <code>Agent Name</code> and <code>Agent Endpoint (DN)</code>.</p>
+<p><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+<h1 id="lab-2">LAB 2</h1>
+<!-- # Part 2: Contact Center Insights with New Analyzer Stock reports -->
+
+<p>In this section, we will delve into how various <strong>personas</strong> within a contact center can leverage the Webex Contact Center Analyzer to capture <strong>Key Performance Indicators (KPIs)</strong> and gain insights that can measure and enhance <strong>customer experience, agent performance, and overall business outcomes</strong>. We will explore some of the <strong>pre-built stock reports</strong> with <strong>New Analyzer Interface</strong>, which can help you gather these key actionable insights from day one.</p>
+<h2 id="21-high-level-contact-center-performance-and-usage-insights">2.1 High-level Contact Center Performance and Usage Insights</h2>
+<p><strong>Persona:</strong> CC Administrator, Supervisors, CC Manager, Leadership <br>
+<strong>Preferred View Type:</strong> Chart, Trending</p>
+<p><strong>Business Use Case:</strong> Contact centre administrators play a crucial role in managing and optimizing contact centre operations. To effectively monitor and analyse the performance of the contact centre, it is essential for administrators to capture and track high-level contact centre state and usage data. This data provides valuable insights into various aspects, such as agent productivity, call volumes, customer satisfaction, and system performance. By capturing this information, administrators can make informed decisions, identify areas for improvement, and ensure efficient contact centre operations.</p>
+<p><strong>A. Expected Insights and Actions</strong></p>
+<p><strong>Monthly trending of total inbound and outbound contacts</strong> over this year. Secondly, the <strong>usage of different communication channels</strong>, such as phone calls, emails, live chat, and social media interactions.</p>
+<p><strong><em>Contact Center Overview – Historical</em></strong></p>
+<p>Search for the label <code>Contact Center Overview</code> and double click on the <code>Contact Center Overview – Historical</code> dashboard.</p>
+<ol>
+<li>Make a note of the following <strong>cards</strong>: Average Service Level, Total Handled, Total Abandoned Contacts, Average Handle Time.</li>
+<li>Switch the Duration to <code>This Year</code> and notice the change into these KPIs.</li>
+<li>Select <strong>Channel Type</strong> and opt for digital channels only: Email, Chat and Social to observe the updated KPI’s.</li>
+<li>Scroll Down the dashboard to the review the <code>Contact Details in Queue</code> Report.</li>
+<li>On right upper corner, change <code>Contact Details in Queue</code> report to <strong>Chart View</strong>.</li>
+<li>Observe the historical Queue volume and trending across last 7 days.</li>
+</ol>
+<p><strong>Field Description</strong></p>
+<p><strong>Contact Center Overview – Historical</strong> dashboard displays displays contact statistics for a specified duration and time interval. Users can filter data using drop-down lists. The available information includes:</p>
+<ul>
+<li><strong>Average Service Level</strong>: Shows the percentage of contacts handled within the set service level.</li>
+<li><strong>Total Contacts Handled:</strong> Displays the total number of contacts handled across various communication channels.</li>
+<li><strong>Total Contacts Abandoned:</strong> Shows the total number of contacts that were abandoned.</li>
+<li><strong>Average Handled Time:</strong> Indicates the average time taken to handle a contact.</li>
+<li><strong>Longest Contact in Queue:</strong> Displays the waiting time for the contact with the longest queue time.</li>
+<li><strong>Contact Details in Queue:</strong> Shows the details of contacts (voice, email, social, and chat)</li>
+</ul>
+<p><a class="glightbox" href="../assets/images/reporting/2_1_OverviewHist.png" data-type="image" data-width="100%" data-height="auto" data-title="OverviewHist" data-desc-position="top"><img alt="OverviewHist" src="../assets/images/reporting/2_1_OverviewHist.png" /></a>
+<a class="glightbox" href="../assets/images/reporting/CCOverview2.png" data-type="image" data-width="100%" data-height="auto" data-title="OverviewHist" data-desc-position="top"><img alt="OverviewHist" src="../assets/images/reporting/CCOverview2.png" /></a></p>
+<p><strong><em>Contact Volume Historical Dashboard</em></strong></p>
+<ol>
+<li>Search for <code>Contact Volume Historical Dashboard</code> and execute it.</li>
+<li>You would notice all the dialed number and entry points in the contact centre across all the channels and the respective contact volume.</li>
+<li>Switch to the <strong>Chart view</strong>.</li>
+<li>Change duration to <code>This Year</code>.</li>
+<li>Update Interval to <code>Monthly</code>, click <code>Apply</code>.</li>
+<li>This provides you a trending view of contact volume for the year and comparison on monthly basis.</li>
+<li>Update <strong>Channel Type</strong> filter to select <code>Telephony</code> and <code>Chat</code>. Observe the comparison data between these channels over the period of time.</li>
+</ol>
+<p><strong>Field Description</strong></p>
+<p>The parameters in this dashboard include DNIS (Dialed Number), Entry Point Name, Interval, Channel Type, and Contacts.</p>
+<ul>
+<li><strong>DNIS</strong> is a service from the phone company delivering a number indicating the digits dialed by the caller. It's used as a row segment, but it doesn't appear for chat contacts.</li>
+<li>The <strong>Entry Point Name</strong> is the name of a particular entry point, also used as a row segment.</li>
+<li><strong>Interval</strong> refers to a time period, specifically the last 7 days in this context.</li>
+<li><strong>Channel Type</strong> denotes the media type of contact, like telephony, email, or chat, and it's used as a row segment.</li>
+<li>Finally, <strong>Contacts</strong> is a parameter that refers to the count of contact session IDs, serving as a unique identifier for each contact.</li>
+</ul>
+<p><strong>Action:</strong> Administrators analyse this data to assess channel preferences, allocate resources effectively, and identify opportunities for improving customer service across different channels.</p>
+<p><a class="glightbox" href="../assets/images/reporting/2_1_VolumeDashboard.png" data-type="image" data-width="100%" data-height="auto" data-title="VolumeDashboard" data-desc-position="top"><img alt="VolumeDashboard" src="../assets/images/reporting/2_1_VolumeDashboard.png" /></a></p>
+<p><strong><em>B. Expected Insights and Actions</em></strong></p>
+<p>Trend and detailed insight of Agent performance metrics like <code>Max Connected Duration</code> and <code>Avg Connected Duration</code> across Agent Teams as well as Agent level break down optionally. This helps to identify any need of process improvements or additional agent training.</p>
+<p><strong><em>Agent Performance Dashboard</em></strong></p>
+<ol>
+<li>Search for <code>performance</code> in the search bar. Look for <code>Agent Performance Dashboard</code> and <strong>double click</strong> to view it.</li>
+<li>By default, you will see a <strong>Chart view</strong> of the monthly data of <code>Max connected duration</code> and <code>Average connected Duration</code> with weekly interval.</li>
+<li>You can try to switch the <strong>Duration</strong> and <strong>Interval</strong> to look for the data for longer or shorter period and notice the trend.</li>
+<li>Switch to the Table View <a class="glightbox" href="../assets/images/reporting/2_1_TableView.png" data-type="image" data-width="100%" data-height="auto" data-title="TableView" data-desc-position="top"><img alt="TableView" src="../assets/images/reporting/2_1_TableView.png" /></a> and you will notice much more detailed data insights into each team and agent level.</li>
+<li>Further filtering can be done based on <strong>Team, Channel and Agent Name</strong>, to gather insights around specific agent group.</li>
+</ol>
+<p><strong>Action:</strong> Look if the max connected duration is consistently high, it may indicate a need for process improvements or additional agent training. If the average connected duration is longer than desired, it may indicate the need to streamline processes, provide agents with additional resources or tools, or optimize call handling techniques. On the other hand, if the average connected duration is too short, it may indicate rushed interactions or missed opportunities for upselling or cross-selling.</p>
+<p><a class="glightbox" href="../assets/images/reporting/2_1_PerformanceDashboard.png" data-type="image" data-width="100%" data-height="auto" data-title="PerformanceDashboard" data-desc-position="top"><img alt="PerformanceDashboard" src="../assets/images/reporting/2_1_PerformanceDashboard.png" /></a></p>
+<h2 id="22-customer-experience-and-queue-performance">2.2 Customer Experience and Queue Performance</h2>
+<p><strong>Persona:</strong> CC Supervisors, CC Manager, Business Analyst <br>
+<strong>Preferred View Type:</strong> Table</p>
+<p><strong>Business Use-Case:</strong> Capturing and analysing customer experience analytics in a contact centre is essential for businesses to understand and improve customer satisfaction levels. By gathering key data insights across every stage of the Contact including:</p>
+<ol>
+<li>IVR</li>
+<li>Self-Service / Virtual Agent</li>
+<li>Queue performance including Transfer Rate after connection to an Agent</li>
+<li>Queue Opt-out / Callback</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/2_2_Flow.png" data-type="image" data-width="100%" data-height="auto" data-title="VirtualAgentFlow" data-desc-position="top"><img alt="VirtualAgentFlow" src="../assets/images/reporting/2_2_Flow.png" /></a></p>
+<p><strong>A. Expected Insights and Actions:</strong></p>
+<p>Understanding the virtual agent's resolution rate, and escalation rate to the Queue.</p>
+<p>To extract expected insights we can leverage stock report <code>IVR &amp; CVA Dialog Flow Report</code>.</p>
+<p><strong><em>IVR &amp; CVA Dialog Flow Report</em></strong></p>
+<p>This report displays the Self-service operational metrics. Which consist of:</p>
+<ul>
+<li>The <strong>total number of IVR calls</strong> handled by the <strong>virtual agent</strong>.</li>
+<li>Number of <strong>abandoned calls in Self-service</strong>.</li>
+<li>Number of IVR calls that were <strong>escalated to a queue</strong>.</li>
+<li><strong>Percentage</strong> of IVR calls that were <strong>escalated to a queue.</strong></li>
+</ul>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Search for label <code>selfservice</code>.</li>
+<li>Look for <code>IVR &amp; CVA Dialog flow</code> Report --&gt; <strong>Double click</strong> to view it.</li>
+</ol>
+<p><strong>Actions:</strong> Refining the virtual agent's responses where escalation rate to the Queue is higher, training them on new issues.</p>
+<p><a class="glightbox" href="../assets/images/reporting/cvaimage2.png" data-type="image" data-width="100%" data-height="auto" data-title="DialogFlowTable" data-desc-position="top"><img alt="DialogFlowTable" src="../assets/images/reporting/cvaimage2.png" /></a>
+<a class="glightbox" href="../assets/images/reporting/2_2_IVRCVAFields.png" data-type="image" data-width="100%" data-height="auto" data-title="IVRCVAFields" data-desc-position="top"><img alt="IVRCVAFields" src="../assets/images/reporting/2_2_IVRCVAFields.png" /></a></p>
+<p><strong>B. Expected Insights and Actions</strong></p>
+<p>Supervisor looking for key performance metrics for their line of business (Queue) such as <strong>Percentage Handled, Abandonment Rate, Avg Abandoned Time and Service Level.</strong></p>
+<p><strong><em>CSQ All Fields Report</em></strong></p>
+<p>The CSQ All Fields Report presents the queue-related data such as <strong>call statistics, service level</strong>, and key fields like <strong>Average Queue Time, Average Speed of Answer, Calls Handled, and Calls Abandoned under service level</strong>. This report combines the fields of all queue-related reports.</p>
+<p>This report is also part of <strong>Transitions reports</strong> built in Webex Contact Center to deliver the look and feel of Key Contact Center Express (UCCX) reports to help customers who transitions to Cloud Webex Contact Center.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Search for Label <code>Transition</code>.</li>
+<li>Look for <code>CSQ ALL Fields Report</code> and <strong>double click</strong> it to view.</li>
+</ol>
+<p><strong>Actions:</strong> Adjusting staffing levels and/or call routing improvements to manage peak times and low service level. Implement callback options to reduce wait times and abandonment rate.</p>
+<p><a class="glightbox" href="../assets/images/reporting/CSQallreport2.png" data-type="image" data-width="100%" data-height="auto" data-title="CSQTable" data-desc-position="top"><img alt="CSQTable" src="../assets/images/reporting/CSQallreport2.png" /></a></p>
+<p><a class="glightbox" href="../assets/images/reporting/2_2_CSQTable.png" data-type="image" data-width="100%" data-height="auto" data-title="CSQTable" data-desc-position="top"><img alt="CSQTable" src="../assets/images/reporting/2_2_CSQTable.png" /></a></p>
+<p><strong>C. Expected Insights and Actions</strong></p>
+<p>Offering the <strong>callback</strong> option to customers when they are in IVR or waiting in the Queue is one of the most efficient ways to improve the customer experience. Capture the callback success rate and reasons for failure.</p>
+<p><strong><em>Callback Report</em></strong></p>
+<p>The contact center customer can opt to receive a callback from an agent while in IVR or waiting in a queue. The courtesy callback flow is configured by the flow developer.</p>
+<p><a class="glightbox" href="../assets/images/reporting/callback.png" data-type="image" data-width="100%" data-height="auto" data-title="CSQAllfield" data-desc-position="top"><img alt="CSQAllfield" src="../assets/images/reporting/callback.png" /></a></p>
+<p><a class="glightbox" href="../assets/images/reporting/callback1.png" data-type="image" data-width="100%" data-height="auto" data-title="CallbackTable" data-desc-position="top"><img alt="CallbackTable" src="../assets/images/reporting/callback1.png" /></a></p>
+<p><strong>Actions:</strong> For low Callback success rate review we would check on the <code>Final Reason</code>. One of the prime reasons for an unsuccessful callback request is that customers aren’t reachable or busy at callback time. Explore if offering the Callback Retry attempt (<a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc-flow-designer.html#Cisco_Concept.dita_2e773682-6129-4fb7-b857-4b56f57103bc">CallbackFailed</a>) for the callback would help improving the success rate and tweak it based on further review.</p>
+<p><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+<h1 id="lab-3">LAB 3</h1>
+<!-- # Part 3: Contact Center Insights with Analyzer Custom Reports -->
+
+<p>In this lab, we will create a <strong>custom report</strong> to monitor the calls waiting in the queue in real-time, along with the available agents and their respective states. <ins>Since the option to create a custom report is currently unavailable in the New Analyzer UX, we will be using our current Analyzer interface for this lab.</ins></p>
+<p>In Webex Contact Center, there are four primary data repositories that store critical customer and agent-related information. These repositories are structured as follows:</p>
+<ol>
+<li>
+<p><strong>Customer Activity Record</strong></p>
+</li>
+<li>
+<p><strong>Description</strong>: This type of record represents individual, atomic steps within the customer's workflow. It captures key moments in the customer journey, providing insights into their interactions with the contact center.</p>
+</li>
+<li>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li>Customer in IVR or queue, talking to an agent, or on hold.</li>
+<li>Customer on specific web pages, such as the home page, product page, or checkout page.</li>
+</ul>
+</li>
+<li>
+<p><strong>Customer Session Record</strong></p>
+</li>
+<li>
+<p><strong>Description</strong>: Customer Session Records are more comprehensive, encapsulating the entire customer workflow. They consist of a sequence of customer activities, providing a holistic view of the customer's engagement with the contact center.</p>
+</li>
+<li>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li>Customer calls the contact center for assistance.</li>
+<li>Customer visits a website and explores its content.</li>
+<li>Customer interacts with the website and engages in a chat with an agent.</li>
+<li>Customer initiates contact by sending an email, and an agent responds.</li>
+</ul>
+</li>
+<li>
+<p><strong>Agent Activity Record</strong></p>
+</li>
+</ol>
+<p><strong>Description</strong>: This record type focuses on individual actions within the agent's workflow. It logs every significant step an agent takes, shedding light on their interactions and status throughout their workday.</p>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li>Agent's status transitions, such as idle, available, talking, or wrapping up.</li>
+<li>Agent's offline activities, including dialing, note-taking, and reading emails.</li>
+<li>
+<p>Agent's involvement in chats with customers and the subsequent wrap-up process.</p>
+</li>
+<li>
+<p><strong>Agent Session Record</strong></p>
+</li>
+</ul>
+<p><strong>Description</strong>: Agent Session Records provide a comprehensive overview of an agent's work. They encompass a sequence of agent activities, offering insights into the agent's handling of tasks and interactions.</p>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li>An agent manages a service call, logging an incident or request.</li>
+<li>An agent initiates an outbound call and schedules a meeting for a customer.</li>
+<li>An agent engages in chat interactions with customers, providing answers and assistance.</li>
+<li>An agent reads and responds to customer emails, ensuring effective communication.</li>
+</ul>
+<p>These data repositories play a crucial role in capturing, organizing, and analysing the wealth of information generated within the Webex Contact Center, ultimately supporting informed decision-making and enhancing customer and agent experiences.</p>
+<p><a class="glightbox" href="../assets/images/reporting/CSR.png" data-type="image" data-width="100%" data-height="auto" data-title="CSR" data-desc-position="top"><img alt="CSR" src="../assets/images/reporting/CSR.png" /></a></p>
+<p>Before you continue with this exercise follow below:</p>
+<ol>
+<li><strong>Make a Call</strong> and select prompted options to get to an agent, with no agent available you would hear a wait music.</li>
+<li>Make sure your <strong>agent is logged-in</strong> and currently in <code>Idle</code> state.</li>
+</ol>
+<h2 id="31-create-custom-realtime-agent-report">3.1 Create Custom Realtime Agent Report</h2>
+<p>In this Lab, we will create a <strong>custom visualization</strong> to showcase the <strong>state of agents on a Realtime basis</strong>.</p>
+<p><strong>Objective:</strong> Create an Agent Real-time state report with following data insights:</p>
+<ol>
+<li><strong>State of Agents</strong> on real-time basis for Telephony channel.</li>
+<li>
+<p>Capture <strong>key metrics</strong>:</p>
+</li>
+<li>
+<p>Agent Team</p>
+</li>
+<li>Agent Name</li>
+<li>Agent State</li>
+<li>Idle Code</li>
+<li>Total number of agents logged-in</li>
+<li>Number of Agents in Available and idle state for each team</li>
+<li>
+<p>Duration in the State</p>
+</li>
+<li>
+<p>Create a high-level view, based on <strong>line of business</strong> (Group or Teams).</p>
+</li>
+<li>Have <strong>Data summarized</strong> based on each Line of Business (LOB).</li>
+<li>Have options to <strong>filter the data</strong> based on LOB and Idle code.</li>
+<li>Create some <strong>visual indication</strong> when certain agents in Idle state for long duration.</li>
+</ol>
+<p>While completing this Exercise, you will be able to understand and use some <strong>key capabilities</strong> like:</p>
+<ul>
+<li>Fields and Measures</li>
+<li>Enhanced Fields</li>
+<li>Formulas</li>
+<li>Drill-down</li>
+<li>Group Summary</li>
+<li>On the Fly-filter</li>
+<li>
+<p>Filtering</p>
+</li>
+<li>
+<p>Create a new <strong>visualization</strong> in Analyzer as an <strong>Agent Activity Record</strong>.</p>
+</li>
+<li>
+<p>Set <strong>Start Time</strong> as <code>Realtime</code>.</p>
+</li>
+<li>Set <strong>Duration</strong> as <code>None (Snapshot)</code>.</li>
+<li><strong>Refresh duration</strong> as <code>3 Seconds</code>.</li>
+</ul>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_TimeSettings.png" data-type="image" data-width="100%" data-height="auto" data-title="TimeSettings" data-desc-position="top"><img alt="TimeSettings" src="../assets/images/reporting/3_1_TimeSettings.png" /></a></p>
+<ol>
+<li>
+<p>Next, we will begin adding variables to the visualization. Click on <strong>Row Segment</strong> and add:</p>
+</li>
+<li>
+<p>Team Name</p>
+</li>
+<li>Agent Name</li>
+<li>Activity State</li>
+<li>Idle Code Name</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_RowSegments.png" data-type="image" data-width="100%" data-height="auto" data-title="RowSegments" data-desc-position="top"><img alt="RowSegments" src="../assets/images/reporting/3_1_RowSegments.png" /></a></p>
+<ol>
+<li>Next, click on <strong>Profile Variables</strong> and add <code>Agent Session ID (Count)</code> and rename the name as <code>#Total</code>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_AgentTotal.png" data-type="image" data-width="100%" data-height="auto" data-title="AgentTotal" data-desc-position="top"><img alt="AgentTotal" src="../assets/images/reporting/3_1_AgentTotal.png" /></a></p>
+<ol>
+<li>
+<p>To capture <strong>Available Agent Count</strong> add <code>Agent Session ID</code>. Name it as <code>#Available</code>.</p>
+</li>
+<li>
+<p>Drag <code>Activity State</code> as <strong>Filter</strong> with value <code>available</code>. <br>
+     <a class="glightbox" href="../assets/images/reporting/3_1_AvailFilter.png" data-type="image" data-width="100%" data-height="auto" data-title="AvailFilter" data-desc-position="top"><img alt="AvailFilter" src="../assets/images/reporting/3_1_AvailFilter.png" /></a></p>
+</li>
+<li>
+<p>Repeat step 4 to add <strong>Idle Agent Count</strong>, this time with filter value <code>idle</code>. Name it as <code>#Idle</code>.</p>
+</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_IdleFilter.png" data-type="image" data-width="100%" data-height="auto" data-title="IdleFilter" data-desc-position="top"><img alt="IdleFilter" src="../assets/images/reporting/3_1_IdleFilter.png" /></a></p>
+<ol>
+<li>
+<p>Next, we need to capture the <strong>State Duration</strong>. We will achieve this by using a <strong>formula</strong> to subtract the <strong>activity start time</strong> from <strong>current time</strong>, which will give us the <strong>activity duration</strong>.</p>
+</li>
+<li>
+<p>Search for Measure Profile variable <code>Activity Start Timestamp</code>.</p>
+</li>
+<li>Under formula, select <code>Minimum Activity Start Timestamp</code> and save it. <br>
+     <a class="glightbox" href="../assets/images/reporting/3_1_MinActivity.png" data-type="image" data-width="100%" data-height="auto" data-title="MinActivity" data-desc-position="top"><img alt="MinActivity" src="../assets/images/reporting/3_1_MinActivity.png" /></a></li>
+<li><strong>Right click</strong> on the field and click <strong>New Formula</strong> After, right click on the created field and click on <code>New Formula</code>. <br>
+     <a class="glightbox" href="../assets/images/reporting/3_1_NewFormula.png" data-type="image" data-width="100%" data-height="auto" data-title="NewFormula" data-desc-position="top"><img alt="NewFormula" src="../assets/images/reporting/3_1_NewFormula.png" /></a></li>
+<li>Name it <strong>Duration</strong> and swap the fields by clicking <a class="glightbox" href="../assets/images/reporting/3_1_Swap.png" data-type="image" data-width="100%" data-height="auto" data-title="Swap" data-desc-position="top"><img alt="Swap" src="../assets/images/reporting/3_1_Swap.png" /></a>.</li>
+<li><strong>Click</strong> <a class="glightbox" href="../assets/images/reporting/3_1_Dropdown.png" data-type="image" data-width="100%" data-height="auto" data-title="Dropdown" data-desc-position="top"><img alt="Dropdown" src="../assets/images/reporting/3_1_Dropdown.png" /></a> on the empty field and select <code>Current Timestamp</code>.</li>
+<li>Select <a class="glightbox" href="../assets/images/reporting/3_1_Subtract.png" data-type="image" data-width="100%" data-height="auto" data-title="Subtract" data-desc-position="top"><img alt="Subtract" src="../assets/images/reporting/3_1_Subtract.png" /></a> <strong>Subtraction operator</strong>, as shown below. <br>
+     <a class="glightbox" href="../assets/images/reporting/3_1_SubtractionFormula.png" data-type="image" data-width="100%" data-height="auto" data-title="SubtractionFormula" data-desc-position="top"><img alt="SubtractionFormula" src="../assets/images/reporting/3_1_SubtractionFormula.png" /></a>.</li>
+<li>Right click the <code>Duration</code> profile variable, and set the <strong>Duration Number Format</strong> as <code>Duration &gt; MM:SS</code>. <br>
+     <a class="glightbox" href="../assets/images/reporting/3_1_DurationFormat.png" data-type="image" data-width="100%" data-height="auto" data-title="DurationFormat" data-desc-position="top"><img alt="DurationFormat" src="../assets/images/reporting/3_1_DurationFormat.png" /></a>.</li>
+<li>
+<p>Hide <code>Minimum Activity Start Timestamp</code> by clicking on the <strong>eye</strong> icon. <br>
+     <a class="glightbox" href="../assets/images/reporting/3_1_Hide.png" data-type="image" data-width="100%" data-height="auto" data-title="Hide" data-desc-position="top"><img alt="Hide" src="../assets/images/reporting/3_1_Hide.png" /></a>.</p>
+</li>
+<li>
+<p><strong>Re-order</strong> the variables by dragging and dropping the variables in the order that you wish to see them in the report.</p>
+</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_Reorder.png" data-type="image" data-width="100%" data-height="auto" data-title="Reorder" data-desc-position="top"><img alt="Reorder" src="../assets/images/reporting/3_1_Reorder.png" /></a></p>
+<ol>
+<li>Save the report as <code>3.1_AAR_RT_AgentState_&lt;YourStudentID&gt;</code> (e.g. <em>3.1_AAR_RT_AgentState_101</em>) in your folder and click <code>Preview</code>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_AAR_RT.png" data-type="image" data-width="100%" data-height="auto" data-title="AAR_RT" data-desc-position="top"><img alt="AAR_RT" src="../assets/images/reporting/3_1_AAR_RT.png" /></a></p>
+<ol>
+<li>
+<p>Notice that the <code>#Total</code> count for each agent is <strong>“10”</strong>.</p>
+</li>
+<li>
+<p>This is because each agent is a <strong>multi-channel</strong> agent (with Total 10 channels, 1 voice, and 3 Chat, 3 Email, 3 Social ones).</p>
+</li>
+<li>In this case we want to capture data for <code>Telephony</code> channel only so let’s add a <strong>Channel Filter</strong> for <strong>Telephony</strong>.</li>
+<li>Go Back to the report edit mode and <strong>Add Filter</strong> with <strong>Channel Type</strong> as <strong>Telephony</strong>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_FilterTelephony.png" data-type="image" data-width="100%" data-height="auto" data-title="FilterTelephony" data-desc-position="top"><img alt="FilterTelephony" src="../assets/images/reporting/3_1_FilterTelephony.png" /></a></p>
+<ol>
+<li><strong>Save</strong> the visualization and click on <code>Preview</code> to run it again.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_SavedVisualization.png" data-type="image" data-width="100%" data-height="auto" data-title="SavedVisualization" data-desc-position="top"><img alt="SavedVisualization" src="../assets/images/reporting/3_1_SavedVisualization.png" /></a></p>
+<ol>
+<li>We are still missing below asks:</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_MissingAsks.png" data-type="image" data-width="100%" data-height="auto" data-title="MissingAsks" data-desc-position="top"><img alt="MissingAsks" src="../assets/images/reporting/3_1_MissingAsks.png" /></a></p>
+<ol>
+<li>Update the <strong>Output Type</strong> to <code>Column Heatmap</code>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_Heatmap.png" data-type="image" data-width="100%" data-height="auto" data-title="Heatmap" data-desc-position="top"><img alt="Heatmap" src="../assets/images/reporting/3_1_Heatmap.png" /></a></p>
+<ol>
+<li>
+<p>To create a LOB group:</p>
+<ul>
+<li>Right click on the Team name and then <code>Create Enhanced Field</code>. <br>
+  <a class="glightbox" href="../assets/images/reporting/3_1_EnhancedField.png" data-type="image" data-width="100%" data-height="auto" data-title="EnhancedField" data-desc-position="top"><img alt="EnhancedField" src="../assets/images/reporting/3_1_EnhancedField.png" /></a></li>
+<li>Name the Field <strong>LOB_Grouping{{StudentID}}</strong>, replacing {{StudentID}} with your provided ID.</li>
+</ul>
+<p><strong>Add 2 groups</strong> containing the following teams: <br>
+CL_G1x : Seach for “Team1” Select from 51_Team1 to 59_Team1 <br>
+CL_G2x : Seach for “Team2” Select from 51_Team2 to 59_Team2</p>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_LOBGrouping.png" data-type="image" data-width="100%" data-height="auto" data-title="LOBGrouping" data-desc-position="top"><img alt="LOBGrouping" src="../assets/images/reporting/3_1_LOBGrouping.png" /></a></p>
+<p>Save it.</p>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_Lob.png" data-type="image" data-width="100%" data-height="auto" data-title="Lob" data-desc-position="top"><img alt="Lob" src="../assets/images/reporting/3_1_Lob.png" /></a></p>
+<ul>
+<li>Make this Enhanced Field <strong>global</strong> so it can be used for any other visualizations with need of creating it again.</li>
+</ul>
+<p>Right click LOB_Grouping{{StudentID}} --&gt; Click Save --&gt; When prompted, click Save again.</p>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_SaveLOB.png" data-type="image" data-width="100%" data-height="auto" data-title="SaveLOB" data-desc-position="top"><img alt="SaveLOB" src="../assets/images/reporting/3_1_SaveLOB.png" /></a>
+  <a class="glightbox" href="../assets/images/reporting/3_1_SaveLOB2.png" data-type="image" data-width="100%" data-height="auto" data-title="SaveLOB2" data-desc-position="top"><img alt="SaveLOB2" src="../assets/images/reporting/3_1_SaveLOB2.png" /></a></p>
+<ul>
+<li>Field is now saved and can be used in any other report.</li>
+<li>Move LOB_Grouping{{StudentID}} as top row segment.</li>
+</ul>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_LOBRow.png" data-type="image" data-width="100%" data-height="auto" data-title="LOBRow" data-desc-position="top"><img alt="LOBRow" src="../assets/images/reporting/3_1_LOBRow.png" /></a></p>
+</li>
+<li>
+<p>To create a <strong>Summary</strong> at LOB level:</p>
+<ul>
+<li>Click <code>Show Summary</code> Option and select <strong>LOB_Grouping</strong>.
+  <a class="glightbox" href="../assets/images/reporting/3_1_LOBSummary.png" data-type="image" data-width="100%" data-height="auto" data-title="LOBSummary" data-desc-position="top"><img alt="LOBSummary" src="../assets/images/reporting/3_1_LOBSummary.png" /></a></li>
+<li>Click <code>Customize</code> --&gt; Go to <strong>LOB_Grouping</strong> level.
+  <a class="glightbox" href="../assets/images/reporting/3_1_LOBCustomize.png" data-type="image" data-width="100%" data-height="auto" data-title="LOBCustomize" data-desc-position="top"><img alt="LOBCustomize" src="../assets/images/reporting/3_1_LOBCustomize.png" /></a></li>
+<li>Select <code>SUM</code> for <strong>#Total</strong>, <strong>#Idle</strong>, <strong>#Avaliable</strong> --&gt; Save it.
+  <a class="glightbox" href="../assets/images/reporting/3_1_ReportSummary.png" data-type="image" data-width="100%" data-height="auto" data-title="ReportSummary" data-desc-position="top"><img alt="ReportSummary" src="../assets/images/reporting/3_1_ReportSummary.png" /></a></li>
+</ul>
+</li>
+<li>
+<p>Lastly, add the <strong>on-the fly filters</strong> for the <strong>LOB Grouping</strong> and <strong>Idle Code Name</strong>.</p>
+<ul>
+<li>Click on <code>Show Filter On Run Mode</code>.
+  <a class="glightbox" href="../assets/images/reporting/3_1_ShowRunMode.png" data-type="image" data-width="100%" data-height="auto" data-title="ShowRunMode" data-desc-position="top"><img alt="ShowRunMode" src="../assets/images/reporting/3_1_ShowRunMode.png" /></a></li>
+<li>Select <strong>LOB_Grouping</strong> and <strong>Idle Code Name</strong>.
+  <a class="glightbox" href="../assets/images/reporting/3_1_Select.png" data-type="image" data-width="100%" data-height="auto" data-title="Select" data-desc-position="top"><img alt="Select" src="../assets/images/reporting/3_1_Select.png" /></a></li>
+</ul>
+</li>
+<li>
+<p><strong>Save</strong> the visualization and check the <code>Preview</code>.</p>
+<p><a class="glightbox" href="../assets/images/reporting/3_1_Preview.png" data-type="image" data-width="100%" data-height="auto" data-title="Preview" data-desc-position="top"><img alt="Preview" src="../assets/images/reporting/3_1_Preview.png" /></a></p>
+</li>
+</ol>
+<p><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+<h1 id="lab-4">LAB 4</h1>
+<!-- # Part 4: (BONUS) Data extraction and scheduling Capabilities -->
+
+<p>Similar to Lab Part-3, <strong>advanced data extraction</strong> and <strong>scheduling capabilities</strong> are not avalaible in New Analyzer UX and are part of the roadmap. <ins>Hence, for this exercise, we will use the current Analyzer interface.</ins></p>
+<h2 id="41-export-data-as-excel-or-csv">4.1 Export Data as Excel or CSV</h2>
+<p>Although Analyzer offers a lot of functionalities for users, Contact Center administrators and analysts often need to work with the data offline, modify them via Excel or even share the transformed information with other parties. In this exercise we will see how Analyzer allows users to <strong>easily download the report results</strong> from within the Analyzer interface.</p>
+<ol>
+<li>Open <code>Incoming, Short, IVR Time- Entry Point</code> report in separate browser tab (or use any other open report in current Analyzer if you prefer).</li>
+<li>Click on <code>Export</code> on the top and you have the option to <code>Export as Excel</code> or <code>Export as CSV</code>. Select to export the data as Excel.</li>
+<li>File will be downloaded to your computer.</li>
+<li>Now you can use this data offline, perform advanced calculations from Excel or share with your colleagues as needed.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_1_Export.png" data-type="image" data-width="100%" data-height="auto" data-title="Export" data-desc-position="top"><img alt="Export" src="../assets/images/reporting/4_1_Export.png" /></a></p>
+<h2 id="42-visualization-scheduler">4.2 Visualization Scheduler</h2>
+<p>In this exercise we will learn how to <strong>schedule visualizations within Analyzer</strong>. In Analyzer, you can schedule any historical visualization to be <strong>run and sent in a predefined time period to an email address</strong>. This is very handy for admins or supervisors who need to see reports on a scheduled daily, weekly or monthly basis.</p>
+<ol>
+<li>Find the report <code>CSQ All Fields Report</code>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_2_CSQ.png" data-type="image" data-width="100%" data-height="auto" data-title="CSQ" data-desc-position="top"><img alt="CSQ" src="../assets/images/reporting/4_2_CSQ.png" /></a></p>
+<ol>
+<li>
+<p>Next, in the right-hand corner of the report, select the three ellipsis and from the dropdown select the option <strong>Schedule Job</strong>. <br>
+   <a class="glightbox" href="../assets/images/reporting/4_2_ScheduleOptions.png" data-type="image" data-width="100%" data-height="auto" data-title="ScheduleOptions" data-desc-position="top"><img alt="ScheduleOptions" src="../assets/images/reporting/4_2_ScheduleOptions.png" /></a></p>
+</li>
+<li>
+<p>Fill in the schedule information for the scheduled report.</p>
+</li>
+<li>
+<p>Start with the <strong>Job Name</strong>. Let’s set this to run daily so we will give it the name <strong>CSQ All Fields Report_Daily</strong>.</p>
+</li>
+<li>Choose a start date and time. Select today’s date with a time of a few minutes ahead of your current time to give it time to trigger.</li>
+<li>Next complete the details for the email notification by entering in your email address and a subject line.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_2_Schedule.png" data-type="image" data-width="100%" data-height="auto" data-title="Schedule" data-desc-position="top"><img alt="Schedule" src="../assets/images/reporting/4_2_Schedule.png" /></a></p>
+<ol>
+<li>Once <strong>saved</strong>, the scheduled job will show up under the <code>Jobs</code> list.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_2_Job.png" data-type="image" data-width="100%" data-height="auto" data-title="Job" data-desc-position="top"><img alt="Job" src="../assets/images/reporting/4_2_Job.png" /></a></p>
+<ol>
+<li>
+<p>If everything was setup correctly, check your email for the report after the trigger time has passed.</p>
+</li>
+<li>
+<p>If your job was only set to run once, once it runs, that job is deleted from the jobs list.</p>
+</li>
+<li><strong>Close</strong> the job scheduling window. Go back to the folder structure and look at the Details of the report, it will show the number of jobs scheduled. You should see 1 scheduled job to reflect the job we just scheduled in this exercise.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_2_Details.png" data-type="image" data-width="100%" data-height="auto" data-title="JobDetails" data-desc-position="top"><img alt="JobDetails" src="../assets/images/reporting/4_2_Details.png" /></a></p>
+<h2 id="43-search-apis">4.3 Search APIs</h2>
+<p>In this exercise, we are going to use the API to retrieve the LastAgentInteraction example from Github to find when a customer called in the last 7 days and which agent they reached.</p>
+<ol>
+<li>
+<p>Open Developer portal using this link:
+   https://developer.webex-cx.com/documentation/search/v1/search-tasks</p>
+</li>
+<li>
+<p>Login with your Admin user.</p>
+</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_3_Login.png" data-type="image" data-width="100%" data-height="auto" data-title="APILogin" data-desc-position="top"><img alt="APILogin" src="../assets/images/reporting/4_3_Login.png" /></a></p>
+<ol>
+<li>Click <strong>Try Out -&gt; Maximize Screen</strong>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_3_TryOut.png" data-type="image" data-width="100%" data-height="auto" data-title="TryOut" data-desc-position="top"><img alt="TryOut" src="../assets/images/reporting/4_3_TryOut.png" /></a> <br>
+   <a class="glightbox" href="../assets/images/reporting/4_3_MaximizeScreen.png" data-type="image" data-width="100%" data-height="auto" data-title="MaximizeScreen" data-desc-position="top"><img alt="MaximizeScreen" src="../assets/images/reporting/4_3_MaximizeScreen.png" /></a></p>
+<ol>
+<li>You can explore the schema by clicking on Docs to open the <strong>Documentation Explorer</strong>. On the explorer, click on <strong>Query -&gt; task -&gt; TaskList</strong>.</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_3_Explorer.png" data-type="image" data-width="100%" data-height="auto" data-title="Explorer" data-desc-position="top"><img alt="Explorer" src="../assets/images/reporting/4_3_Explorer.png" /></a></p>
+<ol>
+<li>
+<p>Now let’s execute a query and see what data you get. <ins>Update the Origin number highlighted in yellow in below query with the phone number you are using to make the test calls.</ins></p>
+</li>
+<li>
+<p>Go to the query window and <strong>delete</strong> the text first <strong>before</strong> you paste the new query with your number.</p>
+</li>
+<li>
+<p>Then, paste the snippet in Query space and click Run <a class="glightbox" href="../assets/images/reporting/4_3_Play.png" data-type="image" data-width="100%" data-height="auto" data-title="Play" data-desc-position="top"><img alt="Play" src="../assets/images/reporting/4_3_Play.png" /></a>. You should see results similar to the following:</p>
+</li>
+</ol>
+<p><a class="glightbox" href="../assets/images/reporting/4_3_Snippet.png" data-type="image" data-width="100%" data-height="auto" data-title="Snippet" data-desc-position="top"><img alt="Snippet" src="../assets/images/reporting/4_3_Snippet.png" /></a></p>
+<div class="highlight"><pre><span></span><code>{
+  #LAST AGENT INTERACTIONS: Usage of filters, aggregates, pagination and custom fields to find when the customer called last in a 7 day window and who they reached
+  task(
+    # NOTE: from and to are mandatory arguments that take the Epoch timestamp in milliseconds
+    from: 1675638001000 #This can be set to Date.now() - (days * 24 * 60 * 60 * 1000) for lookback in days
+    to: 1675782001000 #This can be set to Date.now() in millis
+    timeComparator: createdTime #Filter by created Time only
+      filter: {
+      #Filter the type of Task
+      and: [
+        { channelType: { equals: telephony } } #Telephony calls only
+        { origin: { equals: &quot;XXXXXXXXXXXX&quot; } } #Customer ANI
+        { status: { equals: &quot;ended&quot; } } #Final Disposition
+        { direction: { equals: &quot;inbound&quot; } } #Inbound call only
+        { isActive: { equals: false } } #Resolved call only
+        { owner: { notequals: { id: null } } } #Only calls that had an Owner
+      ]
+    }
+    pagination: { cursor: &quot;0&quot; } #Display first page only
+  ) {
+    tasks {
+      #Task Metadata
+      id
+      createdTime
+      endedTime
+      origin
+      destination
+      lastWrapupCodeName #Why the customer called
+      totalDuration
+      selfserviceDuration
+      captureRequested
+      #Treatment Details
+      lastEntryPoint {
+        #Entrypoint Details
+        id
+        name
+      }
+      lastQueue {
+        #Queue Details
+        id
+        name
+      }
+      lastTeam {
+        #Team Details
+        id
+        name
+      }
+      owner {
+        #Agent Details
+        name
+        id
+      }
+    }
+    #Pagination Information
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+  }
+}
+</code></pre></div>
+<p><strong>Congratulations, you have officially completed the Webex Contact Center Reporting Experience labs!</strong></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "content.tabs.link", "navigation.icons", "navigation.expand", "navigation.path", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs.link", "navigation.tracking", "navigation.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

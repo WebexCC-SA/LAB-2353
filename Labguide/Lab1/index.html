@@ -1,0 +1,1159 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey">
+      
+      
+        <meta name="author" content="Krishna Tyagi & George Kovanis & Gagarin Sathiyanarayanan">
+      
+      
+      
+        <link rel="prev" href="../PreRequisites/">
+      
+      
+        <link rel="next" href="../Lab2/">
+      
+      
+      <link rel="icon" href="../../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Reporting Experience - LAB-2353 - Webex Contact Center Lab  Data, insights & Journey</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-header__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Reporting Experience
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ToC/" class="md-tabs__link">
+        
+  
+    
+  
+  Table of Contents
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+    
+  
+  Start Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-nav__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ToC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Table of Contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Start Lab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Start Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Lab Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PreRequisites/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 User Interface
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 User Interface
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11-analyzer-user-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Analyzer User Interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-new-analyzer-user-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 NEW Analyzer User Interface
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab2/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 2 Stock Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab3/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Custom Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab4/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 4 [Bonus] Data API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab5/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 5 Auto CSAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab6/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 Topic Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab7/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 7 Survey Insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab8/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 Customer Journey
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conclusion/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4v2l5.81 4.36a7.004 7.004 0 0 0-4.46 8.84 6.996 6.996 0 0 0 8.84 4.46 7 7 0 0 0 0-13.3L20 4zm-5.06 17.5L12 17.78 9.06 19.5l.78-3.33-2.59-2.24 3.41-.29L12 10.5l1.34 3.14 3.41.29-2.59 2.24z"/></svg>
+  
+  <span class="md-ellipsis">
+    Conclusion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<script>
+    function update(){them = Array.from(document.querySelectorAll("input")).reduce((acc, input) => ({...acc, [input.id + "_out"] : input.value}),{});
+   Object.entries(them).forEach((entry) => {
+    Array.from(document.getElementsByClassName(entry[0])).forEach((element,index) => 
+    {
+      console.log(document.getElementsByClassName(entry[0])[index].innerHTML); 
+      document.getElementsByClassName(entry[0])[index].innerHTML = entry[1];
+    })})
+
+  event.preventDefault()
+   if(document.forms["attendee-form"][1].value != "Your_Attendee_ID"){
+    localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
+  }  
+  }
+</script>
+
+<h1 id="lab-1">LAB 1</h1>
+<!-- **Webex Contact Center Analyzer User Interface** -->
+
+<h2 id="11-analyzer-user-interface">1.1 Analyzer User Interface</h2>
+<p>This lab is designed to give you <strong>basic understanding of Analyzer, user interface features</strong> as well as the default dashboards available in the Admin Portal. In the following exercises, the goal is the <strong>familiarization</strong> with the product, interfaces and terminology.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/old_ux_intro.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/reporting/old_ux_intro.gif" /></a></p>
+<ol>
+<li>
+<p>At this point, you should be already logged-in to Analyzer. If not, use the steps above to login to <a href="https://analyzer-v2.wxcc-us1.cisco.com/analyzer/home">Analyzer</a>.</p>
+</li>
+<li>
+<p>As you login, you may see this pop-up prompting to “Explore New Analyser”.
+   <strong>Do not launch it at this time. Click Cancel !!</strong>
+   <!-- $${\color{red}DO\space NOT\space LAUNCH\space it\space at\space this\space time\space and\space Click\space Cancel.}$$ --></p>
+</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/reporting/1_1_RefreshPopup.png" data-type="image" data-width="100%" data-height="auto" data-title="refesh-popup" data-desc-position="top"><img alt="refesh-popup" src="../../assets/images/reporting/1_1_RefreshPopup.png" /></a></p>
+<ol>
+<li>
+<p>Navigate around the home screen to learn the different features available on this screen.</p>
+</li>
+<li>
+<p>Make a note of the sessions count for the four data repositories:</p>
+<ul>
+<li>Customer Session</li>
+<li>Customer Activity</li>
+<li>Agent Session</li>
+<li>Agent Activity <br>
+   <a class="glightbox" href="../../assets/images/reporting/1_1_repos.png" data-type="image" data-width="100%" data-height="auto" data-title="Repos" data-desc-position="top"><img alt="Repos" src="../../assets/images/reporting/1_1_repos.png" /></a></li>
+</ul>
+</li>
+<li>
+<p>Click on the <strong>Visualizations</strong> tab on the left. <br>
+   <a class="glightbox" href="../../assets/images/reporting/1_1_visualizations.png" data-type="image" data-width="100%" data-height="auto" data-title="Visualizations" data-desc-position="top"><img alt="Visualizations" src="../../assets/images/reporting/1_1_visualizations.png" /></a></p>
+</li>
+<li>
+<p>On the top in Search field, search for any key word like <code>agent</code>:</p>
+</li>
+<li>
+<p>Click on <strong>Agent Realtime</strong> report and note down the path for this report. <br>
+     <a class="glightbox" href="../../assets/images/reporting/1_1_agentpath.png" data-type="image" data-width="100%" data-height="auto" data-title="Agent Path" data-desc-position="top"><img alt="Agent Path" src="../../assets/images/reporting/1_1_agentpath.png" /></a></p>
+</li>
+<li>
+<p>Searched items can be further filtered to show Visualizations or Folders from the <code>Show</code> dropdown menu.
+     <a class="glightbox" href="../../assets/images/reporting/1_1_Show.png" data-type="image" data-width="100%" data-height="auto" data-title="Show" data-desc-position="top"><img alt="Show" src="../../assets/images/reporting/1_1_Show.png" /></a></p>
+</li>
+<li>
+<p>Then, navigate to the following path: <br>
+   <a class="glightbox" href="../../assets/images/reporting/1_1_path.png" data-type="image" data-width="100%" data-height="auto" data-title="Path" data-desc-position="top"><img alt="Path" src="../../assets/images/reporting/1_1_path.png" /></a> <br>
+   Click <a class="glightbox" href="../../assets/images/reporting/1_1_ListView.png" data-type="image" data-width="100%" data-height="auto" data-title="ListView" data-desc-position="top"><img alt="ListView" src="../../assets/images/reporting/1_1_ListView.png" /></a> to change the view to <code>List</code> view.
+   <a class="glightbox" href="../../assets/images/reporting/1_1_List.png" data-type="image" data-width="100%" data-height="auto" data-title="List" data-desc-position="top"><img alt="List" src="../../assets/images/reporting/1_1_List.png" /></a></p>
+</li>
+<li>
+<p>Here you can sort the reports based on a specific header by clicking on the header.</p>
+</li>
+<li>Notice the <strong>Temporal Scope</strong>, which can be either <strong>Realtime, Compound</strong> or <strong>Historical</strong>.</li>
+<li>
+<p>ID is <ins>unique</ins> for every report and a report can also be searched by its <code>ID</code> besides the name.</p>
+</li>
+<li>
+<p>Click the <a class="glightbox" href="../../assets/images/reporting/1_1_dots.png" data-type="image" data-width="100%" data-height="auto" data-title="Dots" data-desc-position="top"><img alt="Dots" src="../../assets/images/reporting/1_1_dots.png" /></a> icon next to the report and then click on <strong>Details</strong>. <br>
+   <a class="glightbox" href="../../assets/images/reporting/1_1_Details.png" data-type="image" data-width="100%" data-height="auto" data-title="Details" data-desc-position="top"><img alt="Details" src="../../assets/images/reporting/1_1_Details.png" /></a> <br>
+   <a class="glightbox" href="../../assets/images/reporting/1_1_DetailsInfo.png" data-type="image" data-width="100%" data-height="auto" data-title="DetailsInfo" data-desc-position="top"><img alt="DetailsInfo" src="../../assets/images/reporting/1_1_DetailsInfo.png" /></a> <br></p>
+</li>
+<li>
+<p>Make a note of the <strong>Date Range</strong> and <strong>Scheduled Jobs</strong>.</p>
+</li>
+<li>
+<p>Try the same for any Historical stock report. <br></p>
+</li>
+<li>
+<p>On the top, click on your <strong>username</strong> and then <strong>Help</strong> to open the help manual for Analyzer.</p>
+</li>
+<li>
+<p>This provides you with an online version of the <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Analyzer_2/b_analyzeronloinehelp/_b_analyzeronloinehelp_chapter_01.html">Analyzer User Guide</a>, a great document that provides information about all the available <ins>stock reports</ins>, <ins>variables</ins> as well as <ins>functionalities</ins> of Analyzer.</p>
+</li>
+<li>
+<p>Click on <strong>Tenant Time zone</strong> option on the header. Set it to the time-zone in which you want to Run Visualizations (You have two possible options: <strong>Tenant or Browser</strong>).
+   <a class="glightbox" href="../../assets/images/reporting/1_1_Timezone.png" data-type="image" data-width="100%" data-height="auto" data-title="TimeZone" data-desc-position="top"><img alt="TimeZone" src="../../assets/images/reporting/1_1_Timezone.png" /></a></p>
+</li>
+</ol>
+<h2 id="12-new-analyzer-user-interface">1.2 NEW Analyzer User Interface</h2>
+<p>The <strong>New Webex Contact Center Analyzer (Analyzer UX Refresh)</strong> offers an enhanced and intuitive user interface that enables you to manage stock historical dashboards. It provides faster, more efficient, and focused views of historical analytics for Webex Contact Center, enhancing the integrated experience. The stock historical dashboards offer ready-to-use metrics, allowing you to generate metrics related to entry points, queues, teams, contacts, and agents for strategic decision-making.</p>
+<blockquote>
+<p class="block-warning">Note: The New Analyzer today does not currently provide custom dashboards. To access custom dashboards, you can use the existing Analyzer. Extending custom reporting support and adding real-time reports to New Analyzer UX is in our roadmap.</p>
+</blockquote>
+<ol>
+<li>
+<p>Login into the <strong>New Analyzer</strong>:</p>
+</li>
+<li>
+<p>Click <code>Try Now</code> on the current Analyzer page.
+     <a class="glightbox" href="../../assets/images/reporting/1_2_TryNow.png" data-type="image" data-width="100%" data-height="auto" data-title="TryNow" data-desc-position="top"><img alt="TryNow" src="../../assets/images/reporting/1_2_TryNow.png" /></a></p>
+<ul>
+<li>New Analyzer will be cross-launched.</li>
+<li>It may ask you to enter your username again.</li>
+<li>You can also navigate between the new Analyzer and existing Analyzer using the browser tabs.</li>
+</ul>
+</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_login_new_ux.gif" data-type="image" data-width="100%" data-height="auto" data-title="NewLogin" data-desc-position="top"><img alt="NewLogin" src="../../assets/images/reporting/1_2_login_new_ux.gif" /></a></p>
+<p>You can see a new home page with centralized dashboards and reports. You'll see a new search bar to search through the various dashboards.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_UX_UI.gif" data-type="image" data-width="100%" data-height="auto" data-title="New UX Home Page analyzer" data-desc-position="top"><img alt="New UX Home Page analyzer" src="../../assets/images/reporting/1_2_UX_UI.gif" /></a></p>
+<ol>
+<li>
+<p>Report Tabs: Reports and Dashboards are grouped under following <code>Tabs</code>:</p>
+</li>
+<li>
+<p><strong>All:</strong> Lists all the dashboards and reports.</p>
+</li>
+<li><strong>Recent:</strong> Lists the most recent dashboards that you viewed.</li>
+<li><strong>Favorite:</strong> Lists the dashboards that you have marked as favorite.</li>
+<li><strong>Stock:</strong> Lists the predefined stock historical dashboards provided by Cisco.</li>
+</ol>
+<p>Click on each Tab and make a <strong>note of the number of reports</strong> in each Tab.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_Tabs.png" data-type="image" data-width="100%" data-height="auto" data-title="Tabs" data-desc-position="top"><img alt="Tabs" src="../../assets/images/reporting/1_2_Tabs.png" /></a></p>
+<ol>
+<li>Click on <code>star</code> icon next to the <code>Abandoned Call Detail Activity Report</code> to mark it as your <strong>Favorite</strong>.</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_Favourite.png" data-type="image" data-width="100%" data-height="auto" data-title="Favourite" data-desc-position="top"><img alt="Favourite" src="../../assets/images/reporting/1_2_Favourite.png" /></a></p>
+<p>This allows you to access your favorite dashboards easily under the dedicated <code>Favorite</code> tab.</p>
+<ol>
+<li>Next, view the <code>Agent Call Summary Report</code>, for this <strong>double-click</strong> on the dashboard name or select <strong>View</strong> under the <strong>Actions</strong> tab.</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_View.png" data-type="image" data-width="100%" data-height="auto" data-title="View" data-desc-position="top"><img alt="View" src="../../assets/images/reporting/1_2_View.png" /></a>
+   <a class="glightbox" href="../../assets/images/reporting/1_2_New_UX.gif" data-type="image" data-width="100%" data-height="auto" data-title="New UX Stock Report UI" data-desc-position="top"><img alt="New UX Stock Report UI" src="../../assets/images/reporting/1_2_New_UX.gif" /></a></p>
+<ol>
+<li>Next, review again the count of the reports in each tab and also if your <strong>recently executed</strong> report and <strong>favorite marked</strong> reports are visible under the respective tabs.</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_Tabs.png" data-type="image" data-width="100%" data-height="auto" data-title="Tabs" data-desc-position="top"><img alt="Tabs" src="../../assets/images/reporting/1_2_Tabs.png" /></a></p>
+<ol>
+<li>Use the <code>Sort By</code> drop-down menu to filter stock dashboards by options such as <strong>Name, Created By,</strong> and <strong>Last Edited By</strong>. This enables easy organization and navigation based on your preferred sorting criteria.</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_LastEditedBy.png" data-type="image" data-width="100%" data-height="auto" data-title="LastEditedBy" data-desc-position="top"><img alt="LastEditedBy" src="../../assets/images/reporting/1_2_LastEditedBy.png" /></a></p>
+<ol>
+<li>Switch to <strong>Card View</strong> by cliking <a class="glightbox" href="../../assets/images/reporting/1_2_CardIcon.png" data-type="image" data-width="100%" data-height="auto" data-title="CardIcon" data-desc-position="top"><img alt="CardIcon" src="../../assets/images/reporting/1_2_CardIcon.png" /></a>.</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_CardView.png" data-type="image" data-width="100%" data-height="auto" data-title="CardView" data-desc-position="top"><img alt="CardView" src="../../assets/images/reporting/1_2_CardView.png" /></a></p>
+<p>The <strong>List View</strong> is the default view and allows easy navigation and quick access to the entire collection of stock dashboards.</p>
+<p>The <strong>Card View</strong> provides a compact and visual representation of the stock dashboards, displaying snapshots of 15 dashboards in a single view.</p>
+<ol>
+<li>Next, switch back to the List view and make a note of the <code>Labels</code> column.</li>
+</ol>
+<p>We've replaced folder-based navigation with <code>labels</code>. The <strong>predefined labels</strong> help you find and sort stock historical dashboards. The labels are color-coded to enhance the user experience. You can search for dashboards using labels.</p>
+<ul>
+<li>
+<p>All stock reports by default are marked with label <code>Stock</code>. <br>
+     <a class="glightbox" href="../../assets/images/reporting/1_2_Labels.png" data-type="image" data-width="100%" data-height="auto" data-title="Labels" data-desc-position="top"><img alt="Labels" src="../../assets/images/reporting/1_2_Labels.png" /></a></p>
+</li>
+<li>
+<p>Next, use the search box to find a stock dashboard using different criteria or comma separated words. For this example, search the word <code>transition</code>. <br>
+   <a class="glightbox" href="../../assets/images/reporting/1_2_TransitionSearch.png" data-type="image" data-width="100%" data-height="auto" data-title="TransitionSearch" data-desc-position="top"><img alt="TransitionSearch" src="../../assets/images/reporting/1_2_TransitionSearch.png" /></a></p>
+</li>
+</ul>
+<p>This would list all the <strong>Transition reports</strong>, which are built for easy reporting insights for customers migrated from UCCX but also useful for any customer.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_TransitionReports.png" data-type="image" data-width="100%" data-height="auto" data-title="TransitionReports" data-desc-position="top"><img alt="TransitionReports" src="../../assets/images/reporting/1_2_TransitionReports.png" /></a></p>
+<p>Customize your search selecting criteria such as <strong>Name, Labels, Created By,</strong> or <strong>Last Edited By</strong> from the drop-down menu.</p>
+<ol>
+<li>
+<p>Next, click on the user profile icon on the top right of the user interface provides user information. The time zone settings and dark mode options are available in the user profile settings.</p>
+<ul>
+<li><strong>Time Zone</strong></li>
+</ul>
+<p>By default, the new Analyzer shows the tenant time zone. You can update the browser settings if necessary. <ins>Scheduled jobs always run in the tenant time zone.</ins></p>
+<ul>
+<li><strong>Dark Mode</strong></li>
+</ul>
+<p>You have the option to switch between dark and light screen modes to suit your viewing experience.</p>
+</li>
+<li>
+<p>Next, let's take a look at <strong>key functions</strong> for a stock report. Go to the <code>Agent Call Summary Report</code>, which you viewed in <strong>step #3</strong>.</p>
+</li>
+<li>
+<p>By default, data is displayed in <code>Table View</code> for <code>Last week</code>. Change it to <code>This month</code> and click <strong>Apply</strong>.
+    What you see here is the Agent summary data for all the agents for this month.</p>
+<blockquote>
+<p>Note: In the Table view of a dashboard, Analyzer supports a maximum of 100 columns and up to 100,000 rows.</p>
+</blockquote>
+</li>
+<li>
+<p>Click on <code>Agent Endpoint (DN)</code> filter and make a note of device types used by the users (Agent and Supervisors). You would notice a <strong>mix</strong> of Dial numbers and WebRTC devices.</p>
+</li>
+<li>
+<p><strong>Pin Column</strong></p>
+<p>You can <strong>pin columns</strong> or <strong>move columns</strong> of a dashboard to the right and left of the table based on your requirements.</p>
+<ul>
+<li>On the dashboard, on the <code>Total Onbound</code> column, click the hamburger menu next to the column header. <br>
+  <a class="glightbox" href="../../assets/images/reporting/1_2_Hamburger.png" data-type="image" data-width="100%" data-height="auto" data-title="Hamburger" data-desc-position="top"><img alt="Hamburger" src="../../assets/images/reporting/1_2_Hamburger.png" /></a></li>
+<li>Go to <code>Pin Column</code> and click <code>Pin Left</code>. <br>
+  <a class="glightbox" href="../../assets/images/reporting/1_2_PinLeft.png" data-type="image" data-width="100%" data-height="auto" data-title="PinLeft" data-desc-position="top"><img alt="PinLeft" src="../../assets/images/reporting/1_2_PinLeft.png" /></a> <br>
+  This would move the <strong>Total Inbound</strong> column to the left of the table. <br>
+  <a class="glightbox" href="../../assets/images/reporting/1_2_MovedLeft.png" data-type="image" data-width="100%" data-height="auto" data-title="MovedLeft" data-desc-position="top"><img alt="MovedLeft" src="../../assets/images/reporting/1_2_MovedLeft.png" /></a></li>
+</ul>
+</li>
+<li>
+<p><strong>Autosize Column</strong></p>
+<p>Next, let's autosize all the columns as data in some columns is not clearly visible because of last textual size. To do so:
+On the dashboard column, click the <strong>hamburger</strong> menu next to the column header.</p>
+<ol>
+<li>Click <code>Autosize This Column</code>.</li>
+<li>For all columns, click <code>Autosize All Columns</code>.</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_AutosizeColumn.png" data-type="image" data-width="100%" data-height="auto" data-title="AutosizeColumn" data-desc-position="top"><img alt="AutosizeColumn" src="../../assets/images/reporting/1_2_AutosizeColumn.png" /></a></p>
+<p>This would allow you to see all the data points clearly.</p>
+</li>
+<li>
+<p><strong>Advanced Filtering</strong></p>
+<p>We already saw how you can use predefined filters on the reports. Beyond that, you can also filter the data data for other columns in the reports.
+In the current <code>Agent Call summary</code> report, let's filter the data to identify any agents which handled low number of calls.</p>
+<p>For this, click on Hamburger sign <a class="glightbox" href="../../assets/images/reporting/1_2_HambSign.png" data-type="image" data-width="100%" data-height="auto" data-title="HambSign" data-desc-position="top"><img alt="HambSign" src="../../assets/images/reporting/1_2_HambSign.png" /></a> next to the <code>Total Inbound</code> Column --&gt; Click on the Filter <a class="glightbox" href="../../assets/images/reporting/1_2_FilterSign.png" data-type="image" data-width="100%" data-height="auto" data-title="FilterSign" data-desc-position="top"><img alt="FilterSign" src="../../assets/images/reporting/1_2_FilterSign.png" /></a> option and select <strong>“0”</strong> and <strong>“1”</strong>. Data will be updated immediately (No need to click Apply).</p>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_FilterDone.png" data-type="image" data-width="100%" data-height="auto" data-title="FilterDone" data-desc-position="top"><img alt="FilterDone" src="../../assets/images/reporting/1_2_FilterDone.png" /></a></p>
+</li>
+<li>
+<p><strong>Column View</strong></p>
+<p>You can customize the visibility of columns in the table. On the dashboard column, click the hamburger menu next to the column header. Click on <strong>Column view</strong> icon <a class="glightbox" href="../../assets/images/reporting/1_2_ColumnIcon.png" data-type="image" data-width="100%" data-height="auto" data-title="ColumnIcon" data-desc-position="top"><img alt="ColumnIcon" src="../../assets/images/reporting/1_2_ColumnIcon.png" /></a> and uncheck all <code>Time</code> field columns to exclude them and have a simpler count only view.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_ColumnView.png" data-type="image" data-width="100%" data-height="auto" data-title="ColumnView" data-desc-position="top"><img alt="ColumnView" src="../../assets/images/reporting/1_2_ColumnView.png" /></a></p>
+</li>
+<li>
+<p>Switch the view of the report from <code>Table</code> to <code>Chart</code> by clicking <a class="glightbox" href="../../assets/images/reporting/1_2_ChartIcon.png" data-type="image" data-width="100%" data-height="auto" data-title="ChartIcon" data-desc-position="top"><img alt="ChartIcon" src="../../assets/images/reporting/1_2_ChartIcon.png" /></a> on top right corner of the report.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_ChartView.png" data-type="image" data-width="100%" data-height="auto" data-title="ChartView" data-desc-position="top"><img alt="ChartView" src="../../assets/images/reporting/1_2_ChartView.png" /></a></p>
+<p>You would notice a graphical view of the data for the number of <code>Total Inbound Contact</code> each agent handled during this month along with a trend line.</p>
+</li>
+</ol>
+<p><strong><em>Trend Line</em></strong></p>
+<p>In <strong>Chart</strong> view, the new Analyzer introduces <code>Trend Line</code>, which is a visual representation of trends with data points. When viewing a dashboard, the presence of a trend line allows users to quickly identify and understand the underlying trend or pattern within the data.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/1_2_TrendLine.png" data-type="image" data-width="100%" data-height="auto" data-title="TrendLine" data-desc-position="top"><img alt="TrendLine" src="../../assets/images/reporting/1_2_TrendLine.png" /></a></p>
+<p>Similarly you can try filter the data based on <code>Agent Name</code> and <code>Agent Endpoint (DN)</code>.</p>
+<p><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../PreRequisites/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pre-Requisites">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Pre-Requisites
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Lab2/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 2 Stock Reports">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Lab 2 Stock Reports
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link", "navigation.icons", "navigation.expand", "navigation.path", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs.link", "navigation.tracking", "navigation.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

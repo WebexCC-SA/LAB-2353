@@ -1,0 +1,1268 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey">
+      
+      
+        <meta name="author" content="Krishna Tyagi & George Kovanis & Gagarin Sathiyanarayanan">
+      
+      
+      
+        <link rel="prev" href="../../overview/">
+      
+      
+        <link rel="next" href="../Lab1/">
+      
+      
+      <link rel="icon" href="../../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Reporting Experience - LAB-2353 - Webex Contact Center Lab  Data, insights & Journey</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pre-requisites" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-header__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Reporting Experience
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ToC/" class="md-tabs__link">
+        
+  
+    
+  
+  Table of Contents
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+    
+  
+  Start Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-nav__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ToC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Table of Contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Start Lab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Start Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Lab Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-requisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Requisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lab-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lab Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-login-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agent Login Process
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identify-ep-dn" class="md-nav__link">
+    <span class="md-ellipsis">
+      Identify EP-DN
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-agent-call-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test Agent call routing:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-supervisor-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      [OPTIONAL] Supervisor Login
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab1/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 User Interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab2/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 2 Stock Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab3/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Custom Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab4/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 4 [Bonus] Data API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab5/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 5 Auto CSAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab6/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 Topic Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab7/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 7 Survey Insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab8/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 Customer Journey
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conclusion/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4v2l5.81 4.36a7.004 7.004 0 0 0-4.46 8.84 6.996 6.996 0 0 0 8.84 4.46 7 7 0 0 0 0-13.3L20 4zm-5.06 17.5L12 17.78 9.06 19.5l.78-3.33-2.59-2.24 3.41-.29L12 10.5l1.34 3.14 3.41.29-2.59 2.24z"/></svg>
+  
+  <span class="md-ellipsis">
+    Conclusion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<script>
+    function update(){them = Array.from(document.querySelectorAll("input")).reduce((acc, input) => ({...acc, [input.id + "_out"] : input.value}),{});
+   Object.entries(them).forEach((entry) => {
+    Array.from(document.getElementsByClassName(entry[0])).forEach((element,index) => 
+    {
+      console.log(document.getElementsByClassName(entry[0])[index].innerHTML); 
+      document.getElementsByClassName(entry[0])[index].innerHTML = entry[1];
+    })})
+
+  event.preventDefault()
+   if(document.forms["attendee-form"][1].value != "Your_Attendee_ID"){
+    localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
+  }  
+  }
+</script>
+
+<!-- # Table of Contents
+
+| Topic                                                                                                                                             | Type        | Dificulty    | Time   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------ | ------ |
+| [Pre-Requisites](#pre-requisites)                                                                                                                 | Activity    | EASY         | 5 min  |
+| [Analyzer and Desktop Login Process](#analyzer-login-process)                                                                                     | Activity    | EASY         | 5 min  |
+| [Part 1: Webex Contact Center Analyzer User Interface](#part-1-webex-contact-center-analyzer-user-interface)                                      | Exploration | EASY         | 15 min |
+| [1.1: Analyzer User Interface](#11-analyzer-user-interface)                                                                                       | Exploration | EASY         |        |
+| [1.2: NEW Analyzer User Interface](#12-new-analyzer-user-interface)                                                                               | Activity    | EASY         |        |
+| [Part 2: Contact Center Insights with New Analyzer Stock reports](#part-2-contact-center-insights-with-new-analyzer-stock-reports)                | Activity    | EASY         | 15 min |
+| [2.1: High-level Contact Center Performance and Usage insights](#21-high-level-contact-center-performance-and-usage-insights)                     | Activity    | EASY         |        |
+| [2.2: Customer Experience and Queue Performance](#22-customer-experience-and-queue-performance)                                                   | Activity    | INTERMEDIATE |        |
+| [Part 3: Contact Center Insights with Analyzer custom reports](#part-3-bonus-contact-center-insights-with-analyzer-custom-reports-and-dashboards) | Activity    | INTERMEDIATE | 15 min |
+| [3.1: Create Custom Realtime Agent Report](#31-create-custom-realtime-agent-report)                                                               | Activity    | INTERMEDIATE |        |
+| [Part 4: (BONUS) Data extraction and scheduling Capabilities](#part-4-bonus-data-extraction-and-scheduling-capabilities)                          | Activity    | EASY         | 20 min |
+| [4.1: Export Data as Excel or CSV](#41-export-data-as-excel-or-csv)                                                                               | Activity    | EASY         |        |
+| [4.2: Visualization Scheduler](#42-visualization-scheduler)                                                                                       | Activity    | EASY         |        |
+| [4.3: Search APIs](#43-search-apis)                                                                                                               | Activity    | INTERMEDIATE |        | -->
+
+<h2 id="pre-requisites">Pre-Requisites</h2>
+<p><strong>Create Chrome Profiles</strong></p>
+<ul>
+<li>
+<p>For the lab, create new Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser.</p>
+</li>
+<li>
+<p>Select <code>Profiles</code> on Chrome</p>
+</li>
+<li>Select <code>Add Profile</code></li>
+<li>Select <code>continue without an account</code></li>
+<li>Give it a name .i.e <code>Admin</code></li>
+<li>Click <code>done</code></li>
+<li>Create 2 more profiles for <code>Supervisor</code> and <code>Agent</code></li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/agent/Chrome-Create-Profile.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Desktop-Call-In-Accepted" data-desc-position="top"><img alt="CH-Desktop-Call-In-Accepted" src="../../assets/images/agent/Chrome-Create-Profile.gif" /></a></p>
+<ul>
+<li>Ensure that you have received your tenant login credentials (Administrator, Supervisor and Agent) from the Lab proctors.</li>
+<li>Login to  <a href="https://admin.webex.com">Webex Control Hub</a></li>
+<li>Navigate to <code>Contact Center</code></li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/epdn1.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/epdn1.png" /></a></p>
+<ul>
+<li>Navigate to <code>Overview</code> and under quick links, select <code>Analyzer</code> </li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/epdn5.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/epdn5.png" /></a></p>
+<ul>
+<li>Make sure the login is successful</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/epdn6.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/epdn6.png" /></a></p>
+<div class="admonition tip">
+<p class="admonition-title">In this lab, most sections already have historical data available to capture key insights, so there is no need for agents to log in or for calls to be made. However, if you wish to explore real-time reporting, agent login can be used as an optional step.</p>
+</div>
+<!-- 
+***You Will Need***
+
+1. **One additional device** (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.
+
+   - Administrator credentials for the Control Hub: admin.webex.com.
+   - Agent Login Credentials for the Agent Desktop: desktop.wxcc-us1.cisco.com.
+
+2. The items listed below have been pre-configured for you:
+   - Agent and Supervisor user accounts are configured and ready for login.
+   - You can access the Agent Desktop via the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com).
+   - As an agent, you're associated with two teams —designated by your Attendee ID— as "Team1" and "Team2".
+
+Example:
+
+> If your attendee ID is 100:
+>
+> 100_Team1
+>
+> 100_Team2
+
+1. Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (supervisors) to facilitate alternate device experiences.
+
+2. A preset inbound Voice flow is available for test calls. -->
+
+<h2 id="lab-configuration">Lab Configuration</h2>
+<div class="admonition tip">
+<p class="admonition-title">Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix.</p>
+<p><script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID"; 
+update();
+</script>
+<form id="attendee-form">
+<label for="attendee">Attendee ID:</label>
+<input type="text" id="attendee" name="attendee" onChange="update()" style="border: 2px solid black; padding: 5px; border-radius: 4px; background-color: orange;"><br>
+<br>
+<button type="button" onclick="update()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Save</button>
+</form>
+<script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID";
+update();
+</script></p>
+</div>
+<p>The following Administration entities have been configured for you via <a href="https://admin.webex.com" target="_blank">Webex Control Hub</a>.</p>
+<p>Please note, that to proceed to the next section, you will need to use the accounts shown below.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Entity</strong></th>
+<th><strong>Name</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent 1</td>
+<td>wxcclabs+agent_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
+</tr>
+<tr>
+<td>Supervisor 1</td>
+<td>wxcclabs+supvr_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
+</tr>
+<tr>
+<td>Administrator</td>
+<td>wxcclabs+admin_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
+</tr>
+</tbody>
+</table>
+<!-- 
+# Analyzer Login Process
+
+1.  Make sure you are able to login into Administrator Portal ([admin.webex.com](https://admin.webex.com) using your Administrator credentials.
+2.  Once logged-in, go to `Quick Links` on the right and click on `Analyzer`.
+
+![analyzer](../assets/images/Analyzer/prereq3.gif)
+ -->
+
+<!-- ![analyzer](../assets/images/reporting/intro_CH.png)
+![analyzer](../assets/images/reporting/analyzerLogin.gif) -->
+<!-- 3.  For Part 3 of the Lab, login as an Supervisor-agent or Agent :
+
+> Note: If you are already logged-in as an Agent as part of other Labs, no action is required.
+> {: .block-tip }
+
+You have 2 options to login as an Agent:
+
+1.  Supervisor credentials with Role as `Supervisor and Agent`
+2.  Using your Agent Credentials
+
+***Login As Supervisor-Agent***
+
+> Note: Currently supervisors can not login via Desktop/WebRTC. If you want to test a login with WebRTC, make sure to sign in as an agent, as per the steps on the next chapter.
+
+| **User Role** | **User email**                                                   | **Endpoint**        |
+| ------------- | ---------------------------------------------------------------- | ------------------- |
+| Supervisor    | wxcclabs+supvr\_<w class="attendee_out">AttendeeID</w>@gmail.com | Webex App/Extension |
+
+- Login with Supervisor Credentials [admin.webex.com](https://admin.webex.com).
+- Go to `Quick Links` Click on `Desktop`.
+- Select the Role as : `Supervisor and Agent`.
+- Enter the Dialed number provided (if it is not pre-filled).
+- Team should be pre-populated.
+- Click `Submit`.
+
+![analyzer](../assets/images/reporting/supervisorlogin.gif)
+
+***Login in the Webex app for PC or Mac***
+
+> In this lab, we can use the Webex app for PC or Mac to login to the Desktop with the **supervisor** account.
+> {: .block-warning }
+
+- Download Link: **[https://www.webex.com/downloads.html](https://www.webex.com/downloads.html){:target="\_blank"}**
+
+![Webex App](../assets/images/Lab1-AD-1.png)
+
+- Install the application on your PC/Mac.
+
+- Open Webex app and сlick **Sign In**. Enter the provided supervisor credentials.
+
+***Agent Desktop Login***
+
+| **User Role** | **User email**                                                   | **Endpoint**   |
+| ------------- | ---------------------------------------------------------------- | -------------- |
+| Agent         | wxcclabs+agent\_<w class="attendee_out">AttendeeID</w>@gmail.com | WebRTC/Desktop |
+
+> **Note**: To log in to the agent desktop, use either a different web browser or a new incognito web page. This will prevent the browser caching issues with admin and agent credentials.
+>
+> {: .block-tip }
+
+- Navigate to **[Desktop](https://desktop.wxcc-us1.cisco.com/){:target="\_blank"}** in the chrome browser with the incognito mode.
+
+- Enter the agent’s **email ID**.
+
+- Enter the **Password** for the appropriate username.
+
+- In the **_Station Credentials_** pane, select **"Desktop"**.
+
+- Select the team **<w class="attendee_out">Your_Attendee_ID</w>\_Team1**.
+
+- Click the **_Submit_** button. The browser may ask you to confirm the use the microphone from the browser.
+
+- Make sure that you are successfully logged in to the Agent Desktop.
+
+![Agent Sign In](../assets/images/AG-2.gif) -->
+
+<h1 id="agent-login-process">Agent Login Process</h1>
+<ul>
+<li>
+<p>Go to <a href="https://desktop.wxcc-us1.cisco.com/">https://desktop.wxcc-us1.cisco.com/</a></p>
+</li>
+<li>
+<p>Enter your respective agent login credentials to login here </p>
+</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/prereq1.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/prereq1.gif" /></a></p>
+<ul>
+<li>Select <code>Desktop</code> as the telephony option and your respective Team1 (<em>Agents will use browsers for voice calls using WebRTC (Web Real-time Communication)</em>)</li>
+</ul>
+<p>Example:</p>
+<blockquote>
+<p>If your attendee ID is 100:</p>
+<p>100_Team1</p>
+</blockquote>
+<p><a class="glightbox" href="../../assets/images/Analyzer/prereq2.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/prereq2.gif" /></a></p>
+<h1 id="identify-ep-dn">Identify EP-DN</h1>
+<ul>
+<li>Go back to <a href="https://admin.webex.com">Webex Control Hub</a> and navigate to <code>Contact Center</code></li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/epdn1.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/epdn1.png" /></a></p>
+<ul>
+<li>Navigate to <code>Channels</code> and search for your respective entrypoint based on the attendee ID. <strong><em>For example, if your attendee ID is 101, then the entrypoint name will be WX1_EP_101</em></strong></li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/epdn2.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/epdn2.png" /></a></p>
+<ul>
+<li>Verify that routing flow is set to <code>WX1_Data_Survey</code></li>
+<li>Verify that version label is set to <code>Latest</code></li>
+<li>Identify and make a note of the Support Number</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/epdn3.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/epdn3.png" /></a></p>
+<ul>
+<li>
+<p>Navigate to <code>Queues</code> search for your respective queue based on the attendee ID. <strong><em>For example, if your attendee ID is 101, then the queue name will be WX1_Q_101</em></strong></p>
+</li>
+<li>
+<p>Verify that the correct team based on your attendee ID is selected in the configuration. <strong><em>For example, if your attendee ID is 101, then the team should be 101_Team1</em></strong> </p>
+</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/epdn4.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/epdn4.png" /></a></p>
+<h1 id="test-agent-call-routing">Test Agent call routing:</h1>
+<ul>
+<li>
+<p>From your mobile phone, make a Call to the respective Entrypoint DN identified in the previous step. You will be prompted to enter your 3-digit attendee ID (for Eg. If your attendee ID is 77, then enter 077). After which call will be routed to your agent.</p>
+</li>
+<li>
+<p>If call is not routing to your agent login, please report to the lab instructor and continue with the rest of the lab.</p>
+</li>
+</ul>
+<!-- !!! tip "Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix."
+
+   You can skip the "Supervisor Login" section if you are using a mobile phone and continue testing with it. However, if you don't have access to a mobile phone or would prefer to try an alternative method for testing calls, please follow the steps outlined in the next section.
+ -->
+
+<h1 id="optional-supervisor-login">[OPTIONAL] Supervisor Login</h1>
+<blockquote>
+<p>Note: Currently supervisors can not login via Desktop/WebRTC. If you want to test a login with WebRTC, make sure to sign in as an agent, as per the steps mentioned in the previous chapter.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>User Role</strong></th>
+<th><strong>User email</strong></th>
+<th><strong>Endpoint</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supervisor</td>
+<td>wxcclabs+supvr_<w class="attendee_out">AttendeeID</w>@gmail.com</td>
+<td>Webex App/Extension</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Login with Supervisor Credentials <a href="https://admin.webex.com">admin.webex.com</a>.</li>
+<li>Go to <code>Quick Links</code> Click on <code>Desktop</code>.</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Analyzer/prereq5.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/prereq5.png" /></a></p>
+<ul>
+<li>Select the Role as : <code>Supervisor and Agent</code>.</li>
+<li>Select Dial number as <code>Extension</code></li>
+<li>Enter the Dialed number provided (if it is not pre-filled).</li>
+<li>Team should be pre-populated.</li>
+<li>Click <code>Submit</code>.</li>
+</ul>
+<!-- ![analyzer](../assets/images/reporting/supervisorlogin.gif) -->
+
+<p><a class="glightbox" href="../../assets/images/Analyzer/prereq4.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/prereq4.png" /></a></p>
+<ul>
+<li>In this lab, we will use the Webex app for PC or Mac and login to the Desktop with the <strong>supervisor</strong> account.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">README</p>
+<p>Check in PC if webex application has already been installed. If already installed, you do not have to reinstall the application. Just logout from any existing logins (if applicable) and then re login with the supervisor credentials.</p>
+</div>
+<ul>
+<li>Download Link: <strong><a href="https://www.webex.com/downloads.html" target="_blank">https://www.webex.com/downloads.html</a></strong></li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/Lab1-AD-1.png" data-type="image" data-width="100%" data-height="auto" data-title="Webex App" data-desc-position="top"><img alt="Webex App" src="../../assets/images/Lab1-AD-1.png" /></a></p>
+<ul>
+<li>Install the application on your PC/Mac.</li>
+<li>Open Webex app and сlick <strong>Sign In</strong>. Enter the provided supervisor credentials</li>
+<li>From the webex application, you can place calls to your respective entrypoint DN number</li>
+<li>The Supervisor will be logged into Team 2. There is no need to test any inbound calls with the Supervisor also logged in as an agent. The Supervisor's role is to explore the reporting capabilities available on the Supervisor desktop.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab Overview">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Lab Overview
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Lab1/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 1 User Interface">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Lab 1 User Interface
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link", "navigation.icons", "navigation.expand", "navigation.path", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs.link", "navigation.tracking", "navigation.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

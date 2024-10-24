@@ -1,0 +1,1224 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey">
+      
+      
+        <meta name="author" content="Krishna Tyagi & George Kovanis & Gagarin Sathiyanarayanan">
+      
+      
+      
+        <link rel="prev" href="../Lab2/">
+      
+      
+        <link rel="next" href="../Lab4/">
+      
+      
+      <link rel="icon" href="../../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Reporting Experience - LAB-2353 - Webex Contact Center Lab  Data, insights & Journey</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-3" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-header__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Reporting Experience
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ToC/" class="md-tabs__link">
+        
+  
+    
+  
+  Table of Contents
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+    
+  
+  Start Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-nav__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ToC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Table of Contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Start Lab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Start Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Lab Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PreRequisites/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab1/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 User Interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab2/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 2 Stock Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Custom Reports
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Custom Reports
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-create-custom-realtime-agent-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Create Custom Realtime Agent Report
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-bonus-lob-grouping" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 [Bonus] LOB Grouping
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab4/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 4 [Bonus] Data API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab5/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 5 Auto CSAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab6/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 Topic Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab7/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 7 Survey Insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab8/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 Customer Journey
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conclusion/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4v2l5.81 4.36a7.004 7.004 0 0 0-4.46 8.84 6.996 6.996 0 0 0 8.84 4.46 7 7 0 0 0 0-13.3L20 4zm-5.06 17.5L12 17.78 9.06 19.5l.78-3.33-2.59-2.24 3.41-.29L12 10.5l1.34 3.14 3.41.29-2.59 2.24z"/></svg>
+  
+  <span class="md-ellipsis">
+    Conclusion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<script>
+    function update(){them = Array.from(document.querySelectorAll("input")).reduce((acc, input) => ({...acc, [input.id + "_out"] : input.value}),{});
+   Object.entries(them).forEach((entry) => {
+    Array.from(document.getElementsByClassName(entry[0])).forEach((element,index) => 
+    {
+      console.log(document.getElementsByClassName(entry[0])[index].innerHTML); 
+      document.getElementsByClassName(entry[0])[index].innerHTML = entry[1];
+    })})
+
+  event.preventDefault()
+   if(document.forms["attendee-form"][1].value != "Your_Attendee_ID"){
+    localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
+  }  
+  }
+</script>
+
+<h1 id="lab-3">LAB 3</h1>
+<!-- # Part 3: Contact Center Insights with Analyzer Custom Reports -->
+
+<div class="admonition warning">
+<p class="admonition-title">README</p>
+<p>In this lab, we will create a <strong>custom report</strong> to monitor the calls waiting in the queue in real-time, along with the available agents and their respective states. <ins>Since the option to create a custom report is currently unavailable in the New Analyzer UX, we will be using our current Analyzer interface for this lab.</ins></p>
+</div>
+<p>In Webex Contact Center, there are four primary data repositories that store critical customer and agent-related information. These repositories are structured as follows:</p>
+<div class="admonition 1_customer_activity_record">
+<p class="admonition-title">1_customer_activity_record</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Description</label><label for="__tabbed_1_2">Examples</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>This type of record represents individual, atomic steps within the customer&#39;s workflow.
+<span class="k">-</span><span class="w"> </span>It captures key moments in the customer journey, providing insights into their interactions with the contact center. 
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>Customer in IVR or queue, talking to an agent, or on hold.
+<span class="k">-</span><span class="w"> </span>Customer on specific web pages, such as the home page, product page, or checkout page. 
+</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition 2_customer_session_record">
+<p class="admonition-title">2_customer_session_record</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Description</label><label for="__tabbed_2_2">Examples</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>Customer Session Records are more comprehensive, encapsulating the entire customer workflow. 
+<span class="k">-</span><span class="w"> </span>They consist of a sequence of customer activities, providing a holistic view of the customer&#39;s engagement with the contact center.
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>Customer calls the contact center for assistance.
+<span class="k">-</span><span class="w"> </span>Customer visits a website and explores its content.
+<span class="k">-</span><span class="w"> </span>Customer interacts with the website and engages in a chat with an agent.
+<span class="k">-</span><span class="w"> </span>Customer initiates contact by sending an email, and an agent responds.
+</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition 3_agent_activity_record">
+<p class="admonition-title">3_agent_activity_record</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Description</label><label for="__tabbed_3_2">Examples</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>This record type focuses on individual actions within the agent&#39;s workflow. 
+<span class="k">-</span><span class="w"> </span>It logs every significant step an agent takes, shedding light on their interactions and status throughout their workday.
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>Agent&#39;s status transitions, such as idle, available, talking, or wrapping up.
+<span class="k">-</span><span class="w"> </span>Agent&#39;s offline activities, including dialing, note-taking, and reading emails.
+<span class="k">-</span><span class="w"> </span>Agent&#39;s involvement in chats with customers and the subsequent wrap-up process.
+</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition 4_agent_session_record">
+<p class="admonition-title">4_agent_session_record</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Description</label><label for="__tabbed_4_2">Examples</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>Agent Session Records provide a comprehensive overview of an agent&#39;s work. 
+<span class="k">-</span><span class="w"> </span>They encompass a sequence of agent activities, offering insights into the agent&#39;s handling of tasks and interactions.
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>An agent manages a service call, logging an incident or request.
+<span class="k">-</span><span class="w"> </span>An agent initiates an outbound call and schedules a meeting for a customer.
+<span class="k">-</span><span class="w"> </span>An agent engages in chat interactions with customers, providing answers and assistance.
+<span class="k">-</span><span class="w"> </span>An agent reads and responds to customer emails, ensuring effective communication.
+</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<!-- 1. **Customer Activity Record**
+
+   - **Description**: This type of record represents individual, atomic steps within the customer's workflow. It captures key moments in the customer journey, providing insights into their interactions with the contact center.
+   - **Examples**:
+
+     - Customer in IVR or queue, talking to an agent, or on hold.
+     - Customer on specific web pages, such as the home page, product page, or checkout page.
+
+2. **Customer Session Record**
+
+   - **Description**: Customer Session Records are more comprehensive, encapsulating the entire customer workflow. They consist of a sequence of customer activities, providing a holistic view of the customer's engagement with the contact center.
+
+   - **Examples**:
+
+     - Customer calls the contact center for assistance.
+     - Customer visits a website and explores its content.
+     - Customer interacts with the website and engages in a chat with an agent.
+     - Customer initiates contact by sending an email, and an agent responds.
+
+3. **Agent Activity Record**
+
+   **Description**: This record type focuses on individual actions within the agent's workflow. It logs every significant step an agent takes, shedding light on their interactions and status throughout their workday.
+
+   **Examples**:
+
+   - Agent's status transitions, such as idle, available, talking, or wrapping up.
+   - Agent's offline activities, including dialing, note-taking, and reading emails.
+   - Agent's involvement in chats with customers and the subsequent wrap-up process.
+
+4. **Agent Session Record**
+
+   **Description**: Agent Session Records provide a comprehensive overview of an agent's work. They encompass a sequence of agent activities, offering insights into the agent's handling of tasks and interactions.
+
+   **Examples**:
+
+   - An agent manages a service call, logging an incident or request.
+   - An agent initiates an outbound call and schedules a meeting for a customer.
+   - An agent engages in chat interactions with customers, providing answers and assistance.
+   - An agent reads and responds to customer emails, ensuring effective communication. -->
+
+<p>These data repositories play a crucial role in capturing, organizing, and analysing the wealth of information generated within the Webex Contact Center, ultimately supporting informed decision-making and enhancing customer and agent experiences.</p>
+<!-- ![CSR](../assets/images/reporting/CSR.png) -->
+
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom1.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom1.png" /></a></p>
+<p>Before you continue with this exercise follow below:</p>
+<p>1.Login to agent desktop with your respective agent credentials and update agent status to <code>Meeting</code></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom2.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom2.png" /></a></p>
+<p>2.<strong>Make a Call</strong> to the respective Entrypoint DN assigned to you. You will be prompted to enter your 3-digit attendee ID (for Eg. If your attendee ID is 77, then enter 077) options to get to an agent, </p>
+<p>3.With no agent available you would hear a wait music. (<em>If this is not working, please reach out to the lab instructor</em>)</p>
+<h2 id="31-create-custom-realtime-agent-report">3.1 Create Custom Realtime Agent Report</h2>
+<p>In this Lab, we will create a <strong>custom visualization</strong> to showcase the <strong>state of agents on a Realtime basis</strong>.</p>
+<p><strong>Objective:</strong> Create an Agent Real-time state report with following data insights:</p>
+<p>1.<strong>State of Agents</strong> on real-time basis for Telephony channel.
+2.Capture <strong>key metrics</strong>:</p>
+<ul>
+<li>Agent Team</li>
+<li>Agent Name</li>
+<li>Agent State</li>
+<li>Idle Code</li>
+<li>Total number of agents logged-in</li>
+<li>Number of Agents in Available and idle state for each team</li>
+<li>
+<p>Duration in the State</p>
+</li>
+<li>
+<p>Create a high-level view, based on <strong>line of business</strong> (Group or Teams).</p>
+</li>
+<li>Have <strong>Data summarized</strong> based on each Line of Business (LOB).</li>
+<li>Have options to <strong>filter the data</strong> based on LOB and Idle code.</li>
+<li>Create some <strong>visual indication</strong> when certain agents in Idle state for long duration.</li>
+</ul>
+<p>While completing this Exercise, you will be able to understand and use some <strong>key capabilities</strong> like:</p>
+<ul>
+<li>Fields and Measures</li>
+<li>Enhanced Fields</li>
+<li>Formulas</li>
+<li>Drill-down</li>
+<li>Group Summary</li>
+<li>On the Fly-filter</li>
+<li>Filtering</li>
+</ul>
+<p>1.Create a new <strong>visualization</strong> in Analyzer as an <strong>Agent Activity Record</strong>.</p>
+<ul>
+<li>Set <strong>Start Time</strong> as <code>Realtime</code>.</li>
+<li>Set <strong>Duration</strong> as <code>None (Snapshot)</code>.</li>
+<li><strong>Refresh duration</strong> as <code>5 Seconds</code>.</li>
+</ul>
+<!-- ![TimeSettings](../assets/images/reporting/3_1_TimeSettings.png) -->
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom3.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom3.png" /></a></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom4.png" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom4.png" /></a></p>
+<p>2.Next, we will begin adding variables to the visualization. Click on <strong>Row Segment</strong> and add:</p>
+<ul>
+<li>Team Name</li>
+<li>Agent Name</li>
+<li>Activity State</li>
+<li>Idle Code Name</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_RowSegments.png" data-type="image" data-width="100%" data-height="auto" data-title="RowSegments" data-desc-position="top"><img alt="RowSegments" src="../../assets/images/reporting/3_1_RowSegments.png" /></a></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom5.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom5.gif" /></a></p>
+<p>3.Next, click on <strong>Profile Variables</strong> and add <code>Agent Session ID (Count)</code> and rename the name as <code>#Total</code>. Click <code>Save</code></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom7.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom7.gif" /></a></p>
+<!-- ![AgentTotal](../assets/images/reporting/3_1_AgentTotal.png) -->
+
+<p>4.To capture <strong>Available Agent Count</strong> add <code>Agent Session ID</code>. Name it as <code>#Available</code>. Also, Drag <code>Activity State</code> as <strong>Filter</strong> with value <code>available</code>.
+     <!-- <a class="glightbox" href="../assets/images/reporting/3_1_AvailFilter.png" data-type="image" data-width="100%" data-height="auto" data-title="AvailFilter" data-desc-position="top"><img alt="AvailFilter" src="../assets/images/reporting/3_1_AvailFilter.png" /></a> --></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom8.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom8.gif" /></a>
+5.Repeat step 4 to add <strong>Idle Agent Count</strong>, this time with filter value <code>idle</code>. Name it as <code>#Idle</code>.</p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom9.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom9.gif" /></a></p>
+<!-- ![IdleFilter](../assets/images/reporting/3_1_IdleFilter.png) -->
+
+<p>6.Next, we need to capture the <strong>State Duration</strong>. We will achieve this by using a <strong>formula</strong> to subtract the <strong>activity start time</strong> from <strong>current time</strong>, which will give us the <strong>activity duration</strong>.</p>
+<ul>
+<li>Search for Measure Profile variable <code>Activity Start Timestamp</code>.</li>
+<li>Under formula, select <code>Minimum Activity Start Timestamp</code> and save it. <br>
+     <!-- <a class="glightbox" href="../assets/images/reporting/3_1_MinActivity.png" data-type="image" data-width="100%" data-height="auto" data-title="MinActivity" data-desc-position="top"><img alt="MinActivity" src="../assets/images/reporting/3_1_MinActivity.png" /></a> -->
+     <a class="glightbox" href="../../assets/images/Analyzer/custom10.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom10.gif" /></a></li>
+<li><strong>Right click</strong> on the field and click <strong>New Formula</strong> After, right click on the created field and click on <code>New Formula</code>. <br>
+     <a class="glightbox" href="../../assets/images/reporting/3_1_NewFormula.png" data-type="image" data-width="100%" data-height="auto" data-title="NewFormula" data-desc-position="top"><img alt="NewFormula" src="../../assets/images/reporting/3_1_NewFormula.png" /></a></li>
+<li>Name it <strong>Duration</strong> and swap the fields by clicking <a class="glightbox" href="../../assets/images/reporting/3_1_Swap.png" data-type="image" data-width="100%" data-height="auto" data-title="Swap" data-desc-position="top"><img alt="Swap" src="../../assets/images/reporting/3_1_Swap.png" /></a>.</li>
+<li><strong>Click</strong> <a class="glightbox" href="../../assets/images/reporting/3_1_Dropdown.png" data-type="image" data-width="100%" data-height="auto" data-title="Dropdown" data-desc-position="top"><img alt="Dropdown" src="../../assets/images/reporting/3_1_Dropdown.png" /></a> on the empty field and select <code>Current Timestamp</code>.</li>
+<li>Select <a class="glightbox" href="../../assets/images/reporting/3_1_Subtract.png" data-type="image" data-width="100%" data-height="auto" data-title="Subtract" data-desc-position="top"><img alt="Subtract" src="../../assets/images/reporting/3_1_Subtract.png" /></a> <strong>Subtraction operator</strong>, as shown below. Click <code>Save</code> <br>
+     <a class="glightbox" href="../../assets/images/reporting/3_1_SubtractionFormula.png" data-type="image" data-width="100%" data-height="auto" data-title="SubtractionFormula" data-desc-position="top"><img alt="SubtractionFormula" src="../../assets/images/reporting/3_1_SubtractionFormula.png" /></a>.</li>
+<li>Right click the <code>Duration</code> profile variable, and set the <strong>Duration Number Format</strong> as <code>Duration &gt; MM:SS</code>. <br>
+     <a class="glightbox" href="../../assets/images/reporting/3_1_DurationFormat.png" data-type="image" data-width="100%" data-height="auto" data-title="DurationFormat" data-desc-position="top"><img alt="DurationFormat" src="../../assets/images/reporting/3_1_DurationFormat.png" /></a>.</li>
+<li>Hide <code>Minimum Activity Start Timestamp</code> by clicking on the <strong>eye</strong> icon. <br>
+     <a class="glightbox" href="../../assets/images/reporting/3_1_Hide.png" data-type="image" data-width="100%" data-height="auto" data-title="Hide" data-desc-position="top"><img alt="Hide" src="../../assets/images/reporting/3_1_Hide.png" /></a>.</li>
+</ul>
+<p>7.<strong>Re-order</strong> the variables by dragging and dropping the variables in the order that you wish to see them in the report.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_Reorder.png" data-type="image" data-width="100%" data-height="auto" data-title="Reorder" data-desc-position="top"><img alt="Reorder" src="../../assets/images/reporting/3_1_Reorder.png" /></a></p>
+<p>8.Save the report as <code>3.1_AAR_RT_AgentState_&lt;YourStudentID&gt;</code> (e.g. <em>3.1_AAR_RT_AgentState_101</em>) in your folder and click <code>Preview</code>.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_AAR_RT.png" data-type="image" data-width="100%" data-height="auto" data-title="AAR_RT" data-desc-position="top"><img alt="AAR_RT" src="../../assets/images/reporting/3_1_AAR_RT.png" /></a></p>
+<p>9.Notice that the <code>#Total</code> count for each agent is <strong>“16”</strong>.</p>
+<ul>
+<li>This is because each agent is a <strong>multi-channel</strong> agent (with Total 16 channels, 1 voice, and 5 Chat, 5 Email, 5 Social).</li>
+<li>In this case we want to capture data for <code>Telephony</code> channel only so let’s add a <strong>Channel Filter</strong> for <strong>Telephony</strong>.</li>
+<li>Go Back to the report edit mode and <strong>Add Filter</strong> with <strong>Channel Type</strong> as <strong>Telephony</strong>.</li>
+</ul>
+<!-- ![FilterTelephony](../assets/images/reporting/3_1_FilterTelephony.png) -->
+<p><a class="glightbox" href="../../assets/images/Analyzer/custom11.gif" data-type="image" data-width="100%" data-height="auto" data-title="analyzer" data-desc-position="top"><img alt="analyzer" src="../../assets/images/Analyzer/custom11.gif" /></a></p>
+<p>10.<strong>Save</strong> the visualization and click on <code>Preview</code> to run it again.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_SavedVisualization.png" data-type="image" data-width="100%" data-height="auto" data-title="SavedVisualization" data-desc-position="top"><img alt="SavedVisualization" src="../../assets/images/reporting/3_1_SavedVisualization.png" /></a></p>
+<!-- 11.We are still missing below asks:
+
+![MissingAsks](../assets/images/reporting/3_1_MissingAsks.png) -->
+<!-- 
+12.Update the **Output Type** to `Column Heatmap`.
+
+![Heatmap](../assets/images/reporting/3_1_Heatmap.png) -->
+
+<h2 id="32-bonus-lob-grouping">3.2 [Bonus] LOB Grouping</h2>
+<p>1.To create a LOB group</p>
+<ul>
+<li>
+<p>Right click on the Team name and then <code>Create Enhanced Field</code>.
+  <a class="glightbox" href="../../assets/images/reporting/3_1_EnhancedField.png" data-type="image" data-width="100%" data-height="auto" data-title="EnhancedField" data-desc-position="top"><img alt="EnhancedField" src="../../assets/images/reporting/3_1_EnhancedField.png" /></a></p>
+</li>
+<li>
+<p>Name the Field <strong>LOB_Grouping{{StudentID}}</strong>, replacing {{StudentID}} with your provided ID.</p>
+</li>
+<li>
+<p><strong>Add 2 groups</strong> containing the following teams:</p>
+</li>
+<li>CL_G1x : Seach for “Team1” Select from 101_Team1 to 132_Team1</li>
+<li>CL_G2x : Seach for “Team2” Select from 101_Team2 to 132_Team2</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_LOBGrouping.png" data-type="image" data-width="100%" data-height="auto" data-title="LOBGrouping" data-desc-position="top"><img alt="LOBGrouping" src="../../assets/images/reporting/3_1_LOBGrouping.png" /></a></p>
+<ul>
+<li>Save it.</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_Lob.png" data-type="image" data-width="100%" data-height="auto" data-title="Lob" data-desc-position="top"><img alt="Lob" src="../../assets/images/reporting/3_1_Lob.png" /></a></p>
+<ul>
+<li>
+<p>Make this Enhanced Field <strong>global</strong> so it can be used for any other visualizations with need of creating it again.</p>
+</li>
+<li>
+<p>Right click LOB_Grouping{{StudentID}} --&gt; Click Save --&gt; When prompted, click Save again.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_SaveLOB.png" data-type="image" data-width="100%" data-height="auto" data-title="SaveLOB" data-desc-position="top"><img alt="SaveLOB" src="../../assets/images/reporting/3_1_SaveLOB.png" /></a>
+ <a class="glightbox" href="../../assets/images/reporting/3_1_SaveLOB2.png" data-type="image" data-width="100%" data-height="auto" data-title="SaveLOB2" data-desc-position="top"><img alt="SaveLOB2" src="../../assets/images/reporting/3_1_SaveLOB2.png" /></a></p>
+<ul>
+<li>Field is now saved and can be used in any other report.</li>
+<li>Move LOB_Grouping{{StudentID}} as top row segment.</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_LOBRow.png" data-type="image" data-width="100%" data-height="auto" data-title="LOBRow" data-desc-position="top"><img alt="LOBRow" src="../../assets/images/reporting/3_1_LOBRow.png" /></a></p>
+<p>2.To create a <strong>Summary</strong> at LOB level:</p>
+<ul>
+<li>
+<p>Click <code>Show Summary</code> Option and select <strong>LOB_Grouping</strong>.
+<a class="glightbox" href="../../assets/images/reporting/3_1_LOBSummary.png" data-type="image" data-width="100%" data-height="auto" data-title="LOBSummary" data-desc-position="top"><img alt="LOBSummary" src="../../assets/images/reporting/3_1_LOBSummary.png" /></a></p>
+</li>
+<li>
+<p>Click <code>Customize</code> --&gt; Go to <strong>LOB_Grouping</strong> level.
+<a class="glightbox" href="../../assets/images/reporting/3_1_LOBCustomize.png" data-type="image" data-width="100%" data-height="auto" data-title="LOBCustomize" data-desc-position="top"><img alt="LOBCustomize" src="../../assets/images/reporting/3_1_LOBCustomize.png" /></a></p>
+</li>
+<li>
+<p>Select <code>SUM</code> for <strong>#Total</strong>, <strong>#Idle</strong>, <strong>#Avaliable</strong> --&gt; Save it.
+<a class="glightbox" href="../../assets/images/reporting/3_1_ReportSummary.png" data-type="image" data-width="100%" data-height="auto" data-title="ReportSummary" data-desc-position="top"><img alt="ReportSummary" src="../../assets/images/reporting/3_1_ReportSummary.png" /></a></p>
+</li>
+</ul>
+<p>3.Lastly, add the <strong>on-the fly filters</strong> for the <strong>LOB Grouping</strong> and <strong>Idle Code Name</strong>.</p>
+<ul>
+<li>Click on <code>Show Filter On Run Mode</code>.</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_ShowRunMode.png" data-type="image" data-width="100%" data-height="auto" data-title="ShowRunMode" data-desc-position="top"><img alt="ShowRunMode" src="../../assets/images/reporting/3_1_ShowRunMode.png" /></a></p>
+<ul>
+<li>Select <strong>LOB_Grouping</strong> and <strong>Idle Code Name</strong>.</li>
+</ul>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_Select.png" data-type="image" data-width="100%" data-height="auto" data-title="Select" data-desc-position="top"><img alt="Select" src="../../assets/images/reporting/3_1_Select.png" /></a></p>
+<p>4.<strong>Save</strong> the visualization and check the <code>Preview</code>.</p>
+<p><a class="glightbox" href="../../assets/images/reporting/3_1_Preview.png" data-type="image" data-width="100%" data-height="auto" data-title="Preview" data-desc-position="top"><img alt="Preview" src="../../assets/images/reporting/3_1_Preview.png" /></a></p>
+<p><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Lab2/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 2 Stock Reports">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Lab 2 Stock Reports
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Lab4/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 4 [Bonus] Data API">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Lab 4 [Bonus] Data API
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link", "navigation.icons", "navigation.expand", "navigation.path", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs.link", "navigation.tracking", "navigation.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

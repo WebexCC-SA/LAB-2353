@@ -1,0 +1,1469 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey">
+      
+      
+        <meta name="author" content="Gagarin Sathiyanarayanan">
+      
+      
+      
+        <link rel="prev" href="../Lab7/">
+      
+      
+        <link rel="next" href="../../conclusion/">
+      
+      
+      <link rel="icon" href="../../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Reporting Experience - LAB-2353 - Webex Contact Center Lab  Data, insights & Journey</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#81-adding-a-new-identity" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-header__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Reporting Experience
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ToC/" class="md-tabs__link">
+        
+  
+    
+  
+  Table of Contents
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+    
+  
+  Start Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LAB-2353 - Webex Contact Center Lab  Data, insights &amp; Journey" class="md-nav__button md-logo" aria-label="LAB-2353 - Webex Contact Center Lab  Data, insights & Journey" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2353 - Webex Contact Center Lab  Data, insights & Journey
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ToC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Table of Contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Start Lab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Start Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Lab Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PreRequisites/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab1/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 User Interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab2/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 2 Stock Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab3/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Custom Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab4/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 4 [Bonus] Data API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab5/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 5 Auto CSAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab6/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 Topic Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab7/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 7 Survey Insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 Customer Journey
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 Customer Journey
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#81-adding-a-new-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1 Adding a new identity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#82-update-desktop-layout-login-to-dekstop" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.2 Update Desktop layout &amp; Login to dekstop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#83-bonus-exploring-jds-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3 [Bonus] Exploring JDS APIs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.3 [Bonus] Exploring JDS APIs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#83a-create-a-webex-application-capture-the-clientid-and-clientsecret" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3.A Create a webex application, capture the clientId and ClientSecret
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83b-access-jds-api-postman-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3.B Access JDS API postman collection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83c-create-new-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3.C Create new events
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conclusion/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4v2l5.81 4.36a7.004 7.004 0 0 0-4.46 8.84 6.996 6.996 0 0 0 8.84 4.46 7 7 0 0 0 0-13.3L20 4zm-5.06 17.5L12 17.78 9.06 19.5l.78-3.33-2.59-2.24 3.41-.29L12 10.5l1.34 3.14 3.41.29-2.59 2.24z"/></svg>
+  
+  <span class="md-ellipsis">
+    Conclusion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Lab 8 Customer Journey</h1>
+
+<script>
+    function update(){them = Array.from(document.querySelectorAll("input")).reduce((acc, input) => ({...acc, [input.id + "_out"] : input.value}),{});
+   Object.entries(them).forEach((entry) => {
+    Array.from(document.getElementsByClassName(entry[0])).forEach((element,index) => 
+    {
+      console.log(document.getElementsByClassName(entry[0])[index].innerHTML); 
+      document.getElementsByClassName(entry[0])[index].innerHTML = entry[1];
+    })})
+
+  event.preventDefault()
+   if(document.forms["attendee-form"][1].value != "Your_Attendee_ID"){
+    localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
+  }  
+  }
+</script>
+<p><strong>Customer Journey Data Services (JDS)</strong></p>
+<p><strong>Lab Objective</strong>
+This lab is designed to teach you the concepts and functionalities of Customer Journey Data Services (JDS), both in regard to the JDS Widget that can be added in Agent Deskpulltop as well as the API capabilities of the solution, since JDS remains an API-first solution today. You will learn how to use the JDS widget, how to add new customers (identities) to your JDS database as well as how to use the JDS APIs to extract information and act upon it. </p>
+<!-- ### Pre-requisites
+- You have Admin access to Control Hub 
+- You have completed [**Part 1: APIs on Webex Contact Center (WxCC)**](#APIs-on-Webex-Contact-Center) -->
+
+<div class="admonition tip">
+<p class="admonition-title">Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix.</p>
+<p><script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID"; 
+update();
+</script>
+<form id="attendee-form">
+<label for="attendee">Attendee ID:</label>
+<input type="text" id="attendee" name="attendee" onChange="update()" style="border: 2px solid black; padding: 5px; border-radius: 4px; background-color: orange;"><br>
+<br>
+<button type="button" onclick="update()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Save</button>
+</form>
+<script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID";
+update();
+</script></p>
+</div>
+<p>8.1: Exploring JDSs APIs &amp; Widget
+JDS Desktop Widget provides agents with an interface that shows the end customer’s complete journey with the agent’s business, aggregated metrics of their experience as well as the customer’s unique identifiers (aliases).</p>
+<!-- 
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/e710de0e-e311-4e35-9599-6ae72aede7af" data-type="image" data-width="100%" data-height="auto" data-title="image" data-desc-position="top"><img width="1433" alt="image" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/e710de0e-e311-4e35-9599-6ae72aede7af"></a> -->
+
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd16.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd16.png" /></a></p>
+<ul>
+<li><strong>Identity / Person</strong>: A unique customer, all the events that the same customer (e.g. call, chat, email, visit website) creates are marked under the same identity.</li>
+<li><strong>Alias</strong>: Different ways we can identify the same customer/person (e.g. email, phone number, Customer ID). Customer must have at least one alias.</li>
+<li><strong>Profile Template</strong>: A profile template defines the kind of aggregation technique we want to see for a customer (e.g. contacts within <em>last 24 hours</em>).</li>
+<li><strong>Progressive Profile</strong>: The values that correspond to an identity’s profile template at that particular moment of time (e.g. contacts within last 24 hours = <em>10</em>).</li>
+</ul>
+<h2 id="81-adding-a-new-identity">8.1 Adding a new identity</h2>
+<blockquote>
+<p class="block-tip">Note 1: For this task, you must have an admin account with the <strong>"Full admin"</strong> permissions.\
+Note 2: To save time, we will be skipping the below exercise. Please read it and go to the next task.</p>
+</blockquote>
+<ol>
+<li>
+<p>Add a new identity for yourself to JDS project. Navigate to Control Hub with your administrator credentials.</p>
+</li>
+<li>
+<p>Navigate to Customer Journey Data under Monitoring.
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/b469dce7-8fde-4ca1-be48-9114bd6faa4f" data-type="image" data-width="100%" data-height="auto" data-title="image" data-desc-position="top"><img width="1790" alt="image" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/b469dce7-8fde-4ca1-be48-9114bd6faa4f"></a></p>
+</li>
+<li>
+<p>A project (named  <strong>Lab Tenant</strong>) has already been created for the purposes of this lab. Click on it to check its configuration.</p>
+</li>
+<li>
+<p>Click on the Identities tab. Identities are all the end-customer profiles created to be tracked by this specific JDS project.
+ <a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/203c2b35-7aeb-4278-85fb-cafbca307736" data-type="image" data-width="100%" data-height="auto" data-title="image" data-desc-position="top"><img width="1786" alt="image" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/203c2b35-7aeb-4278-85fb-cafbca307736"></a></p>
+</li>
+<li>
+<p>Click on <strong>Add Identities</strong> button. In the UI you can only add identities by uploading a CSV file. To check the expected format of the CSV, click on Download to download the sample template.</p>
+</li>
+<li>
+<p>Open the file. You see the expected format is the following:
+<code>Id,First Name,Last Name,Email Addresses,Phone Numbers,Customer Ids</code></p>
+</li>
+<li>
+<p>Enter a row with your details keeping in mind the following:
+•   <strong>Id</strong> field should be left empty.
+•   If you want to add multiple <strong>email addresses, phone numbers or customer IDs</strong>, you need to use the pipe “|” delimiter between them. For example, try to add your phone number both with and without a plus sign.
+•   <strong>Customer ID</strong> is a unique ID given by the JDS administrator to each customer. Make sure to use a large number to avoid conflicts with existing customer IDs.</p>
+</li>
+<li>
+<p>Based on the above, your new line should look similar to this:
+ <a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/890d2d05-9eec-4d6f-9e0d-b2ea67f16c66" data-type="image" data-width="100%" data-height="auto" data-title="image" data-desc-position="top"><img width="989" alt="image" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/890d2d05-9eec-4d6f-9e0d-b2ea67f16c66"></a></p>
+</li>
+<li>
+<p>Save the file and go back in Control Hub, click on <strong>Choose a file</strong> and select the file you created. Click on <strong>Next</strong>. If all is good, you will see the Import Status as <em>Completed</em>. In case of errors, you will get the message Completed with Errors and the option to download the error file to understand what you need to fix.</p>
+</li>
+<li>
+<p>Click on <strong>Close</strong> button. You should now be able to see your created identity in the list.</p>
+</li>
+</ol>
+<h2 id="82-update-desktop-layout-login-to-dekstop">8.2 Update Desktop layout &amp; Login to dekstop</h2>
+<div class="admonition info">
+<p class="admonition-title">README</p>
+<p>To optimize our time in this lab, we will utilize a pre-configured desktop layout that includes the modifications related to the journey widget. If you are interested in adding the CJDS widget to your existing desktop layout, you can find the code snippet and instructions <a href="https://github.com/CiscoDevNet/cjaas-widgets/blob/main/CustomerJourney/README_VERSION_10.0.0.md#how-to-add-the-cjds-widget-into-an-existing-desktop-layout">here</a>.</p>
+</div>
+<ol>
+<li>
+<p>Download this desktop layout: <a href="https://github.com/CiscoDevNet/cjaas-widgets/blob/main/CustomerJourney/src/assets/JDSDesktopLayout10.json">Layout with Journey Widget pre-configured</a></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd1.gif" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd1.gif" /></a></p>
+</li>
+<li>
+<p>Open/Edit the layout in a text editor. For test purposes, let's add the same widget to the <strong>Navigation</strong> panel as a page. This will help us to test the widget even when an agent is not on a call. For this find the <strong>navigation</strong> area in your Layout and add that code
+<div class="highlight"><pre><span></span><code>{
+          &quot;nav&quot;: {
+            &quot;label&quot;: &quot;JDS System Widget&quot;,
+            &quot;icon&quot;: &quot;https://static.thenounproject.com/png/508797-200.png&quot;,
+            &quot;iconType&quot;: &quot;other&quot;,
+            &quot;navigateTo&quot;: &quot;CustomNav6&quot;,
+            &quot;align&quot;: &quot;top&quot;
+          },
+          &quot;page&quot;: {
+            &quot;id&quot;: &quot;customNav6&quot;,
+            &quot;widgets&quot;: {
+              &quot;right&quot;: {
+                &quot;comp&quot;: &quot;customer-journey-widget&quot;,
+                &quot;script&quot;: &quot;https://journey-widget.webex.com&quot;,
+                &quot;attributes&quot;: {
+                  &quot;show-alias-icon&quot;: &quot;true&quot;,
+                  &quot;condensed-view&quot;: &quot;true&quot;
+                },
+                &quot;properties&quot;: {
+                  &quot;interactionData&quot;: &quot;$STORE.agentContact.taskSelected&quot;,
+                  &quot;bearerToken&quot;: &quot;$STORE.auth.accessToken&quot;,
+                  &quot;organizationId&quot;: &quot;$STORE.agent.orgId&quot;,
+                  &quot;dataCenter&quot;: &quot;$STORE.app.datacenter&quot;
+                },
+                &quot;wrapper&quot;: {
+                  &quot;title&quot;: &quot;Customer Journey Widget&quot;,
+                  &quot;maximizeAreaName&quot;: &quot;app-maximize-area&quot;
+                }
+              }
+            },
+            &quot;layout&quot;: {
+              &quot;areas&quot;: [[&quot;right&quot;]],
+              &quot;size&quot;: {
+                &quot;cols&quot;: [1],
+                &quot;rows&quot;: [1]
+              }
+            }
+          }
+        },
+</code></pre></div></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd3.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd3.png" /></a></p>
+</li>
+<li>
+<p>Go to Control Hub -&gt; Contact Center -&gt;  Desktop Layouts and Create a new Desktop Layout. </p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd4.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd4.png" /></a></p>
+</li>
+<li>
+<p>Set the name of the desktop layout as  "<strong><w class = "attendee_out">AttendeeID</w>_Layout</strong>" (example: <strong>140_Layout</strong>). Click on <strong>Replace file</strong> and upload the file that was downloaded and edited in the previous step. Select your respective team (Select the team "<strong><w class = "attendee_out">AttendeeID</w>_Team</strong>"), and click <strong>Create</strong>.</p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd5.gif" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd5.gif" /></a></p>
+</li>
+</ol>
+<blockquote>
+<p class="block-tip"><strong>Note</strong>: To log in to the agent desktop, use either a different web browser or a new incognito web page. This will prevent the browser caching issues with admin and agent credentials.
+Depending on your tenant's location the agent ULR link can be different. The example below is for the tenant in the US datacenter.</p>
+</blockquote>
+<ol>
+<li>
+<p>Navigate to <strong><a href="https://desktop.wxcc-us1.cisco.com/" target="_blank">https://desktop.wxcc-us1.cisco.com/</a></strong> in the <strong>chrome browser</strong> with the incognito mode.</p>
+</li>
+<li>
+<p>Enter the agent’s <strong>email ID</strong> which you created in the previous task.</p>
+</li>
+<li>
+<p>Enter the <strong>Password</strong> for the appropriate username.</p>
+</li>
+<li>
+<p>In the <strong><em>Station Credentials</em></strong> pane, select <strong>"Desktop"</strong>.</p>
+</li>
+<li>
+<p>Select the team <strong><w class="attendee_out">Your_Attendee_ID</w>_Team1</strong>.</p>
+</li>
+<li>
+<p>Click <strong><em>Submit</em></strong> button. The browser may ask you to confirm use the microphone from the browser. </p>
+</li>
+<li>
+<p>Make sure that you are successfully logged in to the Agent Desktop.</p>
+</li>
+<li>
+<p>Go to the 3rd icon in the navigation panel and type <strong>gasathiy@cisco.com</strong> in the <strong>Lookup User</strong> field </p>
+</li>
+</ol>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd16.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd16.png" /></a></p>
+<h2 id="83-bonus-exploring-jds-apis">8.3 <strong>[Bonus]</strong> Exploring JDS APIs</h2>
+<div class="admonition info">
+<p class="admonition-title">README</p>
+<p>Please note that this section assumes a beginner-level understanding of APIs and familiarity with the Postman application. If you're not comfortable with these, don’t worry! The following steps will guide you through creating a custom application in Webex and using the APIs, allowing you to complete the lab by following the instructions. If you wish to learn more about the basics of Webex Contact Center APIs and how to use them, please refer to the linked content <a href="https://webexcc-sa.github.io/partner-summit/pages/Advanced/#part-1-apis-on-webex-contact-center">here</a>, which includes videos and step-by-step instructions.</p>
+</div>
+<p><strong>High Level Steps in this section:</strong>
+<div class="highlight"><pre><span></span><code>A. Create a webex application, capture the clientId and ClientSecret
+B. Access JDS API postman collection
+C. Create new events
+</code></pre></div></p>
+<h3 id="83a-create-a-webex-application-capture-the-clientid-and-clientsecret">8.3.A Create a webex application, capture the clientId and ClientSecret</h3>
+<p>This task shows you the configuration steps to create a Webex application. This covers how to build the authentication part of the application for use with Postman.</p>
+<p>1.Logon to <a href="https://developer.webex-cx.com">https://developer.webex-cx.com</a> with your Webex Contact Center username and password. On the top-right hand corner, hover over your userID and select My Webex Apps from the pop-out menu.</p>
+<p><a class="glightbox" href="https://webexcc-sa.github.io/partner-summit/assets/images/API/API28.jpg" data-type="image" data-width="100%" data-height="auto" data-title="API28" data-desc-position="top"><img alt="API28" src="https://webexcc-sa.github.io/partner-summit/assets/images/API/API28.jpg" /></a></p>
+<p>2.Provide the below details and create the application.
+<div class="highlight"><pre><span></span><code>   a. Integration Name: &quot;AttendeeID_WebexApp&quot; (example: **140_WebexApp**)
+   b. Description: Description_of_your_choice
+   c. Redirect URI: https://oauth.pstmn.io/v1/callback
+   d. Scopes: Check - cjp:config, cjp:config_write, cjp:config_read
+</code></pre></div>
+For the URI, we are using Postman as a sample application so, use this URI: <strong>https://oauth.pstmn.io/v1/callback</strong> and select the top 3 scopes as shown in the screenshot below</p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd6.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd6.png" /></a></p>
+<p>3.You will get the response with the Client ID, Client Secret, and the URL that you could embed in your application to initiate the authentication. </p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd7.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd7.png" /></a></p>
+<p>4.Save Client ID and Secret ID into a text file. We will use it later.</p>
+<p><strong>Caution</strong>: Caution: Do not share or publish your production Client ID and Secret ID, as they can be exploited by malicious individuals to compromise your system.</p>
+<p>5.Copy the whole URL into a new browser window and you see that redirect you to a Webex authentication page.</p>
+<p><a class="glightbox" href="https://webexcc-sa.github.io/partner-summit/assets/images/API/API32.jpg" data-type="image" data-width="100%" data-height="auto" data-title="API32" data-desc-position="top"><img alt="API32" src="https://webexcc-sa.github.io/partner-summit/assets/images/API/API32.jpg" /></a></p>
+<p>6.On the authentication window, click Accept.</p>
+<p><a class="glightbox" href="https://webexcc-sa.github.io/partner-summit/assets/images/API/API33.jpg" data-type="image" data-width="100%" data-height="auto" data-title="API33" data-desc-position="top"><img alt="API33" src="https://webexcc-sa.github.io/partner-summit/assets/images/API/API33.jpg" /></a></p>
+<p>7.You see that your application is now authenticated.</p>
+<p><a class="glightbox" href="https://webexcc-sa.github.io/partner-summit/assets/images/API/API34.jpg" data-type="image" data-width="100%" data-height="auto" data-title="API34" data-desc-position="top"><img alt="API34" src="https://webexcc-sa.github.io/partner-summit/assets/images/API/API34.jpg" /></a></p>
+<p>More Information about creating a Webex application and using Postman in this document: <a href="https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/218418-configure-webex-contact-center-apis-with.html">https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/218418-configure-webex-contact-center-apis-with.html</a></p>
+<h3 id="83b-access-jds-api-postman-collection">8.3.B Access JDS API postman collection</h3>
+<p>As JDS is an API-first solution, there is a very wide <a href="https://developer.webex-cx.com/documentation/journey" target="_blank">range of APIs</a> available. To make the introduction to them easier, Cisco has created a <a href="https://github.com/WebexSamples/webex-contact-center-api-samples/blob/main/customer-journey-samples/cjds-postman-example/JDS%20CiscoLive.postman_collection.json" target="_blank">JDS API Collection</a> that you can download and import in your API tool (e.g. Postman) and start playing around, in conjunction with various use cases. </p>
+<p>1.Download the JDS Postman collection, by going to the <a href="https://github.com/WebexSamples/webex-contact-center-api-samples/blob/main/customer-journey-samples/cjds-postman-example/JDS%20CiscoLive.postman_collection.json" target="_blank">GitHub samples page</a></p>
+<p>2.Click on <strong>Download raw file</strong>
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/5c197928-ec2c-4fa3-ac8a-bcc4159efdaf" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-21 at 19 34 27" data-desc-position="top"><img width="1785" alt="Screenshot 2024-02-21 at 19 34 27" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/5c197928-ec2c-4fa3-ac8a-bcc4159efdaf"></a></p>
+<p>3.Open the Postman app on your laptop and click on <strong>Import</strong> button.</p>
+<p>4.Select the downloaded JSON file in the appeared window
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/08ccaf18-2ca5-4b75-a2a0-02e4b0999c99" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-21 at 19 36 42" data-desc-position="top"><img width="1610" alt="Screenshot 2024-02-21 at 19 36 42" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/08ccaf18-2ca5-4b75-a2a0-02e4b0999c99"></a></p>
+<p>5.Once the JDS collection is imported, select the root folder of the imported collection in the left menu, then navigate to the <strong>Variables</strong>, and define the values </p>
+<blockquote>
+<p>Note: reuse the same values as it was in the API lab (client ID, client Secret and org ID). The <strong>workspaceId</strong> is your project ID which is <strong>65171e0682b7f52b9209b39d</strong></p>
+</blockquote>
+<p>Fetching OrgID
+<a class="glightbox" href="../../assets/images/Analyzer/jd8.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd8.png" /></a></p>
+<p>Fetching WorkspaceID
+<a class="glightbox" href="../../assets/images/Analyzer/jd9.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd9.png" /></a></p>
+<p>6.Once the values are defined, click <strong>Save</strong> button</p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd10.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd10.png" /></a></p>
+<p>7.Go to <strong>Authorization</strong> and click on <strong>Get New Access Token</strong> button. The Postman will redirect you to the Auth page where you need to define your Admin account which was used for the App creation in the dev portal. As a result, you should get the message <strong>Authentication complete</strong>. Click <strong>Proceed</strong> and on the next page click on <strong>Use Token</strong> button
+<a class="glightbox" href="../../assets/images/Analyzer/jd11.gif" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd11.gif" /></a></p>
+<h3 id="83c-create-new-events">8.3.C Create new events</h3>
+<p>1.Let’s try to create a new event via API. Let's start with the default-generated events such as email and chat.</p>
+<p>2.In the Postman, navigate to the <strong>Create email default events for journey-default-template</strong> </p>
+<p>3.Change <strong>identity</strong> and <strong>"origin"</strong> to <strong>"gasathiy@cisco.com"</strong>. Your API body should look like the below.
+<div class="highlight"><pre><span></span><code>{
+  &quot;specversion&quot;: &quot;1.0&quot;,
+  &quot;type&quot;: &quot;task:new&quot;,
+  &quot;source&quot;: &quot;wxcc&quot;,
+  &quot;id&quot;: &quot;{{$guid}}&quot;,
+  &quot;identity&quot;: &quot;gasathiy@cisco.com&quot;,
+  &quot;identitytype&quot;: &quot;email&quot;,
+  &quot;datacontenttype&quot;: &quot;application/json&quot;,
+  &quot;data&quot;: {
+    &quot;taskId&quot;: &quot;{{$guid}}&quot;,
+    &quot;origin&quot;: &quot;gasathiy@cisco.com&quot;,
+    &quot;channelType&quot;: &quot;email&quot;
+  }
+}
+</code></pre></div></p>
+<p>4.Click on <strong>Send</strong> button and verify the response status. It should be <strong>202 Accepted</strong></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd12.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd12.png" /></a></p>
+<p>5.Now do the same step 3 with chat by clicking on <strong>Create chat default events for journey-default-template</strong></p>
+<p><a class="glightbox" href="../../assets/images/Analyzer/jd13.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd13.png" /></a></p>
+<p>6.Go back to the JDS widget in the Agent Desktop and verify the result. You can refresh the page if the events have not appeared. Now you should see new events in the right panel
+<a class="glightbox" href="../../assets/images/Analyzer/jd16.png" data-type="image" data-width="100%" data-height="auto" data-title="Customer Journey" data-desc-position="top"><img alt="Customer Journey" src="../../assets/images/Analyzer/jd16.png" /></a></p>
+<blockquote>
+<p>Note: We can create any kind of Event and add it to the customer’s journey (e.g. customer visited our webpage).</p>
+</blockquote>
+<p>Additional Content: This video shows you how to use various API's to manage JDS profiles and templates.</p>
+<div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
+    <iframe src="https://app.vidcast.io/share/embed/9c7f0d45-d860-4962-99d2-d5d818fde573" width="100%" height="100%" title="JDS Postman Collection" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
+</div>
+
+<!-- 7.Now let's do a custom event by duplicating the existing API request and customizing the body. Click on `...` in front of **Create chat default events for journey-default-template**.
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/fc612e3c-dff3-4c93-898c-1fa29e6fc94f" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-22 at 15 47 08" data-desc-position="top"><img width="1007" alt="Screenshot 2024-02-22 at 15 47 08" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/fc612e3c-dff3-4c93-898c-1fa29e6fc94f"></a>
+
+
+9. As the result the new HTTP record is created. Now change the body by copying the code below and replacing in the created request:
+<div class="highlight"><pre><span></span><code>{  &quot;id&quot;: &quot;TEST&quot;,
+  &quot;specversion&quot;: &quot;1.0&quot;,
+  &quot;type&quot;: &quot;test&quot;,
+  &quot;source&quot;: &quot;test&quot;,
+  &quot;identity&quot;: &quot;+3227045654&quot;,
+  &quot;identitytype&quot;: &quot;phone&quot;,
+  &quot;datacontenttype&quot;: &quot;application/json&quot;,
+  &quot;data&quot;: {
+    &quot;phone&quot;: &quot;+3227045654&quot;,
+    &quot;status&quot;: &quot;New Booking&quot;,
+    &quot;origin&quot;: &quot;WEB - FLY HIGH&quot;,
+    &quot;channelType&quot;: &quot;Payment Complete&quot;,
+    &quot;topic&quot;: &quot;Paradise destination&quot;,
+    &quot;channelBreakout&quot;: &quot;Web Page Visit&quot;
+}}
+</code></pre></div>
+
+9. Click on **Send** button and check the new event at the agent desktop.
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/79a0fc67-f015-49b4-9a5f-1a6164169a80" data-type="image" data-width="100%" data-height="auto" data-title="image" data-desc-position="top"><img width="1564" alt="image" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/79a0fc67-f015-49b4-9a5f-1a6164169a80"></a>
+
+
+> Note: The `data.channelType` defines a particular icon of every incoming journey event.
+The entire mapping list can be found on GitHub: https://github.com/CiscoDevNet/cjaas-widgets/blob/jds-widget-9.0.0/CustomerJourney/README-VERSION-9.0.0.md
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/f60a48d3-68d0-4dd4-875b-c4b61156417b" data-type="image" data-width="100%" data-height="auto" data-title="image" data-desc-position="top"><img width="1124" alt="image" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/f60a48d3-68d0-4dd4-875b-c4b61156417b"></a>
+
+
+
+## 8.2: Use Case: Journey Based Queue Priority
+A customer has contacted his travel service several times in the last couple of days. The next incoming call could be prioritized if a specific threshold is met (for example: the number of contacts on a particular reservation in the last 2 days greater than 2) 
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/1b33f2d3-0aca-4432-8629-45367394958a" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-22 at 16 24 54" data-desc-position="top"><img width="972" alt="Screenshot 2024-02-22 at 16 24 54" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/1b33f2d3-0aca-4432-8629-45367394958a"></a>
+
+**Task 1: Getting the total number of requests for the X days/hours**
+1. The journey profile template aggregates the values and provides you with the total number of events for a specific time. Make sure that your journey profile template has the right view which includes lookBackPeriod for the last 48 hours. In the layout, we have already defined the template with the specific name
+<div class="highlight"><pre><span></span><code>&quot;template-id&quot;: &quot;journey-default-template1&quot;,
+</code></pre></div>
+
+2. For verifying the profile view go to the Postman API **Get Progressive Profile View - journey-default-template2** and change the URL parameter from
+`journey-default-template2` to `journey-default-template1`. As the result you should get {{baseUrl}}/admin/v1/api/profile-view-template/workspace-id/{{workspaceId}}/template-id/journey-default-template1. 
+
+3. Run this GET API and verify that it includes settings for the last 48 hours. 
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/d90c66da-b720-4990-bc2e-8d562426a703" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-22 at 18 47 30" data-desc-position="top"><img width="1613" alt="Screenshot 2024-02-22 at 18 47 30" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/d90c66da-b720-4990-bc2e-8d562426a703"></a>
+
+
+4. If you are using a different tenant, you need to create the template with the name defined in the layout. In order to do it, go to **Create - journey-default-template2** API in Postman and replace the body with this code
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/be7a8476-b359-4e0e-ac70-fdf4d90ee734" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-22 at 18 49 27" data-desc-position="top"><img width="1611" alt="Screenshot 2024-02-22 at 18 49 27" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/be7a8476-b359-4e0e-ac70-fdf4d90ee734"></a>
+
+<div class="highlight"><pre><span></span><code>{
+    &quot;name&quot;: &quot;journey-default-template1&quot;,
+    &quot;attributes&quot;: [
+        {
+            &quot;version&quot;: &quot;0.1&quot;,
+            &quot;event&quot;: &quot;task:new&quot;,
+            &quot;metaDataType&quot;: &quot;string&quot;,
+            &quot;metaData&quot;: &quot;origin&quot;,
+            &quot;limit&quot;: 100,
+            &quot;displayName&quot;: &quot;No of times contacted in the last 24 hours&quot;,
+            &quot;lookBackDurationType&quot;: &quot;hours&quot;,
+            &quot;lookBackPeriod&quot;: 24,
+            &quot;aggregationMode&quot;: &quot;Count&quot;,
+            &quot;rules&quot;: null,
+            &quot;widgetAttributes&quot;: {
+                &quot;type&quot;: &quot;table&quot;
+            },
+            &quot;verbose&quot;: true
+        },
+        {
+            &quot;version&quot;: &quot;0.1&quot;,
+            &quot;event&quot;: &quot;task:new&quot;,
+            &quot;metaDataType&quot;: &quot;string&quot;,
+            &quot;metaData&quot;: &quot;origin&quot;,
+            &quot;limit&quot;: 200,
+            &quot;displayName&quot;: &quot;No of times contacted in the last 48 hours&quot;,
+            &quot;lookBackDurationType&quot;: &quot;hours&quot;,
+            &quot;lookBackPeriod&quot;: 48,
+            &quot;aggregationMode&quot;: &quot;Count&quot;,
+            &quot;rules&quot;: null,
+            &quot;widgetAttributes&quot;: {
+                &quot;type&quot;: &quot;table&quot;
+            },
+            &quot;verbose&quot;: true
+        },
+        {
+            &quot;version&quot;: &quot;0.1&quot;,
+            &quot;event&quot;: &quot;task:new&quot;,
+            &quot;metaDataType&quot;: &quot;string&quot;,
+            &quot;metaData&quot;: &quot;origin&quot;,
+            &quot;limit&quot;: 700,
+            &quot;displayName&quot;: &quot;No of times contacted in the last 7 days&quot;,
+            &quot;lookBackDurationType&quot;: &quot;days&quot;,
+            &quot;lookBackPeriod&quot;: 7,
+            &quot;aggregationMode&quot;: &quot;Count&quot;,
+            &quot;rules&quot;: null,
+            &quot;widgetAttributes&quot;: {
+                &quot;type&quot;: &quot;table&quot;
+            },
+            &quot;verbose&quot;: true
+        },
+        {
+            &quot;version&quot;: &quot;0.1&quot;,
+            &quot;event&quot;: &quot;task:new&quot;,
+            &quot;metaDataType&quot;: &quot;string&quot;,
+            &quot;metaData&quot;: &quot;origin&quot;,
+            &quot;limit&quot;: 100,
+            &quot;displayName&quot;: &quot;No of times contacted in the last 7 days via email&quot;,
+            &quot;lookBackDurationType&quot;: &quot;days&quot;,
+            &quot;lookBackPeriod&quot;: 7,
+            &quot;aggregationMode&quot;: &quot;Count&quot;,
+            &quot;rules&quot;: {
+                &quot;logic&quot;: &quot;SINGLE&quot;,
+                &quot;condition&quot;: &quot;task:new,channelType,string,Value EQ email&quot;
+            },
+            &quot;widgetAttributes&quot;: {
+                &quot;type&quot;: &quot;table&quot;
+            },
+            &quot;verbose&quot;: true
+        },
+        {
+            &quot;version&quot;: &quot;0.1&quot;,
+            &quot;event&quot;: &quot;task:new&quot;,
+            &quot;metaDataType&quot;: &quot;string&quot;,
+            &quot;metaData&quot;: &quot;origin&quot;,
+            &quot;limit&quot;: 100,
+            &quot;displayName&quot;: &quot;No of times contacted in the last 7 days via chat&quot;,
+            &quot;lookBackDurationType&quot;: &quot;days&quot;,
+            &quot;lookBackPeriod&quot;: 7,
+            &quot;aggregationMode&quot;: &quot;Count&quot;,
+            &quot;rules&quot;: {
+                &quot;logic&quot;: &quot;SINGLE&quot;,
+                &quot;condition&quot;: &quot;task:new,channelType,string,Value EQ chat&quot;
+            },
+            &quot;widgetAttributes&quot;: {
+                &quot;type&quot;: &quot;table&quot;
+            },
+            &quot;verbose&quot;: true
+        },
+        {
+            &quot;version&quot;: &quot;0.1&quot;,
+            &quot;event&quot;: &quot;task:new&quot;,
+            &quot;metaDataType&quot;: &quot;string&quot;,
+            &quot;metaData&quot;: &quot;origin&quot;,
+            &quot;limit&quot;: 100,
+            &quot;displayName&quot;: &quot;No of times contacted in the last 7 days via telephony&quot;,
+            &quot;lookBackDurationType&quot;: &quot;days&quot;,
+            &quot;lookBackPeriod&quot;: 7,
+            &quot;aggregationMode&quot;: &quot;Count&quot;,
+            &quot;rules&quot;: {
+                &quot;logic&quot;: &quot;SINGLE&quot;,
+                &quot;condition&quot;: &quot;task:new,channelType,string,Value EQ telephony&quot;
+            },
+            &quot;widgetAttributes&quot;: {
+                &quot;type&quot;: &quot;table&quot;
+            },
+            &quot;verbose&quot;: true
+        }
+    ]
+}
+</code></pre></div>
+
+4. Now let's get the **person-id**, by running **Get Identity** API. Modify the URL in Postman and put the number **+3227045654** after the alias. You should get
+`GET {{baseUrl}}/admin/v1/api/person/workspace-id/{{workspaceId}}/aliases/3227045654`
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/b812a278-3336-46fa-b26c-bf520334fe6e" data-type="image" data-width="100%" data-height="auto" data-title="image" data-desc-position="top"><img width="1479" alt="image" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/b812a278-3336-46fa-b26c-bf520334fe6e"></a>
+
+5. Save in notepad the person ID, which is "65ad476d01e91d3fe3f65e5c". You will need it for the next API
+
+6. Go to **Get Progressive Template values against user** and modify the URL by defining the person-id and right template name. It should be:
+`{{baseUrl}}/v1/api/progressive-profile-view/workspace-id/{{workspaceId}}/person-id/65ad476d01e91d3fe3f65e5c/template-name/journey-default-template1`
+
+7. Run the API and check the response for the last 48 hours. The **result** is the total number of events for the last 2 days. We will use that value for the routing decision in the next task. 
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/cc9053c0-99fe-41b7-afbe-c28eb531be00" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-22 at 18 53 28" data-desc-position="top"><img width="1574" alt="Screenshot 2024-02-22 at 18 53 28" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/cc9053c0-99fe-41b7-afbe-c28eb531be00"></a>
+
+
+**Task 2: Adding JDS API Request to the Flow Designer**
+
+In order to achieve that use case, we will need to use 2 JDS APIs:
+- Get the person-id API - https://developer.webex-cx.com/documentation/journey/v1/search-for-an-identity-via-aliases
+- Get Progressive Template values against user - https://developer.webex-cx.com/documentation/journey/v1/historic-progressive-profile-view-using-template-name
+
+1. By using your admin account, go to the Control Hub -> Webex CC -> Flows https://admin.webex.com/wxcc/routing-flows/flows
+
+2. Open the flow which was created during the Fundamental lab
+
+> Note: Alternatively, you can create a new Flow and map your Entry Point and DN to that Flow.
+
+3. In Postman, go to the JDS root folder -> Authorization -> Token and copy the access token to the notepad
+> Note: For this task, we will use the temporary access tokens which will expire after 8-12 hours. Soon we will be releasing the Webex CC API Connector, which will allow you to generate OAuth2 access tokens directly from the Flow Designer.
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/766c3694-8aae-4c09-b170-525b224571ff" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-22 at 21 17 56" data-desc-position="top"><img width="1118" alt="Screenshot 2024-02-22 at 21 17 56" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/766c3694-8aae-4c09-b170-525b224571ff"></a>
+
+4. Go back to the Flow Designer, you will need to create the following logic
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/12d4a1c9-436c-4c01-832a-e2023977dd37" data-type="image" data-width="100%" data-height="auto" data-title="Screenshot 2024-02-22 at 22 43 02" data-desc-position="top"><img width="816" alt="Screenshot 2024-02-22 at 22 43 02" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/12d4a1c9-436c-4c01-832a-e2023977dd37"></a>
+
+4a. Click on the main canvas and add 2 Flow Variables:
+- **Identity** with type String
+- **Total_Requests** with the type Integer
+
+4b. Add the **HTTPRequest_1** activity with the following Settings:
+- Request URL: https://api-jds.prod-useast1.ciscowxdap.com/v1/api/person/workspace-id/65171e0682b7f52b9209b39d/aliases/\{\{NewPhoneContact.ANI}}
+- Method: GET
+- HTTP Request Headers Key: Authorization
+- HTTP Request Headers Values: Bearer + Your access token from Postman
+- Content Type: Application/JSON
+- Parse Settings Content Type: JSON
+- Parse Settings Output Variable: Identity
+- Parse Settings Path Expression: $.data[0].id
+
+4c. Add the **HTTPRequest_2** activity with the following Settings:
+- Request URL: https://api-jds.prod-useast1.ciscowxdap.com/v1/api/progressive-profile-view/workspace-id/65171e0682b7f52b9209b39d/person-id/\{\{Identity\}\}/template-name/journey-default-template1
+- Method: GET
+- HTTP Request Headers Key: Authorization
+- HTTP Request Headers Values: Bearer + Your access token from Postman
+- Content-Type: Application/JSON
+- Parse Settings Content-Type: JSON
+- Parse Settings Output Variable: Total_Requests
+- Parse Settings Path Expression: $.data[0].attributes[1].result
+
+4d. Add the **Condition** activity with the following Settings:
+- Expression: **\{\{ Total_Requests > 2 \}\}**
+
+4e: Add 2 queue activities **Queue Contact** with different priorities in the General Settings (as shown in the screenshot above)
+
+4f: Publish the Flow by clicking on **Validation** toggle, **Publish Flow** button and selecting the **Live** tag.
+
+**Task 3: Making a test call and checking the result**
+1. Make your agent available for that queue
+
+2. Make 3 test calls to the agent
+
+3. Open **DEBUG** tool in the Flow Designer by clicking on **DEBUG** button and verify though which queue the 3rd call was delivered
+<a class="glightbox" href="https://github.com/WebexCC-SA/partner-summit/assets/43476977/60ead024-087b-43ac-8715-de325482eaf3" data-type="image" data-width="100%" data-height="auto" data-title="image" data-desc-position="top"><img width="1717" alt="image" src="https://github.com/WebexCC-SA/partner-summit/assets/43476977/60ead024-087b-43ac-8715-de325482eaf3"></a>
+
+
+
+<p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+
+<p style="text-align:center;"><a class="glightbox" href="/partner-summit/assets/gitbook/images/webex.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img src="/partner-summit/assets/gitbook/images/webex.png" width="100"></a></p>    -->
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Lab7/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 7 Survey Insights">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Lab 7 Survey Insights
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../conclusion/" class="md-footer__link md-footer__link--next" aria-label="Next: Conclusion">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Conclusion
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link", "navigation.icons", "navigation.expand", "navigation.path", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs.link", "navigation.tracking", "navigation.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
